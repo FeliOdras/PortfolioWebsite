@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fixed Header Image</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                width:100%;
+                background-color:#ededed;
+                margin:0;
+                padding:0;
+            }
+            
+            
+            .wrapper {
+                max-width:1180px;
+                margin: auto;
+            }
+            
+            h1,h2, h3 {
+                font-family:cursive;
+                font-weight:normal;
+            }
+            
+            p {
+                font-family:sans-serif  ;
+            }
+            
+            #main-header {
+                /*background-size:cover makes sure that your bg-image fills the entire element*/
+                background-size: cover;
+                /*The header is a high as 90% of the viewport height (vh)*/
+                height: 70vh;
+                /*Image is horizontal centered*/
+                background-position: 50% top;
+                /*leave a little space above, below and on both sides*/
+                padding: 1.5%;
+                /*Fixed background. Content scrolls above, images stays on fixed position */    
+                background-attachment: fixed;
+                background-image:url(images/headerbackground_XL.jpg);
+            }
+
+            .profilepic {
+                width: 60px;
+                height: 60px;
+                margin-right: 5%;
+                margin-top: 60px;
+                /*make round image with border-radius:50% */
+                border-radius:50%;
+                /* display profile picture right */
+                float: right;
+                margin-left: 0.5em;
+                margin-bottom: 0.5em;
+            }
+
+
+            #title {
+                color: #fff;
+                padding-top: 10px;
+                padding-right: 5%;
+                text-shadow: 2px 2px 5px #000;
+                text-align: right;
+                clear:both;
+            }
+
+            #title h1 {
+                font-size: 42px;
+                line-height: 32px;
+                margin-top: 30px;
+                margin-bottom: 15px;
+                font-family:cursive;
+                font-weight:normal;
+            }
+
+            #title h1 small {
+                font-size: 14px;
+                font-family: 'PT Mono', monospace;
+            }
+
+            #header_subline {
+                font-size: 11px;
+                margin: 0;
+                font-family: 'PT Mono', monospace;
+                font-style: italic;
+            }        
+        </style>
+    
+    </head>
+    <body>
+        <header id="main-header">
+            <img src="../images/ari-portrait.jpg" class="roundimg imgright profilepic">
+            <section id="title">
+                <h1>Ariane Feldmann<br>
+                    <small>Frontend.Developer by passion...</small></h1>
+                <h2 id="header_subline">[HTML | CSS | JavaScript | EcmaScript | Node | React]</h2>
+            </section>
+        </header>
+        <main class="wrapper">
+            <h1>Fixed Header Image</h1>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <h2>Lorem ipsum </h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>      
+        </main>
+    </body>
+</html>
