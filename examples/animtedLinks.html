@@ -1,0 +1,172 @@
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Animated Links</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../style/font-awesome.css">
+        <style>
+            body {
+                background-color:#41140E;
+                font-family: sans-serif;
+            }
+            
+            main {
+                max-width:600px;
+                margin:auto;
+            }
+            
+            h2, h3 {
+                color:#fff;
+                font-weight:normal;
+            }
+            
+            a {
+                text-decoration:none;
+            }
+            
+            .flexbox {
+                display:flex;
+                flex-wrap: nowrap;
+            }
+            
+            .flexboxItem {
+                flex-grow:1;
+            }  
+            
+            #movingCards .flexboxItem {
+                width: 26%;
+                margin: 1.5%;               
+                padding: 1%;
+                border: 2px solid #BF4D0E;
+                background-color: #fff;
+                color: #666; 
+                font-size:0.8em;                
+                transition: all .5s;
+            }
+            
+            #movingCards .flexboxItem a h3,
+            #movingCards .flexboxItem a {
+                color:#666;
+            }
+            
+            #movingCards .flexboxItem:hover a h3,
+            #movingCards .flexboxItem:hover a {
+                color: #fff;
+            }
+            
+            #movingCards .flexboxItem:hover {
+                background-color: #41140E;
+                width: 28%;
+                margin: 0.5%;
+                transform: rotate(5deg);
+            }
+            
+            .icons {
+                margin-left: 3%;
+                padding-bottom: 5px;
+                width: 70%;
+                display: block;
+                border-bottom: 1px solid #BF4D0E;              
+                font-size: 32px;
+            }      
+            
+            #rotatingImages .flexboxItem {
+                width:25%;
+            }
+            
+            img {
+                transition: all 3s;
+                opacity: 0.85;
+                box-shadow: 0 0 5px #666;
+                border-radius:50%;
+                width:80%;
+            }
+            
+            a:hover img {
+                width: 100%;
+                opacity: 1;
+                transform: rotate(359deg);
+                box-shadow: 0 0 20px #000;
+            }
+            
+            figure {
+                position: relative;
+                text-align: center;
+                margin:0 auto;                
+                width: 80%;
+            }
+            
+            figcaption {
+                position: absolute;
+                top: 33%;
+                display: block;                
+                width: 100%;
+                text-align: center;
+                color: #ccc;
+                font-size: 16px;
+                background-color: rgba(0, 0, 0, 0.2);
+                text-shadow: 0 0 5px #000;
+                transition: all 1.2s;
+            }
+            
+            a:hover figcaption {
+                font-size: 23px;
+                background-color: rgba(0, 0, 0, 0.6);
+                color: #fff;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <section class="flexbox" id="movingCards">
+                <article class="flexboxItem">
+                    <a href="#">
+                        <div class="icons">
+                            <i class="fa fa-html5"></i>
+                        </div>
+                        <h3>HTML</h3>
+                        <p>Code examples.</p>
+                    </a>
+                </article>
+                <article class="flexboxItem">
+                    <a href="#">
+                        <div class="icons">
+                            <i class="fa fa-css3"></i>
+                        </div>
+                        <h3>CSS</h3>
+                        <p>The Beauty of CSS</p>
+                    </a>
+                </article>
+                <article class="flexboxItem">
+                    <a href="#">
+                        <div class="icons">
+                            <i class="fa fa-wordpress"></i>
+                        </div>
+                        <h3>WordPress</h3>
+                        <p>Individually styled websites.</p>
+                    </a>
+                </article>
+            </section>
+            <hr>
+            <section class="flexbox" id="rotatingImages">           
+                <article class="flexboxItem">
+                    <figure>
+                        <a href="#">
+                            <img src="images/coding.jpg">
+                            <figcaption>Coding</figcaption>
+                        </a>
+                    </figure>
+                </article>
+                <article class="flexboxItem">
+                    <figure>
+                        <a href="#">
+                            <img src="images/cms.jpg">
+                            <figcaption>CMS</figcaption>
+                        </a>
+                    </figure>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
