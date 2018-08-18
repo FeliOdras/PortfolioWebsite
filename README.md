@@ -6,7 +6,7 @@ This project is the result of the orientation course at DCI in August 2018. This
 ![My image](https://raw.githubusercontent.com/FeliOdras/DCI-Mat15-orientation-course/master/Screenshot.png)
 <hr>
 
-#### **[Visit Poject Site &raquo;](https://me.odras.de/)**
+#### **[Visit Poject Site &raquo;](http://me.odras.de/)**
 <hr>
 
 ### Project Specifications:
