@@ -66,7 +66,7 @@
         <!-- Start of Header Section -->
         <header id="main-header">
             <!-- Start of Title Section in Header -->
-            <img src="images/ari-portrait.jpg" class="roundimg imgright profilepic">
+            <img src="images/ari-portrait.jpg" class="roundimg imgright profilepic" alt="Ariane Feldmann">
             <section id="title">
                 <h1>Ariane Feldmann<br>
                     <small>Frontend.Developer by passion...</small></h1>
@@ -80,7 +80,7 @@
             <!-- Page Title - Headline displayed between Header and Main Content -->
             <h2 class="pagetitle alignleft ">Make code <em>Beautyful</em></h2>
             <!-- Start of Section 'About me' -->
-            <a name="about"></a>
+            <a id="about"></a>
             <section id="home_me" class="inverse">
                 <!-- bookmark link for "About"-Section -->
                 <!-- The main_wrapper holds the content to a maximum width and keeps it in the middle of the screen -->
@@ -88,6 +88,7 @@
                     <!-- article is displayed in a box -->
                     <h3 class="sectionheading">How it all begann </h3>
                     <article class="box boxright">
+                        <h4>History</h4>
                         <p>It was in 1999 when I "built" my first website. It was kind of crappy, built with a WYSIWYG-Editor and it only worked in Internet Explorer. A few years later I came to a place called "c-base" (the people who run this place pretend to build a crashed space station, some of them might really believe it) and there I met some cool guys who really knew how to build a website. One of them showed me the German HTML-Reference project <a href="http://www.selfhtml.org" target="_blank">selfhtml.org</a>. 'If you want to build a website, read this', he said. So I did and so it came that I fell in love with code.</p>
                         <a class="button boxright aligncenter" href="about.html"><em>Curios?</em> <br>Find out more...</a>
                         <!-- clear floated content -->
@@ -99,7 +100,7 @@
             </section>
             <!-- End of Section 'About' -->
             <!-- Start of Section 'Skills' -->
-            <a name="skills"></a>
+            <a id="skills"></a>
             <section id="home_skills">
                 <div class="main_wrapper">
                     <h3 class="sectionheading aligncenter">Skills</h3>
@@ -110,8 +111,8 @@
                             <figure>
                                 <a href="skills.html#coding" title="Coding skills and programming languages">
                                     <img src="images/coding.jpg" class="roundimg">
-                                    <figcaption>Coding</figcaption>
                                 </a>
+                                <figcaption>Coding</figcaption>                                
                             </figure>
                         </div>
                         <!-- End of .flexboxitem 'Coding' -->
@@ -120,8 +121,8 @@
                             <figure>
                                 <a href="skills.html#cms" title="Content Management Systems I have worked with">
                                     <img src="images/cms.jpg" class="roundimg">
-                                    <figcaption>CMS</figcaption>
                                 </a>
+                                <figcaption>CMS</figcaption>
                             </figure>
                         </div>
                         <!-- End of .flexboxitem 'CMS' -->
@@ -129,9 +130,9 @@
                         <div class="flexboxitem">
                             <figure>
                                 <a href="skills.html#grafic" title="Image Editing and Manipulation">
-                                        <img src="images/home-office.jpg" class="roundimg">
-                                        <figcaption>Grafic Design</figcaption>
-                                    </a>
+                                    <img src="images/home-office.jpg" class="roundimg">
+                                </a>
+                                <figcaption>Grafic Design</figcaption>                                    
                             </figure>
                         </div>
                         <!-- End of .flexboxitem 'Grafic Design' -->
@@ -141,8 +142,8 @@
                             <figure>
                                 <a href="skills.html#lang" title="Known Project Management Tools">
                                     <img src="images/project.jpg" class="roundimg">
-                                    <figcaption>Languages</figcaption>
                                 </a>
+                                <figcaption>Languages</figcaption>          
                             </figure>
                         </div>
                         <!-- End of .flexboxitem 'Languages' -->
@@ -152,7 +153,7 @@
             </section>
             <!-- End of Section 'Skills' -->
             <!-- Start of Section 'Code and Project' -->
-            <a name="projects"></a>
+            <a id="projects"></a>
             <section id="home_code" class="inverse">
                 <div class="main_wrapper">
                     <h3 class="sectionheading alignleft">Code and Projects</h3>
