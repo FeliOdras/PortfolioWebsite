@@ -465,7 +465,7 @@ Navigation
     padding-left: 0;
     transition: all 0.8s;
     background-color: #BF4D0E;
-    top: 30x;
+    top: 30px;
     box-shadow: 0 0 3px #000;
     margin-top: -1px;
 }
@@ -1265,6 +1265,26 @@ ul#social-navigation li:hover a .fa {
     background: #fff;
 }
 
+.validation {
+    padding:15px;
+    font-size:13px;
+    text-align:center;
+}
+
+.validation a {
+    padding:5px 15px;
+    display: inline-block;
+    border:1px solid #BF4D0E;
+    color:#BF4D0E;
+    background-color: #fff;
+    transition:all 0.5s;
+}
+
+.validation a:hover {
+    color:#fff;
+    background-color: #BF4D0E;
+}
+
 
 /*-----------------------
 Responsive
@@ -1393,8 +1413,7 @@ Responsive
         content: '';
     }
 
-    #main-container #main-navigation ul li:hover a,
-        {
+    #main-container #main-navigation ul li:hover a {
         width: 170px;
         color: #41140E;
     }
