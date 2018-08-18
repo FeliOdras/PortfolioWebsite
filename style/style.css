@@ -703,7 +703,7 @@ section:after {
     box-shadow: 0 0 5px #666;
 }
 
-#home_skills a:hover img {
+#home_skills figure:hover img {
     width: 100%;
     opacity: 1;
     transform: rotate(359deg);
@@ -715,7 +715,7 @@ section:after {
     text-align: center;
 }
 
-#home_skills figcaption {
+#home_skills figcaption h4 {
     position: absolute;
     top: 33%;
     display: block;
@@ -723,12 +723,12 @@ section:after {
     color: #ccc;
     width: 100%;
     transition: all 1.2s;
-    font-size: 16px;
+    font-size: 18px;
     background-color: rgba(0, 0, 0, 0.2);
     text-shadow: 0 0 5px #000;
 }
 
-#home_skills a:hover figcaption {
+#home_skills figure:hover figcaption h4 {
     font-size: 23px;
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
