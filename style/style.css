@@ -770,11 +770,35 @@ section:after {
     font-size: 38px;
 }
 
-#home_code .fa:last-of-type {}
-
 #home_code h4,
 #home_code p {
     margin-left: 3%;
+}
+
+
+#code_wordpress .flexboxitem {
+    width:28%;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+#code_wordpress .flexboxitem:hover {
+    background-color: #41140E;
+    color:#fff;
+}
+
+#code_wordpress .flexboxitem img {
+    transition:all 0.5s;    
+    margin-top:20px;
+    width:95%;
+    height:auto;
+}
+
+#code_wordpress .flexboxitem:hover img {
+    width:115%;
+    max-width:115%;
+    box-shadow:0 0 10px #666;
+    margin-left:-7.5%;
 }
 
 /*Styles for inverted section */
@@ -782,6 +806,7 @@ section:after {
 section.inverse {
     background-color: #41140E;
     background-image: none;
+    color:#fff;
 }
 
 .inverse a.button,
@@ -803,7 +828,7 @@ section.inverse {
     color: #F9ED4D;
 }
 
-.inverse .inverse .box .button {
+.inverse .box .button {
     background-color: #F9ED4D;
     color: #BF4D0E;
 }
@@ -931,6 +956,8 @@ tabs
     position:absolute;
     top:40px;
     left:0;
+    border-top:1px solid #BF4D0E;
+    border-bottom:1px solid #BF4D0E;
 }
 
 .tab input:checked ~ .tab-content {
@@ -965,7 +992,21 @@ tabs
     content: "";
 }
 
-.gitCode {
+.tab .button {
+    transition:none;
+}
+
+.inverse .tab .button:hover {
+    padding:1%;
+    background-color: #BF4D0E;
+    color: #F9ED4D; 
+}
+
+.tab .button::after {
+    display:none;
+}
+
+.tab .gitCode {
     max-height:440px;
     overflow: auto;
 }
@@ -1420,7 +1461,8 @@ Responsive
     }
 
     #home_code .flexboxitem,
-    #home_skills .flexboxitem {
+    #home_skills .flexboxitem,
+    #code_wordpress .flexboxitem {
         max-width: 430px;
         margin: auto;
         width: 70%;
@@ -1430,7 +1472,9 @@ Responsive
         margin-top: 10px;
         margin-bottom: 10px;
     }
-
+    
+    
+    #code_wordpress .flexboxitem:hover,
     #home_code .flexboxitem:hover {
         width: 72%;
     }
