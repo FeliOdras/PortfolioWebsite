@@ -1,4 +1,5 @@
-## DCI-Mat15-orientation-course
+## Portfolio Website
+*created during the orientation course at Digital Career Institute in Berlin, August 2018)*
 
 This project is the result of the orientation course at DCI in August 2018. This course was to provided basic knowledge about HTML and CSS and was to qualify for a following one-year-course in JavaScript Technologies.
 
