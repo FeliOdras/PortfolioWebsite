@@ -127,6 +127,11 @@ img {
     height: auto;
 }
 
+figcaption {
+    text-align: center;
+    font-size:12px;
+}
+
 /*Advanced */
 
 .alignleft {
@@ -537,8 +542,6 @@ iframe {
     max-width: 1280px;
 }
 
-
-
 .accordionContent {
     height: 0;
     overflow: hidden;
@@ -687,6 +690,14 @@ section:after {
 }
 
 /*Styles for rotating image links at skills section on frontpage */
+
+#home_me a img {
+    transition:all 0.5s;
+}
+
+#home_me a:hover img {
+    width:330px;
+}
 
 #home_skills .flexboxitem {
     width: 21%;
