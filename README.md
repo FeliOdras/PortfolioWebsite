@@ -20,3 +20,6 @@ This project is the result of the orientation course at DCI in August 2018. This
 ### Ideas for the future
 - simplify structure for maintenace with simple php include
 - add German version
+
+### Credits
+Thanks a lot to (https://github.com/herzmut)[@herzmut] for having had a look on the texts. 
