@@ -53,7 +53,7 @@ General Styles
 /*Basic*/
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #main-container {
