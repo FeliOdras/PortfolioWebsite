@@ -563,17 +563,6 @@ iframe {
     position: relative;
 }
 
-.button:after {
-    content: '\f101';
-    font-family: 'FontAwesome';
-    position: absolute;
-    right: 8px;
-    top: 25%;
-    font-size: 0;
-    height: 1em;
-    transition: all 0.5s;
-}
-
 .button:hover {
     padding: 6px 16px;
     border: none;
