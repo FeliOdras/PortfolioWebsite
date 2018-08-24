@@ -52,6 +52,10 @@ General Styles
 
 /*Basic*/
 
+body {
+    overflow: hidden;
+}
+
 #main-container {
     font-family: 'PT Mono', monospace;
 }
