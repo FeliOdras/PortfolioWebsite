@@ -22,4 +22,4 @@ This project is the result of the orientation course at DCI in August 2018. This
 - add German version
 
 ### Credits
-Thanks to [@herzmut](https://github.com/herzmut) for having a look and correcting the texts. 
+Thanks to [@herzmut](https://github.com/herzmut) for correcting my texts. 
