@@ -1,0 +1,1049 @@
+body {
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
+    background: #fefcea; /* Old browsers */
+    background: -moz-linear-gradient(top, #fefcea 0%, #f1da36 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fefcea 0%,#f1da36 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fefcea 0%,#f1da36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    position:relative;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;    
+    font-size:12px;
+    color:#333;
+}
+
+.buttons {
+    position:absolute;
+    right:5px;
+    top:5px;
+}
+
+.buttons a {
+    background-color:saddlebrown;
+    color:#f1da36;
+    font-size:9px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    float:right;
+    border:none;
+    margin:0 4px;
+    opacity:0.8;
+    transition:all .5s;
+    text-align: center;
+    padding:5px;
+    animation-name: buttons;
+    animation-duration: 42s;
+}
+
+.buttons a:hover {
+    transform: rotate(35deg);
+    opacity:1;
+}
+
+@keyframes buttons {
+    0% {top:-100px;opacity:0;}
+    99% {top:-100px;opacity:0;}
+    100% {top:5px; opacity:1}
+}
+
+.buttons .fa {
+    font-size:20px;
+}
+
+h1 {
+    font-size:1.2em;
+    margin:0;
+    padding-top:0.5em;
+}
+
+h1 small {
+    font-weight:normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.box {
+    text-align:center;
+    display:inline-block;
+    background-color:rgba(255,255,255,0.7);
+    padding:5px;
+    border-radius:3px;
+    width:85px;
+    overflow: hidden;
+}
+
+.box.smaller {
+    padding:3px 5px;
+}
+
+#container {
+    animation-name:timeline;
+    animation-duration:42s;
+    animation-timing-function:ease-in;
+    position:absolute;
+    bottom:0;
+    right:0%;
+}
+
+
+@keyframes timeline {
+    from {right:-120%}
+    to {right:0;}
+}
+
+/* Legend */
+
+
+
+#legend .title {
+    transform:rotate(90deg);
+    display:block;
+    text-shadow:0 0 2px #000;
+    font-size:14px;
+
+}
+
+#legend .title_wrapper {
+    text-transform: uppercase;
+    position: fixed;
+    width:28px;
+}
+
+#legend #title_workxp{
+    height:20vh;  
+    bottom:60vh;
+    margin-bottom: 55px;
+    z-index:99;
+    background-color:rgba(218,149,122,0.7);
+    color:darkred;
+    border:1px solid darkred;
+}
+
+
+#legend #title_workxp .title {
+    line-height:16vh;
+}
+
+#legend #title_skills{
+    height:20vh;  
+    bottom:40vh;
+    margin-bottom: 55px;
+    z-index:99;
+    background-color:rgba(253,192,60,0.7);
+    color:saddlebrown;
+    border:1px solid saddlebrown;
+}
+
+
+#legend #title_skills .title {
+    line-height:16vh;
+}
+
+
+
+#legend #title_edu{
+    height:20vh;  
+    bottom:20vh;
+    margin-bottom: 55px;
+    z-index:99;
+    background-color:rgba(185,243,140,0.7);
+    color:darkgreen;
+    border:1px solid darkgreen;
+}
+
+
+#legend #title_edu .title {
+    line-height:13vh;
+}
+
+
+
+#legend #title_personal{
+    height:20vh;  
+    bottom:55px;
+    z-index:99;
+    background-color:rgba(159,163,123,0.7);
+    color:darkslategray;
+    border:1px solid darkslategray;
+}
+
+
+#legend #title_personal .title {
+    line-height:13vh;
+}
+
+#legend #title_timeline{
+    height:55px;  
+    bottom:0;
+    z-index:99;
+    background-color:rgba(104,60,17,0.7);
+    color:#f1da36;
+    border:1px solid #f1da36;
+}
+
+#legend #title_timeline .title {
+    line-height:55px
+}
+
+
+
+/* WorkXP */
+
+#section-workxp {
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(178,34,34,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(178,34,34,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(178,34,34,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    height:20vh;
+    bottom:57vh;
+}
+
+#section-workxp .box {
+    border:1px solid darkred;
+    margin-bottom:59px;
+}
+
+/*WorkXP Jasmin Taylor GmbH*/
+
+#JT {
+    position: absolute;
+    bottom:60vh;
+    left:950px;
+    width:110px;
+    animation-name: dropXPJT;
+    animation-duration: 42s;
+}
+@keyframes dropXPJT {
+    0% {bottom:600vh; width:85px;}
+   40% {bottom:100vh; width:85px;}
+    45% {bottom:60vh; width:85px;}
+    50% {bottom:60vh; width:110px;}
+   100% {bottom:60vh; width:110px;}
+}
+
+/*WorkXP RKI*/
+
+#RKI {
+    position: absolute;
+    bottom:60vh;
+    left:1070px;
+    animation-name: dropXPRKI;
+    animation-duration: 42s;
+    width:35px;
+    font-size:85%;
+}
+
+@keyframes dropXPRKI {
+    0% {bottom:600vh;}
+   45% {bottom:100vh;}
+   50% {bottom:60vh; }
+   100% {bottom:60vh;}
+}
+
+/*WorkXP AQua */
+
+#AQua {
+    position: absolute;
+    bottom:60vh;
+    left:1110px;
+    animation-name: dropXPAqua;
+    animation-duration: 42s;    
+    width:35px;
+    font-size:85%;
+}
+
+@keyframes dropXPAqua {
+    0% {bottom:600vh;}
+   47% {bottom:100vh;}
+   52% {bottom:60vh; }
+   100% {bottom:60vh;}
+}
+
+/*WorkXP SeculogiX Project*/
+
+#SecuProject {
+    position: absolute;
+    bottom:60vh;
+    left:1155px;
+    animation-name: dropXPSecuProject;
+    animation-duration: 42s;    
+    width:35px;
+    font-size:85%;
+}
+
+@keyframes dropXPSecuProject {
+    0% {bottom:600vh;}
+   49% {bottom:100vh;}
+   54% {bottom:60vh; }
+   100% {bottom:60vh;}
+}
+
+/*WorkXP SeculogiX Internship*/
+
+#SecuIntern {
+    position: absolute;
+    bottom:60vh;
+    left:1320px;
+    animation-name: dropXPSecuIntern;
+    animation-duration: 42s;  
+    font-size:90%;
+
+}
+
+@keyframes dropXPSecuIntern {
+    0% {bottom:600vh;}
+   60% {bottom:100vh;}
+   65% {bottom:60vh; }
+   100% {bottom:60vh;}
+}
+
+/*WorkXP KaterDesign*/
+
+#KaterDesign {
+    position: absolute;
+    bottom:60vh;
+    left:1450px;
+    animation-name: dropXPKaterDesign;
+    animation-duration: 42s;  
+    font-size:85%;
+    width:300px;
+    line-height: 100%;
+}
+
+@keyframes dropXPKaterDesign {
+    0% {bottom:600vh;width:87px;}
+   70% {bottom:100vh;width:87px;}
+   75% {bottom:60vh;width:87px;}
+   85% {bottom:60vh;width:300px;}
+   100% {bottom:60vh;width:300px;}
+}
+
+/*WorkXP KaterKrake*/
+
+#KaterKrake{
+    position: absolute;
+    bottom:60vh;
+    left:1760px;
+    animation-name: dropXPKaterKrake;
+    animation-duration: 42s;  
+    font-size:85%;
+    width:425px;
+    line-height: 100%;
+}
+
+@keyframes dropXPKaterKrake {
+    0% {bottom:600vh;width:87px;}
+   75% {bottom:100vh;width:87px;}
+   85% {bottom:60vh;width:87px;}
+   95% {bottom:60vh;width:425px;}
+   100% {bottom:60vh;width:425px;}
+}
+
+/*WorkXP interaid*/
+
+#section-workxp #interaid{
+    position: absolute;
+    bottom:60vh;
+    left:1450px;
+    animation-name: dropXPinteraid;
+    animation-duration: 42s;  
+    font-size:85%;
+    width:380px;
+    margin-bottom:85px;
+    line-height: 100%;
+}
+
+@keyframes dropXPinteraid {
+    0% {bottom:600vh;width:87px;}
+   71% {bottom:100vh;width:87px;}
+   76% {bottom:60vh;width:87px;}
+   86% {bottom:60vh;width:380px;}
+   100% {bottom:60vh;width:380px;}
+}
+
+/*WorkXP uhi*/
+
+#section-workxp #uhi{
+    position: absolute;
+    bottom:60vh;
+    left:1570px;
+    animation-name: dropXPuhi;
+    animation-duration: 42s;  
+    font-size:85%;
+    width:440px;
+    margin-bottom:102px;
+    line-height: 100%;
+}
+
+@keyframes dropXPuhi {
+    0% {bottom:600vh;width:87px;}
+   75% {bottom:100vh;width:87px;}
+   80% {bottom:60vh;width:87px;}
+   90% {bottom:60vh;width:440px;}
+   100% {bottom:60vh;width:440px;}
+}
+
+/*WorkXP stylo*/
+
+#section-workxp #stylo{
+    position: absolute;
+    bottom:60vh;
+    left:1670px;
+    animation-name: dropXPstylo;
+    animation-duration: 42s;  
+    font-size:85%;
+    width:515px;
+    margin-bottom:119px;
+    line-height: 100%;
+}
+
+@keyframes dropXPstylo {
+    0% {bottom:600vh;width:87px;}
+   80% {bottom:100vh;width:87px;}
+   85% {bottom:60vh;width:87px;}
+   95% {bottom:60vh;width:515px;}
+   100% {bottom:60vh;width:515px;}
+}
+
+/*WorkXP intermedia*/
+
+#section-workxp #intermedia{
+    position: absolute;
+    bottom:60vh;
+    left:1770px;
+    animation-name: dropXPintermedia;
+    animation-duration: 42s;  
+    font-size:85%;
+    width:320px;
+    margin-bottom:85px;
+    line-height: 100%;
+}
+
+@keyframes dropXPintermedia {
+    0% {bottom:600vh;width:87px;}
+   90% {bottom:100vh;width:87px;}
+   95% {bottom:60vh;width:87px;}    
+   100% {bottom:60vh;width:320px;}
+}
+
+/*WorkXP interservice*/
+
+#section-workxp #interservice{
+    position: absolute;
+    bottom:60vh;
+    left:2080px;
+    animation-name: dropXPinterservice;
+    animation-duration: 42s;  
+    font-size:85%;
+    width:75px;
+    margin-bottom:85px;
+    line-height: 100%;
+}
+
+@keyframes dropXPinterservice {
+    0% {bottom:600vh;}
+   95% {bottom:100vh;}
+   100% {bottom:60vh;}
+}
+
+
+/*Skills*/
+
+#section-skills {
+    height:20vh;
+    bottom:38vh;
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(255,165,0,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(255,165,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,165,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#section-skills .text {
+    color:#fff;
+}
+
+#section-skills .fa {
+    color:#fff;
+    padding:5px 0;
+}
+
+#section-skills #css .fa,
+#section-skills #html .fa {
+    font-size:14px;
+    animation-name:showCodeIcons;
+    animation-duration:42s;
+}
+
+.skillbar {
+    width:20px;
+    text-align: center;
+    overflow:hidden;
+    font-size:12px;
+}
+
+@keyframes showCodeIcons {
+    0% {opacity:0;}
+    70% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+/*Skills HTML*/
+
+#html {
+    height:18vh;
+    background-color:forestgreen;
+    display:inline-block;
+    padding:3px;
+    right:10px;
+    bottom:40vh;
+    position: fixed;
+    margin-bottom:57px;
+    animation-name: growSkillsHTML;
+    animation-duration:42s;
+}
+
+@keyframes growSkillsHTML {
+    0% {height:0;padding:0;}
+    35% {height:0;padding:0;}
+    100% {height:18vh;padding:3px;}
+}
+
+/*Skills CSS */
+
+#css {
+    height:18.5vh;
+    background-color:firebrick;
+    display:inline-block;
+    padding:3px;
+    right:40px;
+    bottom:40vh;
+    position: fixed;
+    margin-bottom:57px;
+    animation-name: growSkillsCSS;
+    animation-duration:42s;
+}
+
+@keyframes growSkillsCSS {
+    0% {height:0;padding:0;}
+    35% {height:0;padding:0;}
+    100% {height:18.5vh;padding:3px;}
+}
+
+/*Skills JavaScript*/
+
+#javascript {
+    height:5vh;
+    background-color:orangered;
+    display:inline-block;
+    padding:3px;
+    right:70px;
+    bottom:40vh;
+    position: fixed;
+    margin-bottom:57px;
+    animation-name: growSkillsJS;
+    animation-duration:42s;
+}
+
+@keyframes growSkillsJS {
+    0% {height:0;padding:0;}
+    48% {height:0;padding:0;}
+    100% {height:5vh;padding:3px;}
+}
+
+/*Skills PHP*/
+
+#php {
+    height:6vh;
+    background-color:slategray;
+    display:inline-block;
+    padding:3px;
+    right:100px;
+    bottom:40vh;
+    position: fixed;
+    margin-bottom:57px;
+    animation-name: growSkillsPHP;
+    animation-duration:42s;
+}
+
+@keyframes growSkillsPHP {
+    0% {height:0;padding:0;}
+    48% {height:0;padding:0;}
+    100% {height:6vh;padding:3px;}
+}
+
+/*Skills WordPress*/
+
+#wordpress {
+    height:15vh;
+    background-color:darkblue;
+    display:inline-block;
+    padding:3px;
+    right:130px;
+    bottom:40vh;
+    position: fixed;
+    margin-bottom:57px;
+    animation-name: growSkillsWP;
+    animation-duration:42s;
+}
+
+@keyframes growSkillsWP {
+    0% {height:0;padding:0;}
+    80% {height:0;padding:0;}
+    100% {height:15vh;padding:3px;}
+}
+
+/*Education*/
+#section-education {
+    height:20vh;
+    bottom:21vh;
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(152,251,152,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(152,251,152,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(152,251,152,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#section-education .box {    
+    border:1px solid darkgreen;
+    margin-bottom:65px;
+}
+
+/*Edu Elementary School */
+
+#elSchool {
+    left:110px;
+    position: absolute;
+    bottom:20vh;
+    animation-duration: 42s;
+    animation-delay:0s; 
+    animation-name:dropEducationElementary;    
+}
+
+@keyframes dropEducationElementary {
+    0% {bottom:600vh;}
+    3% {bottom:100vh;}
+    10% {bottom:20vh;}
+    100% {bottom:20vh;} 
+}
+
+/*Edu High School*/
+
+#highSchool{
+    left:220px;
+    position: absolute;
+    bottom:20vh;
+    animation-duration: 42s;
+    animation-name:dropEducationHighSchool;
+}
+
+@keyframes dropEducationHighSchool {
+    0% {bottom:600vh;}
+    6% {bottom:100vh;}
+    13% {bottom:20vh;}
+    100% {bottom:20vh;} 
+}
+
+/*Edu High School Degree */
+
+#highSchoolDegree{
+    left:330px;
+    position: absolute;
+    bottom:20vh;
+    animation-duration: 42s;
+    animation-name:dropEducationHSDegree;
+}
+
+@keyframes dropEducationHSDegree {
+    0% {bottom:600vh;}
+    9% {bottom:100vh;}
+    16% {bottom:20vh;}
+    100% {bottom:20vh;} 
+}
+
+/*Edu FU*/
+
+#university {
+    left:380px;
+    position: absolute;
+    bottom: 20vh;
+    animation-name: dropEducationUni;
+    animation-duration:42s;
+    width:650px;
+}
+
+@keyframes dropEducationUni {
+    0% {bottom:600vh; width:85px;}
+    10% {bottom:100vh;width:85px;}
+    17% {bottom:20vh;width:85px;}
+    30% {bottom:20vh;width:650px;}
+    100% {bottom:20vh;width:650px;} 
+}
+
+/*Edu AQua */
+
+#trainingAqua {
+    left:1110px;
+    position: absolute;
+    bottom: 20vh;
+    animation-name: dropEducationAQua;
+    animation-duration:42s;
+    font-size:85%;
+    width:35px;
+}
+
+@keyframes dropEducationAQua {
+    0% {bottom:600vh;}
+    47% {bottom:100vh;}
+    52% {bottom:20vh;}
+    100% {bottom:20vh;} 
+}
+
+/* Edu BSD */
+
+#BSD{
+    left:1200px;
+    position: absolute;
+    bottom:20vh;
+    animation-duration: 42s;
+    animation-name:dropEducationBSD;
+    width:220px;
+}
+
+@keyframes dropEducationBSD {
+    0% {bottom:600vh;width:87px}
+    55% {bottom:100vh;width:87px;}
+    62% {bottom:20vh;width:87px;}
+    72% {bottom:20vh;width:220px;} 
+    100% {bottom:20vh;width:220px;} 
+}
+
+/* Edu IHK */
+
+#cert-ihk{
+    left:1400px;
+    position: absolute;
+    bottom:20vh;
+    animation-duration: 42s;
+    animation-name:dropEducationIHK;
+    font-size:85%;
+    width:35px;
+}
+
+@keyframes dropEducationIHK {
+    0% {bottom:600vh;}
+    65% {bottom:100vh;}
+    70% {bottom:20vh;}
+    100% {bottom:20vh;} 
+}
+
+/* Edu IHK */
+
+#cert-w3s {
+    left:1430px;
+    position: absolute;
+    bottom:20vh;
+    animation-duration: 42s;
+    animation-name:dropEducationW3S;
+    font-size:85%;
+    width:35px;
+}
+
+@keyframes dropEducationW3S {
+    0% {bottom:600vh;}
+    67% {bottom:100vh;}
+    72% {bottom:20vh;}
+    100% {bottom:20vh;} 
+}
+
+/* Edu DCI */
+
+#DCI {
+    left:2170px;
+    position: absolute;
+    bottom:20vh;
+    animation-duration: 42s;
+    animation-name:dropEducationDCI;
+    font-size:90%;
+    width:110px;
+  
+}
+
+@keyframes dropEducationDCI {
+    0% {bottom:600vh;width:87px;}
+    95% {bottom:100vh;width:87px;}
+    100% {bottom:20vh;width:110px;} 
+}
+
+
+
+/*Personal */
+
+#section-personal {
+    height:20vh;
+    bottom:55px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,708090+100&0+0,0.65+100 */
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(112,128,144,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(112,128,144,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(112,128,144,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+
+#section-personal .box {    
+    border:1px solid darkslategray;
+}
+
+/*Personal Birth*/
+
+#birth {
+    animation-name:dropPersonalBirth;
+    animation-duration:3s;
+    position: absolute;
+    bottom:55px;
+}
+
+
+@keyframes dropPersonalBirth {
+    0% {bottom:150vh};
+    1% {bottom:55px;}
+   100% {bottom:55px;}
+}
+
+/*Personal c-base first contact */
+
+#c-base {
+    left:670px;
+    position: absolute;
+    bottom:55px;
+    animation-name:dropPersonalCbase;
+    animation-duration: 42s;
+}
+
+@keyframes dropPersonalCbase {
+    0% {bottom:600vh;}
+    35% {bottom:100vh;}
+    40% {bottom:55px;} 
+    100% {bottom:55px;} 
+}
+
+/*Personal c-base join*/
+
+#c-base-join {
+    left:880px;
+    position: absolute;
+    bottom:55px;
+    animation-name:dropPersonalcbaseJoin;
+    animation-duration: 42s;
+}
+
+
+@keyframes dropPersonalcbaseJoin {
+    0% {bottom:600vh;}
+    40% {bottom:100vh;}
+    50% {bottom:55px;} 
+    100% {bottom:55px;} 
+}
+
+/*Personal c-base member */
+
+#c-base-member {
+    left:960px;
+    position: absolute;
+    bottom:55px;
+    animation-name:dropPersonalcbaseMember;
+    animation-duration: 42s;
+    bottom:55px;
+    width:1000px;
+    height:18px;
+    padding-left:400px;
+}
+
+
+@keyframes dropPersonalcbaseMember {
+    0% {width:0px;padding:0;border-width:0;visibility:hidden;}
+    50% {width:0px;padding:0;border-width:1;visibility:hidden;padding-left:0;}
+    100% {width:1000px;height:18px;visibility:visible;padding-left:400px;} 
+}
+
+#c-base-member img,
+#writing img,
+#aikido img {
+    height:15px;
+    margin-right:8px;
+}
+
+/*Personal c-base voluntary*/
+
+#c-base-vol {
+    left:1083px;
+    position: absolute;
+    bottom:55px;
+    animation-name:dropPersonalCbaseVol;
+    animation-duration: 42s;
+    width:170px;
+}
+
+@keyframes dropPersonalCbaseVol {
+     0% {bottom:600vh;width:80px;}
+    50% {bottom:100vh;width:80px;}
+    55% {bottom:55px;width:80px;}
+    65% {bottom:55px;width:170px;}
+    100% {bottom:55px;width:170px;}
+}
+
+#marriage {
+    left:1490px;
+    position: absolute;
+    bottom:55px;
+    animation-name:dropPersonalMarriage;
+    animation-duration: 42s;
+    width:40px;
+    font-size:90%;
+}
+
+@keyframes dropPersonalMarriage {
+     0% {bottom:600vh;}
+    70% {bottom:100vh;}
+    75% {bottom:55px;}
+    100% {bottom:55px;}
+}
+
+#child-birth {
+    left:1580px;
+    position: absolute;
+    bottom:55px;
+    animation-name:dropPersonalChildBirth;
+    animation-duration: 42s;
+    width:40px;
+    font-size:90%;
+}
+
+@keyframes dropPersonalChildBirth {
+     0% {bottom:600vh;}
+    75% {bottom:100vh;}
+    80% {bottom:55px;}
+    100% {bottom:55px;}
+}
+
+#aikido {
+    left:2070px;
+    position: absolute;
+    bottom:111px;
+    animation-name:dropPersonalAikido;
+    animation-duration: 42s;
+    width:205px;
+    height:18px;
+}
+
+@keyframes dropPersonalAikido {
+     0% {bottom:600vh;width:87px;height:auto;}
+    90% {bottom:100vh;width:87px;height:auto;}
+    95% {bottom:111px;width:87px;height:auto;}
+    100% {bottom:111px;width:205px;height:18px;}
+}
+
+#writing {
+    left:1900px;
+    position: absolute;
+    bottom:82px;
+    animation-name:dropPersonalWriting;
+    animation-duration: 42s;
+    width:375px;
+    height:18px;
+}
+
+@keyframes dropPersonalWriting {
+     0% {bottom:600vh;width:87px;height:auto;}
+    85% {bottom:100vh;width:87px;height:auto;}
+    90% {bottom:82px;width:87px;height:auto;}
+    100% {bottom:82px;width:375px;height:18px;}
+}
+
+/*Timeline */
+
+#timeline {
+    padding:5px 0;
+    margin-bottom:5px;
+}
+
+#timeline .bar {
+    border-top:2px solid saddlebrown;
+    display:flex;
+    width:auto;
+}
+
+#timeline .bar .year {
+    display:inline;
+    padding:5px 15px;
+    margin:8px 10px;
+    position: relative;
+    background-color:saddlebrown;
+    color:#f1da36;
+    border-radius:2px;
+}
+
+#timeline .year.gap {
+    margin-right:55px;
+}
+
+
+#timeline .bar .year::after {
+    height:5px;
+    position:absolute;
+    border-left:2px solid saddlebrown;
+    content:'';
+    top:-8px;
+    right:50%;
+}
+
+/*Credits */
+
+#credits {
+    font-size:10px;
+    color:#999;
+    position: absolute;
+    right:5px;
+    bottom:5px;
+}
+
+#credits a {
+    color:#666;
+}
+
+@media screen and (max-width:1100px) and (min-width:841px){
+
+    @keyframes timeline {
+        from {right:-190%}
+        to {right:0;}
+    }
+    
+}
+
+@media screen and (max-width:840px) and (min-width:641px){
+
+    @keyframes timeline {
+        from {right:-270%}
+        to {right:0;}
+    }
+    
+}
+
+@media screen and (max-width:640px) and (min-width:441px){
+
+    @keyframes timeline {
+        from {right:-430%}
+        to {right:0;}
+    }
+    
+}
+
+@media screen and (max-width:440px) {
+
+    @keyframes timeline {
+        from {right:-500%}
+        to {right:0;}
+    }
+    
+}
