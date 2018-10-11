@@ -444,7 +444,7 @@ Navigation
     /*Use pseudo selectors :after and :before to display fancy icons. A list og unicodes for these can be found here:
     https://www.compart.com/en/unicode/category
     */
-    content: '\23f7';
+    content: '\25BC';
     color: #BF4D0E;
 }
 
