@@ -1,13 +1,11 @@
 <?php 
     $pageID	    = 'index';
     $headTitle	= 'Ariane Feldmann - Frontend.Developer by passion';
+    $pageTitle	= 'Make code <em>Beautiful</em>';
 
     include 'includes/head.php';
     include 'includes/header/headerFront.php'; ?>
-        <!-- Start of Main Section -->
-        <main>
-            <!-- Page Title - Headline displayed between Header and Main Content -->
-            <h2 class="pagetitle alignleft ">Make code <em>Beautiful</em></h2>
+        
             <!-- Start of Section 'About me' -->
             <a id="about"></a>
             <section id="home_me" class="inverse">

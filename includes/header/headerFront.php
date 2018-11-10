@@ -7,3 +7,7 @@
             include 'navigation.php'; 
             include 'mainHeader.php'; 
         ?>
+        <!-- Start of Main Section -->
+        <main>
+            <!-- Page Title - Headline displayed between Header and Main Content -->
+            <h2 class="pagetitle alignleft "><?php echo $pageTitle ?></h2>
