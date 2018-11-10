@@ -1,11 +1,11 @@
 
 <!-- I have added a class to body here so I can address elements that need a special style only on the frontpage (for example the header here)-->
-<body class="frontpage">
+<body>
     <!-- This container wraps the whole content -->
     <div id="main-container">
         <?php 
-            include 'navigationFront.php'; 
             include 'mainHeader.php'; 
+            include 'navigationContent.php'; 
         ?>
         <!-- Start of Main Section -->
         <main>
