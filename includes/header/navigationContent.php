@@ -3,7 +3,7 @@
             <!-- I used the class "hmenu" here to make clear that this is an horizontal menu. The styles are provided in my custom stylesheet -->
             <ul class="hmenu">
                 <li>
-                    <a href="index.html" title="Ariane Feldmann | Senior HTML/CSS-Developer - Junior JavaScrpt-Developer">Welcome</a>
+                    <a href="index.php" title="Ariane Feldmann | Senior HTML/CSS-Developer - Junior JavaScrpt-Developer">Welcome</a>
                 </li>
                 <!-- List class 'hasChildren' indicates that this menu item has a sub-menu. I use this to display the down-angle in my navigation -->
                 <li class="hasChildren <?= ($pageID == 'about') ? 'current':''; ?>">
@@ -13,9 +13,9 @@
                         -->
                     <!-- Start sub-menu 'About me' -->
                     <ul class="sub-menu">
-                        <li><a href="about.html#education" title="What I learned. Where I learned.">Education</a></li>
-                        <li><a href="about.html#workexperience" title="Where I worked and what I did there">Work Experience</a></li>
-                        <li><a href="about.html#personal" title="Other things worth to know about me">Personal</a></li>
+                        <li><a href="about.php#education" title="What I learned. Where I learned.">Education</a></li>
+                        <li><a href="about.php#workexperience" title="Where I worked and what I did there">Work Experience</a></li>
+                        <li><a href="about.php#personal" title="Other things worth to know about me">Personal</a></li>
                     </ul>
                     <!-- End sub-menu 'About me' -->
                 </li>

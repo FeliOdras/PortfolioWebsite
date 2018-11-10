@@ -4,14 +4,14 @@
             <ul class="bubblemenu">
                 <!-- I used the class 'current' here to give the current menu item a unique style -->
                 <li>
-                    <a href="index.html" title="Ariane Feldmann | Senior HTML/CSS-Developer - Junior JavaScript-Developer"><i class="fa fa-home"></i><span class="menuitemdesc">Welcome</span></a>
+                    <a href="index.php" title="Ariane Feldmann | Senior HTML/CSS-Developer - Junior JavaScript-Developer"><i class="fa fa-home"></i><span class="menuitemdesc">Welcome</span></a>
                 </li>
                 <li><a href="#about" title="Who am I - my Curriculum Vitae"><i class="fa fa-address-card-o"></i><span class="menuitemdesc">About me</span></a>
                     <!-- Start sub-menu 'About me' -->
                     <ul class="sub-menu">
-                        <li><a href="about.html#education" title="What I learned. Where I learned.">Education</a></li>
-                        <li><a href="about.html#workexperience" title="Where I worked and what I did there">Work Experience</a></li>
-                        <li><a href="about.html#personal" title="Other things worth to know about me">Personal</a></li>
+                        <li><a href="about.php#education" title="What I learned. Where I learned.">Education</a></li>
+                        <li><a href="about.php#workexperience" title="Where I worked and what I did there">Work Experience</a></li>
+                        <li><a href="about.php#personal" title="Other things worth to know about me">Personal</a></li>
                     </ul>
                     <!-- End sub-menu 'About me' -->
                 </li>
