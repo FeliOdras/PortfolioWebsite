@@ -1,17 +1,11 @@
 <?php 
     $pageID	    = 'about';
     $headTitle	= 'About Me | Ariane Feldmann';
-    $pageTitle	= 'You can\'t understand the <em>Universe</em><br> if you study just <em>One</em> planet';
+    $pageTitle	= 'It is hard to understand the <em>Universe</em><br> if you study just <em>One</em> planet';
     
     include 'includes/head.php';
     include 'includes/header/headerContent.php';
 ?>
-
-
-        <!-- Start of Main Section -->
-        <main>
-            <!-- Page Title - Headline displayed between Header and Main Content -->
-            <h2 class="pagetitle"><?php echo $pageTitle ?></h2>
             <!-- Start of Section 'About me' -->
             <section id="about_about" class="inverse">
                 <div class="section_wrapper">

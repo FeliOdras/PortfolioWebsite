@@ -1,7 +1,8 @@
         <!-- Start of Header Section -->
         <header id="main-header">
             <!-- Start of Title Section in Header -->
-            <img src="images/ari-portrait.jpg" class="roundimg imgright profilepic" alt="Ariane Feldmann">
+            <?= ($pageID == 'index') ? '<img src="images/ari-portrait.jpg" class="roundimg imgright profilepic" alt="Ariane Feldmann">
+            ':''; ?> 
             <section id="title">
                 <h1>Ariane Feldmann<br>
                     <small>Frontend.Developer by passion...</small></h1>
