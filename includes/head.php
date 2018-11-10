@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title><?php echo $pageTitle; ?></title>
+    <title><?php echo $headTitle; ?></title>
     <!-- define your character set -->
     <meta charset="UTF-8">
     <!-- this makes sure your Website is scaled to viewport width (viewport=section of a window where the web contents are displayed)-->
