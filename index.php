@@ -1,6 +1,8 @@
 <?php 
     $pageID	    = 'index';
     $pageTitle	= 'Ariane Feldmann - Frontend.Developer by passion';
+
+    include 'includes/head.php';
 ?>
 
 
