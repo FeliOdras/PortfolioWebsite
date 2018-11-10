@@ -3,4 +3,7 @@
 <body class="frontpage">
     <!-- This container wraps the whole content -->
     <div id="main-container">
-        <?php include 'navigation.php'; ?>
+        <?php 
+            include 'navigation.php'; 
+            include 'mainHeader.php'; 
+        ?>
