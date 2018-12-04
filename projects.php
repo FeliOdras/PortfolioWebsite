@@ -1,7 +1,7 @@
 <?php 
-    $pageID	    = 'skills';
-    $headTitle	= 'Skills and capabilities | Ariane Feldmann';
-    $pageTitle	= '<em>Talent</em> is just great <em>Patience</em>';
+    $pageID	    = 'Projects';
+    $headTitle	= 'Code and Projects | Ariane Feldmann';
+    $pageTitle	= 'Know your <em>Thoughts</em>, they form your Words<br>Know your <em>Words</em>, they form <br>your <em>Deeds</em>';
 
     include 'includes/head.php';
     include 'includes/header/headerContent.php'; 
