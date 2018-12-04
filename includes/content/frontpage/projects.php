@@ -5,7 +5,7 @@
                     <h3 class="sectionheading alignleft">Code and Projects</h3>
                     <div class="flexbox">
                         <div class="flexboxitem box">
-                            <a href="projects.html#html">
+                            <a href="projects.php#code_html">
                                 <div class="icons">
                                     <i class="fa fa-html5"></i>
                                     <i class="fa fa-css3"></i>
@@ -15,7 +15,7 @@
                             </a>
                         </div>
                         <div class="flexboxitem box">
-                            <a href="projects.html#themes">
+                            <a href="projects.php#themes">
                                 <div class="icons"><i class="fa fa-wordpress"></i>
                                     <i class="fa fa-joomla"></i>
                                 </div>
@@ -24,7 +24,7 @@
                             </a>
                         </div>
                         <div class="flexboxitem box">
-                            <a href="projects.html#javascript">
+                            <a href="projects.php#javascript">
                                 <div class="icons">
                                     <i class="fa fa-code"></i>
                                 </div>

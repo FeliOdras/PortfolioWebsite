@@ -9,7 +9,7 @@
                         <!-- Start of .flexboxitem 'Coding'-->
                         <div class="flexboxitem">
                             <figure>
-                                <a href="skills.html#coding" title="Coding skills and programming languages">
+                                <a href="skills.php#coding" title="Coding skills and programming languages">
                                     <img src="images/coding.jpg" alt="Coding" class="roundimg">
                                 </a>
                                 <figcaption><h4>Coding</h4></figcaption>                                
@@ -19,7 +19,7 @@
                         <!-- Start of .flexboxitem 'CMS' -->
                         <div class="flexboxitem">
                             <figure>
-                                <a href="skills.html#cms" title="Content Management Systems I have worked with">
+                                <a href="skills.php#cms" title="Content Management Systems I have worked with">
                                     <img src="images/cms.jpg" alt="CMS" class="roundimg">
                                 </a>
                                 <figcaption><h4>CMS</h4></figcaption>
@@ -29,7 +29,7 @@
                         <!-- Start of .flexboxitem 'Graphic Design' -->
                         <div class="flexboxitem">
                             <figure>
-                                <a href="skills.html#Graphic" title="Image Editing and Manipulation">
+                                <a href="skills.php#Graphic" title="Image Editing and Manipulation">
                                     <img src="images/home-office.jpg" alt="Graphic Design" class="roundimg">
                                 </a>
                                 <figcaption><h4>Graphic Design</h4></figcaption>                                    
@@ -39,7 +39,7 @@
                         <!-- Start of .flexboxitem 'Languages' -->
                         <div class="flexboxitem">
                             <figure>
-                                <a href="skills.html#lang" title="Known Languages">
+                                <a href="skills.php#lang" title="Known Languages">
                                     <img src="images/project.jpg" alt="Languages" class="roundimg">
                                 </a>
                                 <figcaption><h4>Languages</h4></figcaption>          
