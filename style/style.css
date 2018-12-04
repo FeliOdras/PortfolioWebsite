@@ -21,11 +21,15 @@ Select your desired font, include the outputted CSS snippet, download and unpack
     src: url('fonts/great-vibes-v5-latin-regular.eot');
     /* IE9 Compat Modes */
     src: local('Great Vibes'), local('GreatVibes-Regular'),
-    url('fonts/great-vibes-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('fonts/great-vibes-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('fonts/great-vibes-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('fonts/great-vibes-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('fonts/great-vibes-v5-latin-regular.svg#GreatVibes') format('svg');
+        url('fonts/great-vibes-v5-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('fonts/great-vibes-v5-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/great-vibes-v5-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('fonts/great-vibes-v5-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/great-vibes-v5-latin-regular.svg#GreatVibes') format('svg');
     /* Legacy iOS */
 }
 
@@ -38,11 +42,15 @@ Select your desired font, include the outputted CSS snippet, download and unpack
     src: url('fonts/pt-mono-v5-latin-ext_latin-regular.eot');
     /* IE9 Compat Modes */
     src: local('PT Mono'), local('PTMono-Regular'),
-    url('fonts/pt-mono-v5-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('fonts/pt-mono-v5-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('fonts/pt-mono-v5-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('fonts/pt-mono-v5-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('fonts/pt-mono-v5-latin-ext_latin-regular.svg#PTMono') format('svg');
+        url('fonts/pt-mono-v5-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('fonts/pt-mono-v5-latin-ext_latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/pt-mono-v5-latin-ext_latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('fonts/pt-mono-v5-latin-ext_latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/pt-mono-v5-latin-ext_latin-regular.svg#PTMono') format('svg');
     /* Legacy iOS */
 }
 
@@ -133,7 +141,7 @@ img {
 
 figcaption {
     text-align: center;
-    font-size:12px;
+    font-size: 12px;
 }
 
 /*Advanced */
@@ -191,7 +199,7 @@ figcaption {
     float: right;
     margin-left: 23%;
     margin-right: 2%;
-    max-width:73%;
+    max-width: 73%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -685,11 +693,11 @@ section:after {
 /*Styles for rotating image links at skills section on frontpage */
 
 #home_me a img {
-    transition:all 0.5s;
+    transition: all 0.5s;
 }
 
 #home_me a:hover img {
-    width:330px;
+    width: 330px;
 }
 
 #home_skills .flexboxitem {
@@ -779,30 +787,33 @@ section:after {
     margin-left: 3%;
 }
 
-
+#code_html .flexboxitem,
 #code_wordpress .flexboxitem {
-    width:28%;
+    width: 28%;
     transition: all 0.5s;
     text-align: center;
 }
 
+#code_html .flexboxitem:hover,
 #code_wordpress .flexboxitem:hover {
     background-color: #41140E;
-    color:#fff;
+    color: #fff;
 }
 
+#code_html .flexboxitem img,
 #code_wordpress .flexboxitem img {
-    transition:all 0.5s;    
-    margin-top:20px;
-    width:95%;
-    height:auto;
+    transition: all 0.5s;
+    margin-top: 20px;
+    width: 95%;
+    height: auto;
 }
 
+#code_html .flexboxitem:hover img,
 #code_wordpress .flexboxitem:hover img {
-    width:115%;
-    max-width:115%;
-    box-shadow:0 0 10px #666;
-    margin-left:-7.5%;
+    width: 115%;
+    max-width: 115%;
+    box-shadow: 0 0 10px #666;
+    margin-left: -7.5%;
 }
 
 /*Styles for inverted section */
@@ -810,7 +821,7 @@ section:after {
 section.inverse {
     background-color: #41140E;
     background-image: none;
-    color:#fff;
+    color: #fff;
 }
 
 .inverse a.button,
@@ -848,14 +859,14 @@ Accordion
     width: 100%;
     color: #fff;
     overflow: hidden;
-    clear:both;
+    clear: both;
 }
 
 .accordion input {
     position: absolute;
     opacity: 0;
     z-index: -1;
-    padding:0;
+    padding: 0;
     margin: 0;
 }
 
@@ -867,9 +878,9 @@ Accordion
     line-height: 2em;
     cursor: pointer;
     width: 96%;
-    background-color:transparent;
+    background-color: transparent;
     color: #F9ED4D;
-    border:1px solid #BF4D0E;
+    border: 1px solid #BF4D0E;
 }
 
 .accordion-content {
@@ -880,29 +891,29 @@ Accordion
     transition: max-height .35s;
 }
 
-.accordion input:checked ~ .accordion-content {
+.accordion input:checked~.accordion-content {
     max-height: 9000px;
-    padding-bottom:25px;
+    padding-bottom: 25px;
 }
 
 .accordion label::after {
-    float:right;
-    padding-right:20px;
+    float: right;
+    padding-right: 20px;
 }
 
-.accordion input[type=checkbox] + label::after {
+.accordion input[type=checkbox]+label::after {
     content: "+";
 }
 
-.accordion input[type=radio] + label::after {
+.accordion input[type=radio]+label::after {
     content: "\25BC";
 }
 
-.accordion input[type=checkbox]:checked + label::after {
+.accordion input[type=checkbox]:checked+label::after {
     transform: rotate(315deg);
 }
 
-.accordion input[type=radio]:checked + label::after {
+.accordion input[type=radio]:checked+label::after {
     transform: rotateX(180deg);
 }
 
@@ -912,8 +923,8 @@ tabs
 -----------------------*/
 .tabset {
     position: relative;
-    height:550px;
-    padding-bottom:25px;
+    height: 550px;
+    padding-bottom: 25px;
 }
 
 .tab {
@@ -921,97 +932,97 @@ tabs
     width: auto;
     color: #fff;
     overflow: hidden;
-    display:inline-block;
+    display: inline-block;
 }
 
 .tab input {
     position: absolute;
     opacity: 0;
     z-index: -1;
-    padding:0;
+    padding: 0;
     margin: 0;
 }
 
 .tab label {
     position: relative;
-    float:left;
+    float: left;
     padding: 0 0 0 1em;
     font-weight: bold;
     line-height: 2em;
     cursor: pointer;
     width: auto;
-    background-color:rgba(191, 77, 13, 0.7);
+    background-color: rgba(191, 77, 13, 0.7);
     color: #F9ED4D;
-    border:1px solid #BF4D0E;
+    border: 1px solid #BF4D0E;
 }
 
-.tab input:checked ~ label {
-    color:#BF4D0E;
-    background-color:rgba(249, 237, 77, 0.8);
+.tab input:checked~label {
+    color: #BF4D0E;
+    background-color: rgba(249, 237, 77, 0.8);
 }
 
 .tab-content {
-    visibility:hidden;
-    width:100%;
+    visibility: hidden;
+    width: 100%;
     overflow: auto;
     -webkit-transition: max-height .35s;
     -o-transition: max-height .35s;
     transition: max-height .35s;
-    position:absolute;
-    top:40px;
-    left:0;
-    border-top:1px solid #BF4D0E;
-    border-bottom:1px solid #BF4D0E;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    border-top: 1px solid #BF4D0E;
+    border-bottom: 1px solid #BF4D0E;
 }
 
-.tab input:checked ~ .tab-content {
+.tab input:checked~.tab-content {
     max-height: 500px;
-    padding:1%;
+    padding: 1%;
     visibility: visible;
-    
+
 }
 
 .tab label::after {
-    float:right;
-    padding-right:20px;
+    float: right;
+    padding-right: 20px;
 }
 
-.tab input[type=checkbox] + label::after {
+.tab input[type=checkbox]+label::after {
     content: "+";
 }
 
-.tab input[type=radio] + label::after {
+.tab input[type=radio]+label::after {
     content: "\25BC";
 }
 
-.tab input[type=checkbox]:checked + label::after {
+.tab input[type=checkbox]:checked+label::after {
     transform: rotate(315deg);
 }
 
-.tab input[type=radio]:checked + label::after {
+.tab input[type=radio]:checked+label::after {
     transform: rotateX(180deg);
 }
 
-.tab input[type=radio] + label::after {
+.tab input[type=radio]+label::after {
     content: "";
 }
 
 .tab .button {
-    transition:none;
+    transition: none;
 }
 
 .inverse .tab .button:hover {
-    padding:1%;
+    padding: 1%;
     background-color: #BF4D0E;
-    color: #F9ED4D; 
+    color: #F9ED4D;
 }
 
 .tab .button::after {
-    display:none;
+    display: none;
 }
 
 .tab .gitCode {
-    max-height:440px;
+    max-height: 440px;
     overflow: auto;
 }
 
@@ -1143,14 +1154,14 @@ label.checkbox {
 
 /* On mouse-over, add a background color */
 
-.checkbox:hover input ~ .checkmark {
+.checkbox:hover input~.checkmark {
     background-color: #F9ED4D;
     border-color: #F9ED4D;
 }
 
 /* When the checkbox is checked, add an orange background */
 
-.checkbox input:checked ~ .checkmark {
+.checkbox input:checked~.checkmark {
     background-color: #BF4D0E;
     border-color: #BF4D0E;
 }
@@ -1165,7 +1176,7 @@ label.checkbox {
 
 /* Show the checkmark when checked */
 
-.checkbox input:checked ~ .checkmark:after {
+.checkbox input:checked~.checkmark:after {
     display: block;
 }
 
@@ -1270,22 +1281,22 @@ ul#social-navigation li:hover a .fa {
 }
 
 .validation {
-    padding:15px;
-    font-size:13px;
-    text-align:center;
+    padding: 15px;
+    font-size: 13px;
+    text-align: center;
 }
 
 .validation a {
-    padding:5px 15px;
+    padding: 5px 15px;
     display: inline-block;
-    border:1px solid #BF4D0E;
-    color:#BF4D0E;
+    border: 1px solid #BF4D0E;
+    color: #BF4D0E;
     background-color: #fff;
-    transition:all 0.5s;
+    transition: all 0.5s;
 }
 
 .validation a:hover {
-    color:#fff;
+    color: #fff;
     background-color: #BF4D0E;
 }
 
@@ -1495,8 +1506,8 @@ Responsive
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
-    
+
+
     #code_wordpress .flexboxitem:hover,
     #home_code .flexboxitem:hover {
         width: 72%;
@@ -1509,7 +1520,7 @@ Responsive
         margin-right: 2%;
         margin-top: 10px;
         margin-bottom: 10px;
-        max-width:72%;
+        max-width: 72%;
     }
 
     #home_skills figcaption {
@@ -1524,18 +1535,18 @@ Responsive
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
+
     .tabset .tab {
-        display:block;
+        display: block;
     }
-    
+
     .tabset .tab label,
-    .accordion label{
-        display:block;
-        width:92%;
+    .accordion label {
+        display: block;
+        width: 92%;
     }
-    
+
     .tabset .tab-content {
-        top:150px;
+        top: 150px;
     }
 }
