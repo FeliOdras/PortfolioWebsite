@@ -1,4 +1,4 @@
-<a id="themes"></a>
+<a id="code"></a>
             <section id="code_html" class="inverse">
                 <div class="section_wrapper">
                     <h3 class="sectionheading alignright">Pure HTML and CSS</h3>

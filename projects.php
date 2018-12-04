@@ -7,8 +7,6 @@
     include 'includes/header/headerContent.php'; 
     include 'includes/content/projects/html.php';
     include 'includes/content/projects/wordpress.php';     
-    include 'includes/content/skills/grafic.php';
-    include 'includes/content/skills/languages.php';
-    include 'includes/content/skills/legend.php';
+    include 'includes/content/projects/javascript.php';
     include 'includes/footer.php';
 ?>

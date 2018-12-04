@@ -19,23 +19,23 @@
                     </ul>
                     <!-- End sub-menu 'About me' -->
                 </li>
-                <li class="hasChildren <?= ($pageID == 'skills') ? 'current':''; ?>"><a href="skills.html" title="How I can help you - Skills and Competences">Skills</a>
+                <li class="hasChildren <?= ($pageID == 'skills') ? 'current':''; ?>"><a href="skills.php" title="How I can help you - Skills and Competences">Skills</a>
                    <!-- Start sub-menu 'Skills' -->
                     <ul class="sub-menu">
-                        <li><a href="skills.html#coding" title="Webtechnologies, Programming Langugages">Web Development</a></li>
-                        <li><a href="skills.html#cms" title="Content Management Systems I have worked with">CMS</a></li>
+                        <li><a href="skills.php#coding" title="Webtechnologies, Programming Langugages">Web Development</a></li>
+                        <li><a href="skills.php#cms" title="Content Management Systems I have worked with">CMS</a></li>
 
-                        <li><a href="skills.html#grafic" title="Image editing and desktop publishing software">Graphic Design</a></li>
-                        <li><a href="skills.html#languages" title="Languages I know to speak">Languages</a></li>
+                        <li><a href="skills.php#grafic" title="Image editing and desktop publishing software">Graphic Design</a></li>
+                        <li><a href="skills.php#languages" title="Languages I know to speak">Languages</a></li>
                     </ul>
                     <!-- End sub-menu 'Skills' -->
                 </li>
-                <li class="hasChildren <?= ($pageID == 'projects') ? 'current':''; ?>"><a href="projects.html" title="What I did - selected projects and references of mine">Code &amp; Projects</a>
+                <li class="hasChildren <?= ($pageID == 'projects') ? 'current':''; ?>"><a href="projects.php" title="What I did - selected projects and references of mine">Code &amp; Projects</a>
                     <!-- Start sub-menu 'Projects and Code' -->
                      <ul class="sub-menu">
-                        <li><a href="projects.html#code" title="Some HTML/CSS Tricks">HTML/CSS</a></li>
-                        <li><a href="projects.html#themes" title="Website Projects, Theme- and Template Development">WordPress</a></li>
-                        <li><a href="projects.html#javascript" title="Javascript Projects inkl. EgmaScript, Node and React">JavaScript</a></li>
+                        <li><a href="projects.php#code" title="Some HTML/CSS Tricks">HTML/CSS</a></li>
+                        <li><a href="projects.php#themes" title="Website Projects, Theme- and Template Development">WordPress</a></li>
+                        <li><a href="projects.php#javascript" title="Javascript Projects inkl. EgmaScript, Node and React">JavaScript</a></li>
                         <li><a href="https://github.com/FeliOdras?tab=repositories" title="My Github Repository" target="_blank">Code on Github</a></li>
                     </ul>
                     <!-- End sub-menu 'Projects and Code' -->
