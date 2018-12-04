@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Skills | Ariane Feldmann</title>
+    <!-- define your character set -->
+    <meta charset="UTF-8">
+    <!-- this makes sure your Website is scaled to viewport width (viewport=section of a window where the web contents are displayed)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link to stylesheets -->
+    <link rel="stylesheet" href="style/normalize.css">
+    <!-- Overwrite/adjust default styles of different browsers -->
+    <link rel="stylesheet" href="style/font-awesome.css">
+    <!-- Font Awesome 4.7 => https://fontawesome.com/v4.7.0/ -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- My custom Stylesheet -->
+</head>
+
+<body>
+    <!-- This container wraps the whole content -->
+    <div id="main-container">
+        <!-- Start of Header Section -->
+        <header id="main-header">
+            <!-- Start of Title Section in Header -->
+            <section id="title">
+                <h1>Ariane Feldmann<br>
+                    <small>Frontend.Developer by passion...</small></h1>
+                <h2 id="header_subline">[HTML | CSS | Upcoming soon: JavaScript | Node | React]</h2>
+            </section>
+            <!-- End of Title Section in Header -->
+        </header>
+        <!-- Start of Main Navigation -->
+        <nav id="main-navigation" class="main-nav-default">
+            <!-- I used the class "hmenu" here to make clear that this is an horizontal menu. The styles are provided in my custom stylesheet -->
+            <ul class="hmenu">
+                <li>
+                    <a href="index.html" title="Ariane Feldmann | Senior HTML/CSS-Developer - Junior JavaScrpt-Developer">Welcome</a>
+                </li>
+                <!-- List class 'hasChildren' indicates that this menu item has a sub-menu. I use this to display the down-angle in my navigation -->
+                <li class="hasChildren">
+                    <a href="about.html" title="Who am I - my Curriculum Vitae">About me</a>
+                    <!-- 
+                        I used a nested lists here to display my sub menues. The main navigation items refer to different HTML documents while my submenu items refer to anchors/bookmarks on that specific subpage of my project. 
+                        -->
+                    <!-- Start sub-menu 'About me' -->
+                    <ul class="sub-menu">
+                        <li><a href="about.html#education" title="What I learned. Where I learned.">Education</a></li>
+                        <li><a href="about.html#workexperience" title="Where I worked and what I did there">Work Experience</a></li>
+                        <li><a href="about.html#personal" title="Other things worth to know about me">Personal</a></li>
+                    </ul>
+                    <!-- End sub-menu 'About me' -->
+                </li>
+                <li class="current hasChildren"><a href="skills.html" title="How I can help you - Skills and Competences">Skills</a>
+                   <!-- Start sub-menu 'Skills' -->
+                    <ul class="sub-menu">
+                        <li><a href="skills.html#coding" title="Webtechnologies, Programming Langugages">Web Development</a></li>
+                        <li><a href="skills.html#cms" title="Content Management Systems I have worked with">CMS</a></li>
+
+                        <li><a href="skills.html#grafic" title="Image editing and desktop publishing software">Graphic Design</a></li>
+                        <li><a href="skills.html#languages" title="Languages I know to speak">Languages</a></li>
+                    </ul>
+                    <!-- End sub-menu 'Skills' -->
+                </li>
+                <li class="hasChildren"><a href="projects.html" title="What I did - selected projects and references of mine">Code &amp; Projects</a>
+                    <!-- Start sub-menu 'Projects and Code' -->
+                     <ul class="sub-menu">
+                        <li><a href="projects.html#code" title="Some HTML/CSS Tricks">HTML/CSS</a></li>
+                        <li><a href="projects.html#themes" title="Website Projects, Theme- and Template Development">WordPress</a></li>
+                        <li><a href="projects.html#javascript" title="Javascript Projects inkl. EgmaScript, Node and React">JavaScript</a></li>
+                        <li><a href="https://github.com/FeliOdras?tab=repositories" title="My Github Repository" target="_blank">Code on Github</a></li>
+                    </ul>
+                    <!-- End sub-menu 'Projects and Code' -->
+                </li>
+                <li><a href="contact.html" title="How to get in touch with me">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- End of Main Navigation -->
+        <!-- Start of Main Section -->
+        <main>
+
+            <!-- Page Title - Headline displayed between Header and Main Content -->
+            <h2 class="pagetitle"><em>Talent</em> is just great <em>Patience</em></h2>
+            <!-- Start of Section 'Web Development' -->
+            <a id="coding"></a>
+            <section id="skills_webdev" class="inverse">
+                <h3>Skills and capabilities</h3>
+                <div class="flexbox">
+                    <article class="box">
+                        <h3>Development</h3>
+                        <ul class="skillList">
+                            <li>HTML/HTML5 <i class="fa fa-certificate"></i></li>
+                            <li>CSS/CSS3 <i class="fa fa-certificate"></i></li>
+                            <li>Responsive Webdesign <i class="fa fa-certificate"></i></li>
+                            <li>JavaScript <i class="fa fa-star-half-full"></i></li>
+                            <li>PHP <i class="fa fa-star-half-full"></i></li>
+                        </ul>
+                    </article>
+                    <a id="cms"></a>
+                     <article class="box">
+                         <h3>CMS</h3>
+                        <ul class="skillList">
+                            <li>WordPress <i class="fa fa-certificate"></i></li>
+                            <li>Joomla <i class="fa fa-star"></i></li>
+                            <li>Papoo <i class="fa fa-star"></i></li>
+                            <li>Drupal <i class="fa fa-star-half-full"></i></li>
+                            <li>Typo3 <i class="fa fa-star-half-full"></i></li>
+                        </ul>
+                    </article>
+                    <a id="grafic"></a>
+                     <article class="box">
+                         <h3>Design</h3>
+                        <ul class="skillList">
+                            <li>Adobe Photoshop <i class="fa fa-certificate"></i></li>
+                            <li>Adobe InDesign <i class="fa fa-star"></i></li>
+                            <li>Adobe Acrobat Pro <i class="fa fa-star"></i></li>
+                            <li>Adobe Illustrator <i class="fa fa-star"></i></li>
+                        </ul>
+                    </article>
+                </div>
+                <a id="languages"></a>
+                    <article class="box">
+                        <h3>Languages</h3>
+                            <div class="flexbox language">
+                                <div class="flexboxitem">German <i class="fa fa-certificate"></i></div>
+                                <div class="flexboxitem">English <i class="fa fa-certificate"></i></div>
+                                <div class="flexboxitem">Spanish <i class="fa fa-star-half-full"></i></div>
+                                <div class="flexboxitem">Japanese <i class="fa fa-star-half-full"></i></div>
+                        
+                            </div>
+                    </article>
+                <div class="section_wrapper">
+                <article class="legend boxright">
+                        <h4>Legend</h4>
+                        <ul>
+                            <li><i class="fa fa-star-half-full"></i> <span class="desc">Beginners level (up to 3 years of experience)</span></li>
+                            <li><i class="fa fa-star"></i> <span class="desc">Mid level (3-5 years of experience)</span></li>
+                            <li><i class="fa fa-certificate"></i> <span class="desc">Senior level (5+ years of experience)</span></li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer id="main-footer">
+            <ul id="social-navigation">
+                <li><a href="https://www.xing.com/profile/Ariane_Feldmann" target="_blank"><i class="fa fa-xing"></i></a></li>
+                <li><a href="https://de.linkedin.com/in/ariane-feldmann" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/FeliOdras?tab=repositories" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </footer>
+        <nav id="meta-menu">
+            <ul>
+                <li><a href="dci.html" title="Working Materials for the courses at Digital Career Institute">DCI</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="disclaimer.html">Imprint/Disclaimer</a></li>
+            </ul>
+        </nav>
+       <div class="validation">
+            <a href="http://validator.w3.org/check/referer" target="_blank" title="Validate MarkUp">Valid HTML5 <i class="fa fa-html5"></i></a> | <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fme.odras.de%2Fstyle%2Fstyle.css" title="Validate Stylesheet" target="_blank" rel="nofollow">Valid CSS3 <i class="fa fa-css3"></i></a></div>
+        </div>
+</body>
+
+</html>
