@@ -12,7 +12,7 @@
         <nav id="meta-menu">
             <ul>
                 <li><a href="http://www.digitalcareerinstitute.org" title="Digital Career Institute">DCI</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
                 <li><a href="disclaimer.html">Imprint and Disclaimer</a></li>
             </ul>
         </nav>
