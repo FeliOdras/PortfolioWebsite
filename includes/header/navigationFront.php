@@ -36,7 +36,7 @@
                     </ul>
                     <!-- End sub-menu 'Projects and Code' -->
                 </li>
-                <li><a href="contact.html" title="How to get in touch with me"><i class="fa fa-paper-plane"></i><span class="menuitemdesc">Contact</span></a></li>
+                <li><a href="contact.php" title="How to get in touch with me"><i class="fa fa-paper-plane"></i><span class="menuitemdesc">Contact</span></a></li>
             </ul>
         </nav>
         <!-- End of Main Navigation -->

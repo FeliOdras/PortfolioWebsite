@@ -40,7 +40,7 @@
                     </ul>
                     <!-- End sub-menu 'Projects and Code' -->
                 </li>
-                <li><a href="contact.html" title="How to get in touch with me" class="<?= ($pageID == 'contact') ? 'current':''; ?>">Contact</a></li>
+                <li><a href="contact.php" title="How to get in touch with me" class="<?= ($pageID == 'contact') ? 'current':''; ?>">Contact</a></li>
             </ul>
         </nav>
         <!-- End of Main Navigation -->
