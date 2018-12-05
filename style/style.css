@@ -1312,25 +1312,25 @@ Responsive
 
 @media screen and (min-width:1025px) {
     #main-header {
-        background-image: url(images/headerbackground_XL.jpg)
+        background-image: url(../images/headerbackground_XL.jpg);
     }
 }
 
 @media screen and (min-width:841px) and (max-width:1024px) {
     #main-header {
-        background-image: url(images/headerbackground_L.jpg)
+        background-image: url(../images/headerbackground_L.jpg);
     }
 }
 
 @media screen and (min-width:541px) and (max-width:840px) {
     #main-header {
-        background-image: url(images/headerbackground_M.jpg)
+        background-image: url(../images/headerbackground_M.jpg)
     }
 }
 
 @media screen and (max-width:541px) {
     #main-header {
-        background-image: url(images/headerbackground_M.jpg);
+        background-image: url(../images/headerbackground_M.jpg);
     }
 
 
