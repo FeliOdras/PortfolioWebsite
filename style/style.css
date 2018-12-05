@@ -669,7 +669,7 @@ Sections
 main section {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url(images/sectionbg_light.png);
+    background-image: url(../images/sectionbg_light.png);
     background-repeat: repeat;
 }
 
@@ -693,6 +693,11 @@ section:after {
 }
 
 /*Styles for rotating image links at skills section on frontpage */
+#home_tech {
+    font-size: 50px;
+    color: #F3DBAC;
+}
+
 
 #home_me a img {
     transition: all 0.5s;
