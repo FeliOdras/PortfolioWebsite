@@ -1,7 +1,7 @@
 
 <!-- Start of Section 'Skills' -->
     <a id="skills"></a>
-            <section id="home_skills">
+            <section id="home_skills" class="inverse">
                 <div class="main_wrapper">
                     <h3 class="sectionheading aligncenter">Skills</h3>
                     <!-- Used flexbox model to display the four items responsively -->

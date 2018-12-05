@@ -1,6 +1,6 @@
            <!-- Start of Section 'Code and Project' -->
            <a id="projects"></a>
-            <section id="home_code" class="inverse">
+            <section id="home_code" class="">
                 <div class="main_wrapper">
                     <h3 class="sectionheading alignleft">Code and Projects</h3>
                     <div class="flexbox">
