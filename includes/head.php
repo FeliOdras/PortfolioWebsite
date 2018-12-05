@@ -9,7 +9,7 @@
     <!-- Overwrite/adjust default styles of different browsers -->
     <link rel="stylesheet" href="style/normalize.css">
     <!-- Font Awesome 4.7 => https://fontawesome.com/v4.7.0/ -->
-    <link rel="stylesheet" href="style/font-awesome.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <!-- My custom Stylesheet -->
     <link rel="stylesheet" href="style/style.css">
 </head>

@@ -4,9 +4,9 @@
             <ul class="bubblemenu">
                 <!-- I used the class 'current' here to give the current menu item a unique style -->
                 <li>
-                    <a href="index.php" title="Ariane Feldmann | Senior HTML/CSS-Developer - Junior JavaScript-Developer"><i class="fa fa-home"></i><span class="menuitemdesc">Welcome</span></a>
+                    <a href="index.php" title="Ariane Feldmann | Frontend.Developer by passion"><i class="fas fa-home"></i><span class="menuitemdesc">Welcome</span></a>
                 </li>
-                <li><a href="#about" title="Who am I - my Curriculum Vitae"><i class="fa fa-address-card-o"></i><span class="menuitemdesc">About me</span></a>
+                <li><a href="#about" title="Who am I - my Curriculum Vitae"><i class="fas fa-user-circle"></i><span class="menuitemdesc">About me</span></a>
                     <!-- Start sub-menu 'About me' -->
                     <ul class="sub-menu">
                         <li><a href="about.php#education" title="What I learned. Where I learned.">Education</a></li>
@@ -15,7 +15,7 @@
                     </ul>
                     <!-- End sub-menu 'About me' -->
                 </li>
-                <li><a href="skills.php" title="How I can help you - Skills and Competences"><i class="fa fa-list-alt"></i><span class="menuitemdesc">Skills</span></a>
+                <li><a href="skills.php" title="How I can help you - Skills and Competences"><i class="fas fa-graduation-cap"></i><span class="menuitemdesc">Skills</span></a>
                     <!-- Start sub-menu 'Skills' -->
                     <ul class="sub-menu">
                         <li><a href="skills.php#coding" title="Webtechnologies, Programming Langugages">Web Development</a></li>
