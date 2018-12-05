@@ -1242,7 +1242,9 @@ ul#social-navigation li:hover a {
 
 }
 
-ul#social-navigation li:hover a .fa {
+ul#social-navigation li:hover a .fa,
+ul#social-navigation li:hover a .fas,
+ul#social-navigation li:hover a .fab {
     transform: rotate(15deg)
 }
 

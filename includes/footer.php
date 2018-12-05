@@ -3,9 +3,9 @@
         <!-- Start of Footer Section -->
         <footer id="main-footer">
             <ul id="social-navigation">
-                <li><a href="https://www.xing.com/profile/Ariane_Feldmann" target="_blank"><i class="fa fa-xing"></i></a></li>
-                <li><a href="https://de.linkedin.com/in/ariane-feldmann" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/FeliOdras?tab=repositories" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.xing.com/profile/Ariane_Feldmann" target="_blank"><i class="fab fa-xing"></i></a></li>
+                <li><a href="https://de.linkedin.com/in/ariane-feldmann" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/FeliOdras?tab=repositories" target="_blank"><i class="fab fa-github"></i></a></li>
             </ul>
         </footer>
         <!-- End of Footer Section -->
