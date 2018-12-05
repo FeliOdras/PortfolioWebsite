@@ -706,13 +706,8 @@ main section .main_wrapper {
     color: #F3DBAC;
 }
 
-
-#home_me a img {
-    transition: all 0.5s;
-}
-
-#home_me a:hover img {
-    width: 330px;
+#home_me .btn-about {
+    color: #f3dbac;
 }
 
 #home_skills .flexboxitem {
