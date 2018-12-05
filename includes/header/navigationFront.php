@@ -26,7 +26,7 @@
                     </ul>
                     <!-- End sub-menu 'Skills' -->
                 </li>
-                <li><a href="projects.php" title="What I did - selected projects and references of mine"><i class="fa fa-code"></i><span class="menuitemdesc">Code & Projects</span></a>
+                <li><a href="projects.php" title="What I did - selected projects and references of mine"><i class="fas fa-laptop-code"></i><span class="menuitemdesc">Code & Projects</span></a>
                     <!-- Start sub-menu 'Projects and Code' -->
                     <ul class="sub-menu">
                         <li><a href="projects.php#html" title="Some HTML/CSS Tricks">HTML/CSS</a></li>
