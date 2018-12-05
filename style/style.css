@@ -780,7 +780,9 @@ section:after {
     border-bottom: 1px solid #BF4D0E;
 }
 
-#home_code .fa {
+#home_code .fa,
+#home_code .fab,
+#home_code .fas {
     font-size: 38px;
 }
 
