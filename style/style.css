@@ -118,14 +118,6 @@ a:focus {
     border-bottom: 1px solid #BF4D0E;
 }
 
-main a[target="_blank"]:after {
-    content: '\f08e';
-    font-family: 'FontAwesome';
-    vertical-align: sub;
-    font-size: 70%;
-    margin-left: 3px;
-}
-
 hr {
     border: none;
     height: 1px;
