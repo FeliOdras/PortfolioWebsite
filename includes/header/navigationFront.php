@@ -6,7 +6,7 @@
                 <li>
                     <a href="index.php" title="Ariane Feldmann | Frontend.Developer by passion"><i class="fas fa-home"></i><span class="menuitemdesc">Welcome</span></a>
                 </li>
-                <li><a href="#about" title="Who am I - my Curriculum Vitae"><i class="fas fa-user-circle"></i><span class="menuitemdesc">About me</span></a>
+                <li><a href="about.php" title="Who am I - my Curriculum Vitae"><i class="fas fa-user-circle"></i><span class="menuitemdesc">About me</span></a>
                     <!-- Start sub-menu 'About me' -->
                     <ul class="sub-menu">
                         <li><a href="about.php#education" title="What I learned. Where I learned.">Education</a></li>
