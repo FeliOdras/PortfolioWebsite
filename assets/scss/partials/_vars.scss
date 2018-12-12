@@ -10,3 +10,8 @@ $fontPrimary: 'PT Mono',
 monospace;
 $fontHeadline: 'Great Vibes',
 cursive;
+
+$xlscreen: screen and (min-width:1025px);
+$lscreen: screen and (min-width:841px) and (max-width:1024px);
+$mscreen: screen and (min-width:541px) and (max-width:840px);
+$sscreen: screen and (max-width:540px);

@@ -890,3 +890,110 @@ td.yr {
     #code_html .flexboxitem:hover img,
     #code_wordpress .flexboxitem:hover img {
       width: 120%; }
+
+fieldset {
+  border: 1px solid #BF4D0E;
+  margin: 20px 0; }
+
+legend {
+  padding: 3px 7px;
+  background-color: #BF4D0E;
+  color: #F9ED4D; }
+
+label {
+  display: inline-block;
+  width: 33%;
+  margin: 5px 0; }
+  label[for="message"] {
+    width: 100%; }
+  label.textarea {
+    width: 95%; }
+  label.checkbox {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer; }
+  .checkbox input:checked ~ .checkmark:after {
+    display: block; }
+  .checkbox input ~ .checkmark {
+    background-color: #BF4D0E;
+    border-color: #BF4D0E; }
+
+.checkbox:hover input ~ .checkmark {
+  background-color: #F9ED4D;
+  border-color: #F9ED4D; }
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 1px solid #ddd; }
+  .checkmark :after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #F9ED4D;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+
+input {
+  padding: 0.5%;
+  box-shadow: none;
+  color: #BF4D0E; }
+  input[type="checkbox"] {
+    width: auto;
+    margin: 0 5px; }
+  input[type="text"] {
+    width: 64%; }
+  input[type="submit"] {
+    width: auto;
+    background-color: #BF4D0E;
+    color: #F9ED4D;
+    border: none;
+    margin: auto;
+    transition: all 1s;
+    display: block;
+    padding: 10px 20px; }
+    input[type="submit"]:hover {
+      color: #BF4D0E;
+      background-color: #F9ED4D; }
+  input:focus {
+    background-color: #F9ED4D; }
+
+select {
+  width: 64%;
+  padding: 0.5%;
+  box-shadow: none;
+  color: #BF4D0E; }
+  select:focus {
+    background-color: #F9ED4D; }
+
+textarea {
+  width: 95%;
+  height: 150px;
+  padding: 0.5%;
+  box-shadow: none;
+  color: #BF4D0E; }
+  textarea:focus {
+    background-color: #F9ED4D; }
