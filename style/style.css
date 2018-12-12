@@ -646,7 +646,8 @@ td.yr {
     min-width: 200px;
 }
 
-.skillList .fa {
+.skillList .fa,
+.skillList .fas {
     float: right;
 }
 
