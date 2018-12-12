@@ -63,3 +63,12 @@ img {
     border-radius: 50%;
     /*border-radius creates rounded corner. A border-radius of 50% makes a square circle and a rectangle an elipse*/
 }
+
+.flexbox {
+    display: flex;
+    justify-content: space-around
+}
+
+.flexboxitem {
+    padding: 2%;
+}
