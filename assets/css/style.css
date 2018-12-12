@@ -997,3 +997,76 @@ textarea {
   color: #BF4D0E; }
   textarea:focus {
     background-color: #F9ED4D; }
+
+#main-footer {
+  background-color: #F5EDDF;
+  padding: 20px;
+  border-top: 1px solid #F4DCAF; }
+  #main-footer #social-navigation {
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+    #main-footer #social-navigation li {
+      display: inline-block;
+      line-height: 50px; }
+      #main-footer #social-navigation li a {
+        padding: 8px;
+        font-size: 2.4rem;
+        border: none;
+        transition: all 0.5s;
+        line-height: 50px;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: transparent;
+        width: 42px;
+        height: 42px; }
+      #main-footer #social-navigation li:hover a {
+        color: #F9ED4D;
+        font-size: 2.4rem;
+        line-height: 42px;
+        background-color: #BF4D0E; }
+        #main-footer #social-navigation li:hover a .fa,
+        #main-footer #social-navigation li:hover a .fab,
+        #main-footer #social-navigation li:hover a .fas {
+          transform: rotate(15deg); }
+
+#meta-menu {
+  background-color: #000;
+  font-size: .6rem;
+  font-family: "PT Mono", monospace;
+  text-align: center;
+  padding: 0; }
+  #meta-menu ul {
+    padding: 0;
+    margin: 0; }
+    #meta-menu ul li {
+      display: inline;
+      list-style-type: none;
+      padding: 0 5px;
+      border-right: 1px solid #ccc; }
+      #meta-menu ul li:last-child {
+        border: none; }
+      #meta-menu ul li a {
+        color: #fff;
+        transition: all 1s;
+        padding: 8px;
+        display: inline-block; }
+        #meta-menu ul li a:hover {
+          border: none;
+          color: #333;
+          background: #fff; }
+
+.validation {
+  padding: 15px;
+  font-size: 13px;
+  text-align: center; }
+  .validation a {
+    padding: 5px 15px;
+    display: inline-block;
+    border: 1px solid #BF4D0E;
+    color: #BF4D0E;
+    background-color: #fff;
+    transition: all 0.5s; }
+    .validation a:hover {
+      color: #fff;
+      background-color: #BF4D0E; }

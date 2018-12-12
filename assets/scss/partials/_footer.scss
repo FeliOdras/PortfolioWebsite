@@ -1,7 +1,7 @@
 #main-footer {
-    background-color: #f4ede1;
+    background-color: $colorLight;
     padding: 20px;
-    border-top: 1px solid #d1be9c;
+    border-top: 1px solid $colorSecondary;
 
     #social-navigation {
         padding: 0;
@@ -14,7 +14,7 @@
 
             a {
                 padding: 8px;
-                font-size: 38px;
+                font-size: 2.4rem;
                 border: none;
                 transition: all 0.5s;
                 line-height: 50px;
@@ -24,6 +24,79 @@
                 width: 42px;
                 height: 42px;
             }
+
+            &:hover {
+                a {
+                    color: $colorTertiary;
+                    font-size: 2.4rem;
+                    line-height: 42px;
+                    background-color: $colorAccent;
+
+                    .fa,
+                    .fab,
+                    .fas {
+                        transform: rotate(15deg)
+                    }
+                }
+            }
         }
     }
+}
+
+#meta-menu {
+    background-color: #000;
+    font-size: .6rem;
+    font-family: $fontPrimary;
+    text-align: center;
+    padding: 0;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            display: inline;
+            list-style-type: none;
+            padding: 0 5px;
+            border-right: 1px solid #ccc;
+
+            &:last-child {
+                border: none;
+            }
+
+            a {
+                color: $colorWhite;
+                transition: all 1s;
+                padding: 8px;
+                display: inline-block;
+
+                &:hover {
+                    border: none;
+                    color: #333;
+                    background: $colorWhite;
+                }
+            }
+        }
+    }
+}
+
+.validation {
+    padding: 15px;
+    font-size: 13px;
+    text-align: center;
+
+    a {
+        padding: 5px 15px;
+        display: inline-block;
+        border: 1px solid $colorAccent;
+        color: $colorAccent;
+        background-color: $colorWhite;
+        transition: all 0.5s;
+
+        &:hover {
+            color: $colorWhite;
+            background-color: $colorAccent;
+        }
+    }
+
 }
