@@ -17,6 +17,35 @@
 main {
     position: relative;
     background-color: #f4ede1;
+
+    section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: $colorSecondary;
+        background-repeat: repeat;
+
+        &:after {
+            clear: both;
+            content: '';
+            display: block;
+            width: 100%;
+        }
+
+        .main_wrapper {
+            max-width: 1200px;
+            margin: auto;
+        }
+    }
+
+    .section_wrapper {
+        padding: 1.5% 2%;
+    }
+
+    .sectionheading {
+        color: $colorAccent;
+        font-size: 2.625rem;
+        margin: 42px 0 23px;
+    }
 }
 
 code {
