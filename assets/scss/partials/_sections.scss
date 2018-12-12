@@ -123,6 +123,8 @@ td {
     }
 }
 
+
+
 //Home
 
 #home_tech {
@@ -189,6 +191,50 @@ td {
                 text-shadow: 0 0 5px #000;
             }
         }
+    }
+}
+
+#home_code {
+    .flexboxitem {
+        margin: 1.5%;
+        background-color: $colorWhite;
+        transition: all .5s;
+        width: 28%;
+
+        a {
+            color: $colorFontLight;
+        }
+
+        &:hover {
+            background-color: $colorDark;
+            width: 28%;
+            margin: 0.5%;
+            transform: rotate(5deg);
+            color: $colorWhite;
+
+            a {
+                color: $colorWhite;
+            }
+        }
+    }
+
+    .icons {
+        margin-left: 3%;
+        padding-bottom: 5px;
+        width: 70%;
+        display: block;
+        border-bottom: 1px solid #BF4D0E;
+    }
+
+    .fa,
+    .fab,
+    .fas {
+        font-size: 38px;
+    }
+
+    h4,
+    p {
+        margin-left: 3%;
     }
 }
 
