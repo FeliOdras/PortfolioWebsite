@@ -45,7 +45,95 @@
     }
 }
 
+#main-navigation {
+    position: sticky;
+    /*Keep main navigation always in the same position*/
+    top: 0;
+    left: 0;
+    background-color: $colorDark;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 0 10px #000;
+    z-index: 99;
 
+    ul {
+        &.hmenu {
+            /*remove browsers default spaces for lists*/
+            margin: 0;
+            padding: 0;
+            height: 30px;
+        }
+
+        li {
+            display: inline-block;
+            list-style-type: none;
+            position: relative;
+
+            &.current {
+                a {
+                    color: $colorDark;
+                    background-color: $colorWhite;
+                }
+            }
+
+            a {
+                color: $colorWhite;
+                text-decoration: none;
+                font-family: $fontPrimary;
+                border: none;
+                padding: 10px 8px;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    color: $colorDark;
+                    background-color: $colorWhite;
+                }
+            }
+
+            .hasChildren {
+                &:after {
+                    content: '\25BC';
+                    color: $colorAccent;
+                }
+            }
+
+            ul {
+                .sub-menu {
+                    position: absolute;
+                    height: 0;
+                    overflow: hidden;
+                    padding-left: 0;
+                    transition: all 0.8s;
+                    background-color: $colorAccent;
+                    top: 30px;
+                    box-shadow: 0 0 3px #000;
+                    margin-top: -1px;
+
+                    li {
+                        display: block;
+
+                        a {
+                            background: transparent;
+                            color: $colorWhite;
+                            display: block;
+                            padding: 5px;
+                            line-height: 130%;
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                ul {
+                    &.sub-menu {
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 // Special styles for frontpage
