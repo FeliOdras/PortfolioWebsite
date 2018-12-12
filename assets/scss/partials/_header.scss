@@ -106,19 +106,6 @@
                         font-size: 25px;
                         line-height: 30px;
                         padding-left: 2px;
-                        font-family: "Font Awesome 5 Free";
-                        margin-right: 12px;
-                        float: left;
-                    }
-                }
-            }
-
-            &:first-child {
-                a {
-                    &:before {
-                        @media #{$sscreen} {
-                            content: '\f015';
-                        }
                     }
                 }
             }

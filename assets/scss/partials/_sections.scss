@@ -9,6 +9,14 @@
     margin: 10px auto;
     max-width: 90%;
 
+    @media #{$sscreen} {
+        margin-left: 23%;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 72%;
+    }
+
     a {
         color: $colorAccent;
     }
@@ -204,6 +212,10 @@ td {
             }
 
             figcaption {
+                @media #{$sscreen} {
+                    font-size: 2.3em;
+                }
+
                 h4 {
                     font-size: 1.4rem;
                     background-color: rgba(0, 0, 0, 0.6);
@@ -224,6 +236,10 @@ td {
                 font-size: 18px;
                 background-color: rgba(0, 0, 0, 0.2);
                 text-shadow: 0 0 5px #000;
+
+                @media #{$sscreen} {
+                    font-size: 1rem;
+                }
             }
         }
     }
@@ -246,6 +262,10 @@ td {
             margin: 0.5%;
             transform: rotate(5deg);
             color: $colorWhite;
+
+            @media #{$sscreen} {
+                width: 72%;
+            }
 
             a {
                 color: $colorWhite;
@@ -334,6 +354,11 @@ td {
 .language {
     .flexboxitem {
         border: 1px solid $colorWhite;
+
+        @media #{$sscreen} {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
     }
 
     .fas {
@@ -343,7 +368,6 @@ td {
 
 // Code & Projects
 
-#code_html,
 #code_wordpress {
     text-align: center;
 
@@ -357,6 +381,10 @@ td {
         }
 
         &:hover {
+            @media #{$sscreen} {
+                width: 72%;
+            }
+
             a {
                 border: none;
             }

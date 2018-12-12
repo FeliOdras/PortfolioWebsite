@@ -10,7 +10,6 @@ hr {
     border-bottom: 1px solid #BF4D0E;
 }
 
-
 img {
     /*if an image is bigger/wider than its parent element scale it to max 100% width of that.*/
     max-width: 100%;
@@ -29,6 +28,14 @@ img {
     margin-left: 2%;
     margin-top: 20px;
     margin-bottom: 20px;
+
+    @media #{$sscreen} {
+        margin-left: 23%;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 72%;
+    }
 }
 
 .imgright {
@@ -44,6 +51,14 @@ img {
     max-width: 73%;
     margin-top: 20px;
     margin-bottom: 20px;
+
+    @media #{$sscreen} {
+        margin-left: 23%;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 72%;
+    }
 }
 
 .imgcenter,
