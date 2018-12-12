@@ -123,6 +123,77 @@ td {
     }
 }
 
+//Home
+
+#home_tech {
+    font-size: 50px;
+    color: $colorSecondary;
+}
+
+#home_me {
+    .btn-about {
+        color: $colorSecondary;
+    }
+}
+
+#home_skills {
+    .flexboxitem {
+        width: 21%;
+    }
+
+    a {
+        &:hover {
+            border: none;
+        }
+    }
+
+    img {
+        transition: all 3s;
+        width: 80%;
+        opacity: 0.85;
+        box-shadow: 0 0 5px #666;
+    }
+
+    figure {
+        position: relative;
+        text-align: center;
+
+        &:hover {
+            img {
+                width: 100%;
+                opacity: 1;
+                transform: rotate(359deg);
+                box-shadow: 0 0 20px #000;
+            }
+
+            figcaption {
+                h4 {
+                    font-size: 1.4rem;
+                    background-color: rgba(0, 0, 0, 0.6);
+                    color: $colorWhite;
+                }
+            }
+        }
+
+        figcaption {
+            h4 {
+                position: absolute;
+                top: 33%;
+                display: block;
+                text-align: center;
+                color: #ccc;
+                width: 100%;
+                transition: all 1.2s;
+                font-size: 18px;
+                background-color: rgba(0, 0, 0, 0.2);
+                text-shadow: 0 0 5px #000;
+            }
+        }
+    }
+}
+
+//Skills
+
 .legend {
     float: right;
     padding: 6px 12px;
