@@ -26,99 +26,17 @@ General Styles
 Grid Layout
 ------------------------*/
 
-.flexbox {
-    display: flex;
-    justify-content: space-around
-}
 
-.flexboxitem {
-    padding: 2%;
-}
 
 /*----------------------
 Header
 ------------------------*/
 
-#main-header {
-    background-size: cover;
-    /*background-size:cover makes sure that your bg-image fills the entire element*/
-    height: 33vh;
-    /*The header is a high as 90% of the viewport height (vh)*/
-    background-position: 50% 20%;
-    /*Image is horizontal centered*/
-    padding: 1.5%;
-    /*leave a little space above, below and on both sides*/
-    background-attachment: fixed;
-    /*Fixed background. Content scrolls above, images stays on fixed position */
-}
+
 
 /* Parallax Effect on Frontpage */
 
-.frontpage #main-header {
-    /*The image source is provided in the Section "Responsive" below*/
-    height: 70vh;
-    /*The header is a high as 90% of the viewport height (vh)*/
-    background-position: 50% top;
-    /*Image is horizontal centered*/
-}
 
-.profilepic {
-    width: 60px;
-    height: 60px;
-    margin-right: 5%;
-    margin-top: 60px;
-}
-
-
-#title {
-    color: #fff;
-    padding-top: 10px;
-    padding-right: 5%;
-    text-shadow: 2px 2px 5px #000;
-    text-align: right;
-    clear: both;
-}
-
-#title h1 {
-    font-size: 42px;
-    line-height: 32px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
-.frontpage #title h1 {
-    font-size: 48px;
-    line-height: 35px;
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-
-#title h1 small {
-    font-size: 14px;
-    font-family: 'PT Mono', monospace;
-}
-
-.frontpage #title h2 i:before {
-    padding: 0 3px;
-    display: inline-block;
-    margin-top: 5px;
-    opacity: .8
-}
-
-.frontpage h1 small {
-    font-size: 18px;
-}
-
-#header_subline {
-    font-size: 11px;
-    margin: 0;
-    font-family: 'PT Mono', monospace;
-    font-style: italic;
-}
-
-#main-header section {
-    background: transparent;
-}
 
 /*----------------------
 Navigation
