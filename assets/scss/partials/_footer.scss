@@ -1,0 +1,29 @@
+#main-footer {
+    background-color: #f4ede1;
+    padding: 20px;
+    border-top: 1px solid #d1be9c;
+
+    #social-navigation {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            line-height: 50px;
+
+            a {
+                padding: 8px;
+                font-size: 38px;
+                border: none;
+                transition: all 0.5s;
+                line-height: 50px;
+                display: inline-block;
+                border-radius: 50%;
+                background-color: transparent;
+                width: 42px;
+                height: 42px;
+            }
+        }
+    }
+}
