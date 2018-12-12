@@ -729,6 +729,27 @@ td.yr {
     font-family: "Great Vibes", cursive;
     font-size: 1.75rem; }
 
+.inverse {
+  background-color: #41140E;
+  background-image: none;
+  color: #fff; }
+  .inverse a.button {
+    color: #F4DCAF;
+    background-color: #F9ED4D; }
+  .inverse .box {
+    color: #fff;
+    background-color: #41140E; }
+    .inverse .box a {
+      color: #F9ED4D; }
+      .inverse .box a.button {
+        color: #F4DCAF;
+        background-color: #F9ED4D; }
+    .inverse .box .button {
+      color: #F4DCAF;
+      background-color: #F9ED4D; }
+  .inverse .sectionheading {
+    color: #fff; }
+
 #home_tech {
   font-size: 50px;
   color: #F4DCAF; }

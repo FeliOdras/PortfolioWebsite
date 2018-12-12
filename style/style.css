@@ -1,29 +1,3 @@
-/*Styles for inverted section */
-section .inverse a.button,
-.inverse .box a.button {
-    color: #BF4D0E;
-    background-color: #F9ED4D;
-}
-
-.inverse .sectionheading {
-    color: #fff;
-}
-
-.inverse .box {
-    color: #fff;
-    background-color: rgba(65, 20, 14, 1);
-}
-
-.inverse .box a {
-    color: #F9ED4D;
-}
-
-.inverse .box .button {
-    background-color: #F9ED4D;
-    color: #BF4D0E;
-}
-
-
 /*----------------------
 Accordion
 -----------------------*/
