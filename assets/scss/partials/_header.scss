@@ -22,21 +22,21 @@
     clear: both;
 
     h1 {
-        font-size: 42px;
+        font-size: 2.6rem;
         line-height: 32px;
         margin-top: 30px;
         margin-bottom: 15px;
 
         small {
-            font-size: 14px;
-            font-family: 'PT Mono', monospace;
+            font-size: .85rem;
+            font-family: $fontPrimary;
         }
     }
 
     #header_subline {
-        font-size: 11px;
+        font-size: .7rem;
         margin: 0;
-        font-family: 'PT Mono', monospace;
+        font-family: $fontPrimary;
         font-style: italic;
     }
 
@@ -45,6 +45,23 @@
     }
 }
 
+
+//main navigation
+#main-navigation {
+    ul {
+        &.bubblemenu {
+            margin: 0 8px;
+            height: auto;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                margin: 15px 0;
+                height: 42px;
+            }
+        }
+    }
+}
 
 
 
@@ -57,13 +74,13 @@
 
     #title {
         h1 {
-            font-size: 48px;
+            font-size: 3rem;
             line-height: 35px;
             margin-top: 0;
             margin-bottom: 15px;
 
             small {
-                font-size: 18px;
+                font-size: 1.125rem;
             }
         }
 
@@ -77,5 +94,12 @@
                 }
             }
         }
+    }
+
+    #main-navigation {
+        background: transparent;
+        box-shadow: none;
+        position: fixed;
+        top: 5px;
     }
 }

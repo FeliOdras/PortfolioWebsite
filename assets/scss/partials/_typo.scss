@@ -1,35 +1,39 @@
 /* _typo.scss */
 
+:root {
+    font-size: 16px;
+}
+
 body {
     font-family: $fontPrimary;
 }
 
 h1 {
-    font-family: 'Great Vibes', cursive;
+    font-family: $fontHeadline;
     font-weight: normal;
 }
 
 
 h2 {
-    font-family: 'Great Vibes', cursive;
+    font-family: $fontHeadline;
     font-weight: normal;
 }
 
 h3 {
-    font-family: 'Great Vibes', cursive;
+    font-family: $fontHeadline;
     font-weight: normal;
 }
 
 h4 {
     padding: 0;
     margin: 10px 0;
-    font-size: 14px;
+    font-size: .85rem;
 }
 
 p,
 td,
 li {
-    font-size: 13px;
+    font-size: .8rem;
     line-height: 160%;
 }
 
@@ -56,7 +60,7 @@ a:focus {
 
 figcaption {
     text-align: center;
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 .alignleft {
