@@ -1,3 +1,26 @@
+/*CSS Stylesheet Portfolio Website Ariane "odras" Feldmann
+If you are interested in some more support feel encouraged to contact me on ariane.feldmann@odras.de)
+*/
+/* _fonts.scss */
+@import url(../../style/style.css);
+@font-face {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-mono-v5-latin-ext_latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("PT Mono"), local("PTMono-Regular"), url("../fonts/pt-mono-v5-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/pt-mono-v5-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/pt-mono-v5-latin-ext_latin-regular.woff") format("woff"), url("../fonts/pt-mono-v5-latin-ext_latin-regular.ttf") format("truetype"), url("../fonts/pt-mono-v5-latin-ext_latin-regular.svg#PTMono") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/great-vibes-v5-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Great Vibes"), local("GreatVibes-Regular"), url("../fonts/great-vibes-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/great-vibes-v5-latin-regular.woff2") format("woff2"), url("../fonts/great-vibes-v5-latin-regular.woff") format("woff"), url("../fonts/great-vibes-v5-latin-regular.ttf") format("truetype"), url("../fonts/great-vibes-v5-latin-regular.svg#GreatVibes") format("svg");
+  /* Legacy iOS */ }
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -5,7 +28,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url(../../style/style.css);
 html {
   line-height: 1.15;
   /* 1 */
