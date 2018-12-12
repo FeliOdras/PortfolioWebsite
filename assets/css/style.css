@@ -481,15 +481,6 @@ img {
   #title section {
     background: transparent; }
 
-#main-navigation ul.bubblemenu {
-  margin: 0 8px;
-  height: auto;
-  padding: 0; }
-  #main-navigation ul.bubblemenu li {
-    display: inline-block;
-    margin: 15px 0;
-    height: 42px; }
-
 .frontpage #main-header {
   height: 70vh;
   background-position: 50% top; }
@@ -513,6 +504,76 @@ img {
   box-shadow: none;
   position: fixed;
   top: 5px; }
+
+#main-navigation ul.bubblemenu {
+  margin: 0 8px;
+  height: auto;
+  padding: 0; }
+  #main-navigation ul.bubblemenu li {
+    display: inline-block;
+    margin: 15px 0;
+    height: 42px; }
+    #main-navigation ul.bubblemenu li a {
+      height: 30px;
+      padding: 7px;
+      background-color: rgba(191, 77, 13, 0.7);
+      color: #F9ED4D;
+      box-shadow: 0 0 5px #fff;
+      width: 30px;
+      border-radius: 20px;
+      transition: all 0.5s;
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: center; }
+      #main-navigation ul.bubblemenu li a i {
+        font-size: 25px;
+        line-height: 30px; }
+      #main-navigation ul.bubblemenu li a .menuitemdesc {
+        display: none;
+        transition: all 0.4s;
+        font-size: 15px;
+        line-height: 30px;
+        margin-left: 10px;
+        transition: all 0.5s;
+        width: 30px;
+        color: #BF4D0E; }
+    #main-navigation ul.bubblemenu li:hover a {
+      width: 180px;
+      border: 1px solid #BF4D0E;
+      height: 28px;
+      color: #BF4D0E;
+      background-color: rgba(249, 237, 77, 0.8);
+      text-align: left; }
+      #main-navigation ul.bubblemenu li:hover a .menuitemdesc {
+        display: block;
+        float: right;
+        width: auto;
+        margin-right: 6px; }
+  #main-navigation ul.bubblemenu ul.sub-menu {
+    background: rgba(249, 237, 77, 0.7);
+    top: 40px;
+    border: none;
+    box-shadow: none;
+    width: auto;
+    z-index: 99; }
+    #main-navigation ul.bubblemenu ul.sub-menu li {
+      margin: 0;
+      padding: 0;
+      height: auto; }
+      #main-navigation ul.bubblemenu ul.sub-menu li a {
+        border-radius: 0;
+        width: 100%;
+        background-color: transparent;
+        color: #41140E;
+        height: 20px;
+        line-height: 20px;
+        box-shadow: none;
+        border: none;
+        padding: 10px; }
+        #main-navigation ul.bubblemenu ul.sub-menu li a:hover {
+          background-color: rgba(191, 77, 13, 0.7);
+          color: #fff; }
 
 /* _sections.scss */
 .box {
