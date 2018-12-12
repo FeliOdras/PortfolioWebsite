@@ -1,0 +1,72 @@
+/* _typo.scss */
+
+body {
+    font-family: $fontPrimary;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: normal;
+}
+
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: normal;
+}
+
+h4 {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+p,
+td,
+li {
+    font-size: 13px;
+    line-height: 160%;
+}
+
+p {
+    margin: 8px 0;
+}
+
+td {
+    vertical-align: top;
+    padding: 8px;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #BF4D0E;
+}
+
+a:hover,
+a:active,
+a:focus {
+    border-bottom: 1px solid #BF4D0E;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 12px;
+}
+
+.alignleft {
+    text-align: left;
+}
+
+.alignright {
+    text-align: right;
+}
+
+.aligncenter {
+    text-align: center;
+}

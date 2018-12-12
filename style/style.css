@@ -17,14 +17,6 @@ General Styles
 
 /*Basic*/
 
-body {
-    overflow-x: hidden;
-}
-
-#main-container {
-    font-family: 'PT Mono', monospace;
-}
-
 h1 {
     font-family: 'Great Vibes', cursive;
     font-weight: normal;
