@@ -872,3 +872,21 @@ td.yr {
 
 .language .fas {
   margin-left: 20px; }
+
+#code_html,
+#code_wordpress {
+  text-align: center; }
+  #code_html .flexboxitem,
+  #code_wordpress .flexboxitem {
+    width: 30%; }
+    #code_html .flexboxitem img,
+    #code_wordpress .flexboxitem img {
+      width: 95%;
+      margin: auto;
+      transition: all .8s; }
+    #code_html .flexboxitem:hover a,
+    #code_wordpress .flexboxitem:hover a {
+      border: none; }
+    #code_html .flexboxitem:hover img,
+    #code_wordpress .flexboxitem:hover img {
+      width: 120%; }

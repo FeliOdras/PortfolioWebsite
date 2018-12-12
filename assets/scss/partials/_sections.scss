@@ -340,3 +340,30 @@ td {
         margin-left: 20px;
     }
 }
+
+// Code & Projects
+
+#code_html,
+#code_wordpress {
+    text-align: center;
+
+    .flexboxitem {
+        width: 30%;
+
+        img {
+            width: 95%;
+            margin: auto;
+            transition: all .8s;
+        }
+
+        &:hover {
+            a {
+                border: none;
+            }
+
+            img {
+                width: 120%
+            }
+        }
+    }
+}
