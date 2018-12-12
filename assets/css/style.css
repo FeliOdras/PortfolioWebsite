@@ -645,3 +645,115 @@ img {
   max-width: 90%; }
   .box a {
     color: #BF4D0E; }
+
+main {
+  position: relative;
+  background-color: #f4ede1; }
+
+code {
+  display: block;
+  font-size: .7rem;
+  padding: 15px;
+  background-color: #111; }
+
+iframe {
+  width: 100%;
+  border: none;
+  overflow: auto hidden; }
+
+td.yr {
+  font-weight: bold; }
+
+.pagetitle {
+  padding: 50px 0;
+  text-align: right;
+  color: #BF4D0E;
+  font-size: 18px;
+  margin: 0 10% 0;
+  font-family: "PT Mono", monospace;
+  font-weight: normal;
+  text-transform: uppercase;
+  width: 100%;
+  margin: auto;
+  max-width: 1200px; }
+  .pagetitle em {
+    font-family: "Great Vibes", cursive;
+    font-size: 2.6rem;
+    font-style: normal;
+    text-transform: none; }
+
+.main_wrapper {
+  margin: auto;
+  max-width: 1280px; }
+
+.accordionContent {
+  height: 0;
+  overflow: hidden; }
+
+.button {
+  background-color: #BF4D0E;
+  color: #F9ED4D;
+  padding: 1% 1%;
+  display: inline-block;
+  margin: 8px 0;
+  line-height: 1.15;
+  border: none;
+  transition: all 0.5s;
+  min-width: 220px;
+  position: relative; }
+  .button:hover {
+    padding: 6px 16px;
+    border: none;
+    color: #000; }
+  .button em {
+    font-style: normal;
+    font-family: "Great Vibes", cursive;
+    font-size: 1.75rem; }
+
+.legend {
+  float: right;
+  padding: 6px 12px;
+  font-size: 9px;
+  background-color: transparent;
+  border: 1px solid #F9ED4D;
+  color: #F9ED4D;
+  opacity: .7;
+  margin-top: 20px; }
+
+.legend h4 {
+  margin-top: 0; }
+
+.legend ul {
+  padding: 0;
+  margin: 0; }
+
+.legend li {
+  list-style-type: none;
+  font-size: 10px; }
+
+.legend .fas {
+  float: left;
+  width: 20px; }
+
+.legend .desc {
+  display: inline; }
+
+.legend li {
+  display: block;
+  clear: both; }
+
+.skillList {
+  list-style-type: none;
+  padding-left: 0;
+  min-width: 200px; }
+  .skillList .fas {
+    float: right; }
+  .skillList li {
+    border-bottom: 1px dotted #F9ED4D;
+    padding: 5px; }
+
+.language .flexboxitem {
+  border: 1px solid #fff; }
+
+.language .fas {
+  margin-left: 20px; }
