@@ -10,4 +10,4 @@
         <!-- Start of Main Section -->
         <main>
             <!-- Page Title - Headline displayed between Header and Main Content -->
-            <h2 class="pagetitle alignleft "><?php echo $pageTitle ?></h2>
+            <h2 class="pagetitle"><?php echo $pageTitle ?></h2>
