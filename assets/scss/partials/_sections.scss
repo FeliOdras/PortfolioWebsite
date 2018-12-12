@@ -258,7 +258,7 @@ td {
         padding-bottom: 5px;
         width: 70%;
         display: block;
-        border-bottom: 1px solid #BF4D0E;
+        border-bottom: 1px solid $colorAccent;
     }
 
     .fa,
@@ -280,8 +280,8 @@ td {
     padding: 6px 12px;
     font-size: 9px;
     background-color: transparent;
-    border: 1px solid #F9ED4D;
-    color: #F9ED4D;
+    border: 1px solid $colorTertiary;
+    color: $colorTertiary;
     opacity: .7;
     margin-top: 20px;
 }
@@ -326,14 +326,14 @@ td {
     }
 
     li {
-        border-bottom: 1px dotted #F9ED4D;
+        border-bottom: 1px dotted $colorTertiary;
         padding: 5px;
     }
 }
 
 .language {
     .flexboxitem {
-        border: 1px solid #fff;
+        border: 1px solid $colorWhite;
     }
 
     .fas {
@@ -365,5 +365,159 @@ td {
                 width: 120%
             }
         }
+    }
+}
+
+//Contact Form
+
+fieldset {
+    border: 1px solid $colorAccent;
+    margin: 20px 0;
+}
+
+legend {
+    padding: 3px 7px;
+    background-color: $colorAccent;
+    color: $colorTertiary;
+}
+
+label {
+    display: inline-block;
+    width: 33%;
+    margin: 5px 0;
+
+    &[for="message"] {
+        width: 100%;
+    }
+
+    &.textarea {
+        width: 95%;
+    }
+
+    &.checkbox {
+        width: 100%;
+        max-width: 200px;
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}
+
+.checkbox {
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+
+        &:checked {
+            &~.checkmark {
+                &:after {
+                    display: block;
+                }
+            }
+        }
+
+        &~.checkmark {
+            background-color: $colorAccent;
+            border-color: $colorAccent;
+        }
+    }
+
+    &:hover {
+        input {
+            &~.checkmark {
+                background-color: $colorTertiary;
+                border-color: $colorTertiary;
+            }
+        }
+    }
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+
+    :after {
+        content: "";
+        position: absolute;
+        display: none;
+        left: 6px;
+        top: 3px;
+        width: 5px;
+        height: 10px;
+        border: solid #F9ED4D;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+
+input {
+    padding: 0.5%;
+    box-shadow: none;
+    color: $colorAccent;
+
+    &[type="checkbox"] {
+        width: auto;
+        margin: 0 5px;
+    }
+
+    &[type="text"] {
+        width: 64%;
+    }
+
+    &[type="submit"] {
+        width: auto;
+        background-color: $colorAccent;
+        color: $colorTertiary;
+        border: none;
+        margin: auto;
+        transition: all 1s;
+        display: block;
+        padding: 10px 20px;
+
+        &:hover {
+            color: $colorAccent;
+            background-color: $colorTertiary;
+        }
+    }
+
+    &:focus {
+        background-color: $colorTertiary;
+    }
+}
+
+select {
+    width: 64%;
+    padding: 0.5%;
+    box-shadow: none;
+    color: $colorAccent;
+
+    &:focus {
+        background-color: $colorTertiary;
+    }
+}
+
+textarea {
+    width: 95%;
+    height: 150px;
+    padding: 0.5%;
+    box-shadow: none;
+    color: $colorAccent;
+
+    &:focus {
+        background-color: $colorTertiary;
     }
 }
