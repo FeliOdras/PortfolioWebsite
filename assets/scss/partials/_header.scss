@@ -5,6 +5,22 @@
     padding: 1.5%;
     background-attachment: fixed;
 
+    @media #{$xlscreen} {
+        background-image: url(../../images/headerbackground_XL.jpg);
+    }
+
+    @media #{$lscreen} {
+        background-image: url(../../images/headerbackground_L.jpg);
+    }
+
+    @media #{$mscreen} {
+        background-image: url(../../images/headerbackground_M.jpg);
+    }
+
+    @media #{$sscreen} {
+        background-image: url(../../images/headerbackground_M.jpg);
+    }
+
     .profilepic {
         width: 60px;
         height: 60px;
@@ -56,12 +72,27 @@
     box-shadow: 0 0 10px #000;
     z-index: 99;
 
+    @media #{$sscreen} {
+        background: transparent;
+        box-shadow: none;
+        position: fixed;
+        top: 5px;
+        max-width: 150px;
+        overflow: visible;
+    }
+
     ul {
         &.hmenu {
             /*remove browsers default spaces for lists*/
             margin: 0;
             padding: 0;
             height: 30px;
+
+            @media #{$sscreen} {
+                margin: 0 8px;
+                height: auto;
+                padding: 0;
+            }
         }
 
         li {
@@ -69,10 +100,45 @@
             list-style-type: none;
             position: relative;
 
+            a {
+                &:before {
+                    @media #{$sscreen} {
+                        font-size: 25px;
+                        line-height: 30px;
+                        padding-left: 2px;
+                        font-family: "Font Awesome 5 Free";
+                        margin-right: 12px;
+                        float: left;
+                    }
+                }
+            }
+
+            &:first-child {
+                a {
+                    &:before {
+                        @media #{$sscreen} {
+                            content: '\f015';
+                        }
+                    }
+                }
+            }
+
+            @media #{$sscreen} {
+                display: block;
+                margin: 15px 0;
+                height: 42px;
+                max-width: 160px;
+            }
+
             &.current {
                 a {
                     color: $colorDark;
                     background-color: $colorWhite;
+
+                    @media #{$sscreen} {
+                        background-color: rgba(249, 237, 77, 0.8);
+                        color: $colorDark;
+                    }
                 }
             }
 
@@ -83,11 +149,31 @@
                 border: none;
                 padding: 10px 8px;
 
+                @media #{$sscreen} {
+                    height: 30px;
+                    padding: 7px;
+                    background-color: rgba(191, 77, 13, 0.7);
+                    color: $colorTertiary;
+                    box-shadow: 0 0 5px $colorWhite;
+                    width: 30px;
+                    border-radius: 20px;
+                    transition: all 0.5s;
+                    display: inline-block;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-align: right;
+                }
+
                 &:hover,
                 &:focus,
                 &:active {
                     color: $colorDark;
                     background-color: $colorWhite;
+
+                    @media #{$sscreen} {
+                        background-color: rgba(249, 237, 77, 0.8);
+                        width: 170px;
+                    }
                 }
             }
 
@@ -95,6 +181,10 @@
                 &:after {
                     content: '\25BC';
                     color: $colorAccent;
+
+                    @media #{$sscreen} {
+                        display: none;
+                    }
                 }
             }
 
@@ -110,6 +200,10 @@
                     box-shadow: 0 0 3px #000;
                     margin-top: -3px;
 
+                    @media #{$sscreen} {
+                        background-color: rgba(249, 237, 77, 0.8);
+                    }
+
                     li {
                         display: block;
 
@@ -119,6 +213,11 @@
                             display: block;
                             padding: 5px;
                             line-height: 130%;
+
+                            @media #{$sscreen} {
+                                background-color: rgba(249, 237, 77, 0.8);
+                                color: $colorDark;
+                            }
 
                             &:hover {
                                 color: $colorLight;
@@ -193,6 +292,13 @@
                 margin: 15px 0;
                 height: 42px;
 
+                @media #{$sscreen} {
+                    display: block;
+                    margin: 15px 0;
+                    height: 42px;
+                    max-width: 160px;
+                }
+
                 a {
                     height: 30px;
                     padding: 7px;
@@ -209,7 +315,13 @@
 
                     i {
                         font-size: 25px;
-                        line-height: 30px
+                        line-height: 30px;
+
+                        @media #{$sscreen} {
+                            font-size: 25px;
+                            line-height: 30px;
+                            display: none;
+                        }
                     }
 
                     .menuitemdesc {

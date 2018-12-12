@@ -1,249 +1,151 @@
-/*-----------------------
-Responsive
--------------------------*/
+#main-navigation ul li.current a,
+#main-navigation ul li ul.sub-menu li a {}
 
-@media screen and (min-width:1025px) {
-    #main-header {
-        background-image: url(../images/headerbackground_XL.jpg);
-    }
+#main-navigation ul li.hasChildren:after {}
+
+
+#main-navigation ul.bubblemenu li a i {}
+
+#main-navigation ul li :before {}
+
+#main-navigation ul li:nth-child(2) a:before {
+    content: '\f2bc';
 }
 
-@media screen and (min-width:841px) and (max-width:1024px) {
-    #main-header {
-        background-image: url(../images/headerbackground_L.jpg);
-    }
+#main-navigation ul li:nth-child(3) a:before {
+    content: '\f022';
 }
 
-@media screen and (min-width:541px) and (max-width:840px) {
-    #main-header {
-        background-image: url(../images/headerbackground_M.jpg)
-    }
+#main-navigation ul li:nth-child(4) a:before {
+    content: '\f121';
 }
 
-@media screen and (max-width:541px) {
-    #main-header {
-        background-image: url(../images/headerbackground_M.jpg);
-    }
+#main-navigation ul li:nth-child(5) a:before {
+    content: '\f1d8';
+}
+
+#main-navigation ul li .sub-menu li a:before {
+    content: '';
+}
+
+#main-container #main-navigation ul li:hover a {
+    width: 170px;
+    color: #41140E;
+}
+
+#main-navigation ul li a .menuitemdesc {
+    display: none;
+    transition: all 0.4s;
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 10px;
+    transition: all 0.5s;
+    width: 30px;
+    color: #BF4D0E;
+}
+
+#main-navigation ul li:hover a .menuitemdesc {
+    display: block;
+    float: right;
+    width: auto;
+    margin-right: 6px;
+}
 
 
-    #main-navigation {
-        background: transparent;
-        box-shadow: none;
-        position: fixed;
-        top: 5px;
-        max-width: 150px;
-        overflow: visible;
-    }
+#main-navigation ul ul.sub-menu {
+    background: rgba(249, 237, 77, 0.7);
+    top: 40px;
+    border: none;
+    box-shadow: none;
+    width: auto;
+    z-index: 99;
+}
 
-    #main-navigation ul.hmenu {
-        margin: 0 8px;
-        height: auto;
-        padding: 0;
-    }
+#main-navigation ul ul.sub-menu li {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
 
-    #main-navigation ul.bubblemenu li,
-    #main-navigation ul li {
-        display: block;
-        margin: 15px 0;
-        height: 42px;
-        max-width: 160px;
-    }
+#main-navigation ul ul.sub-menu li a {
+    border-radius: 0;
+    width: 100%;
+    background-color: transparent;
+    color: #41140E;
+    height: 20px;
+    line-height: 20px;
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+    text-align: left;
+}
 
-    #main-navigation ul li a {
-        height: 30px;
-        padding: 7px;
-        background-color: rgba(191, 77, 13, 0.7);
-        color: #F9ED4D;
-        box-shadow: 0 0 5px #fff;
-        width: 30px;
-        border-radius: 20px;
-        transition: all 0.5s;
-        display: inline-block;
-        white-space: nowrap;
-        overflow: hidden;
-        text-align: right;
-    }
+#main-navigation ul ul.sub-menu li a:hover {
+    background-color: rgba(191, 77, 13, 0.7);
+    color: #fff;
+}
 
-    #main-navigation ul li a:focus,
-    #main-navigation ul li a:hover,
-    #main-navigation ul li a:active {
-        background-color: rgba(249, 237, 77, 0.8);
-        width: 170px;
-    }
+.sectionheading {
+    text-align: right;
+    padding-right: 3%;
+}
 
-    #main-navigation ul li ul.sub-menu {
-        background-color: rgba(249, 237, 77, 0.8);
-    }
+.flexbox {
+    display: block;
+}
 
-    #main-navigation ul li.current a,
-    #main-navigation ul li ul.sub-menu li a {
-        background-color: rgba(249, 237, 77, 0.8);
-        color: #41140E;
-    }
-
-    #main-navigation ul li.hasChildren:after {
-        display: none;
-    }
+#home_code .flexboxitem,
+#home_skills .flexboxitem,
+#code_wordpress .flexboxitem {
+    max-width: 430px;
+    margin: auto;
+    width: 70%;
+    float: right;
+    margin-left: 23%;
+    margin-right: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
-    #main-navigation ul.bubblemenu li a i {
-        font-size: 25px;
-        line-height: 30px;
-        display: none;
-    }
+#code_wordpress .flexboxitem:hover,
+#home_code .flexboxitem:hover {
+    width: 72%;
+}
 
-    #main-navigation ul li a:before {
-        font-size: 25px;
-        line-height: 30px;
-        padding-left: 2px;
-        font-family: FontAWesome;
-        margin-right: 12px;
-        float: left;
-    }
+.box,
+.boxleft,
+.boxright {
+    margin-left: 23%;
+    margin-right: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 72%;
+}
 
-    #main-navigation ul li:first-child a:before {
-        content: '\f015';
-    }
+#home_skills figcaption {
+    font-size: 1.6em;
+}
 
-    #main-navigation ul li:nth-child(2) a:before {
-        content: '\f2bc';
-    }
+#home_skills a:hover figcaption {
+    font-size: 2.3em;
+}
 
-    #main-navigation ul li:nth-child(3) a:before {
-        content: '\f022';
-    }
+.language .flexboxitem {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-    #main-navigation ul li:nth-child(4) a:before {
-        content: '\f121';
-    }
+.tabset .tab {
+    display: block;
+}
 
-    #main-navigation ul li:nth-child(5) a:before {
-        content: '\f1d8';
-    }
+.tabset .tab label,
+.accordion label {
+    display: block;
+    width: 92%;
+}
 
-    #main-navigation ul li .sub-menu li a:before {
-        content: '';
-    }
-
-    #main-container #main-navigation ul li:hover a {
-        width: 170px;
-        color: #41140E;
-    }
-
-    #main-navigation ul li a .menuitemdesc {
-        display: none;
-        transition: all 0.4s;
-        font-size: 15px;
-        line-height: 30px;
-        margin-left: 10px;
-        transition: all 0.5s;
-        width: 30px;
-        color: #BF4D0E;
-    }
-
-    #main-navigation ul li:hover a .menuitemdesc {
-        display: block;
-        float: right;
-        width: auto;
-        margin-right: 6px;
-    }
-
-
-    #main-navigation ul ul.sub-menu {
-        background: rgba(249, 237, 77, 0.7);
-        top: 40px;
-        border: none;
-        box-shadow: none;
-        width: auto;
-        z-index: 99;
-    }
-
-    #main-navigation ul ul.sub-menu li {
-        margin: 0;
-        padding: 0;
-        height: auto;
-    }
-
-    #main-navigation ul ul.sub-menu li a {
-        border-radius: 0;
-        width: 100%;
-        background-color: transparent;
-        color: #41140E;
-        height: 20px;
-        line-height: 20px;
-        box-shadow: none;
-        border: none;
-        padding: 10px;
-        text-align: left;
-    }
-
-    #main-navigation ul ul.sub-menu li a:hover {
-        background-color: rgba(191, 77, 13, 0.7);
-        color: #fff;
-    }
-
-    .sectionheading {
-        text-align: right;
-        padding-right: 3%;
-    }
-
-    .flexbox {
-        display: block;
-    }
-
-    #home_code .flexboxitem,
-    #home_skills .flexboxitem,
-    #code_wordpress .flexboxitem {
-        max-width: 430px;
-        margin: auto;
-        width: 70%;
-        float: right;
-        margin-left: 23%;
-        margin-right: 2%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-
-    #code_wordpress .flexboxitem:hover,
-    #home_code .flexboxitem:hover {
-        width: 72%;
-    }
-
-    .box,
-    .boxleft,
-    .boxright {
-        margin-left: 23%;
-        margin-right: 2%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        max-width: 72%;
-    }
-
-    #home_skills figcaption {
-        font-size: 1.6em;
-    }
-
-    #home_skills a:hover figcaption {
-        font-size: 2.3em;
-    }
-
-    .language .flexboxitem {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .tabset .tab {
-        display: block;
-    }
-
-    .tabset .tab label,
-    .accordion label {
-        display: block;
-        width: 92%;
-    }
-
-    .tabset .tab-content {
-        top: 150px;
-    }
+.tabset .tab-content {
+    top: 150px;
 }

@@ -452,6 +452,18 @@ img {
   background-position: 50% 20%;
   padding: 1.5%;
   background-attachment: fixed; }
+  @media (min-width: 1025px) {
+    #main-header {
+      background-image: url(../../images/headerbackground_XL.jpg); } }
+  @media (max-width: 1024px) {
+    #main-header {
+      background-image: url(../../images/headerbackground_L.jpg); } }
+  @media (max-width: 840px) {
+    #main-header {
+      background-image: url(../../images/headerbackground_M.jpg); } }
+  @media (max-width: 540px) {
+    #main-header {
+      background-image: url(../../images/headerbackground_M.jpg); } }
   #main-header .profilepic {
     width: 60px;
     height: 60px;
@@ -491,30 +503,85 @@ img {
   z-index: 9999;
   box-shadow: 0 0 10px #000;
   z-index: 99; }
+  @media (max-width: 540px) {
+    #main-navigation {
+      background: transparent;
+      box-shadow: none;
+      position: fixed;
+      top: 5px;
+      max-width: 150px;
+      overflow: visible; } }
   #main-navigation ul.hmenu {
     /*remove browsers default spaces for lists*/
     margin: 0;
     padding: 0;
     height: 30px; }
+    @media (max-width: 540px) {
+      #main-navigation ul.hmenu {
+        margin: 0 8px;
+        height: auto;
+        padding: 0; } }
   #main-navigation ul li {
     display: inline-block;
     list-style-type: none;
     position: relative; }
+    @media (max-width: 540px) {
+      #main-navigation ul li a:before {
+        font-size: 25px;
+        line-height: 30px;
+        padding-left: 2px;
+        font-family: "Font Awesome 5 Free";
+        margin-right: 12px;
+        float: left; } }
+    @media (max-width: 540px) {
+      #main-navigation ul li:first-child a:before {
+        content: '\f015'; } }
+    @media (max-width: 540px) {
+      #main-navigation ul li {
+        display: block;
+        margin: 15px 0;
+        height: 42px;
+        max-width: 160px; } }
     #main-navigation ul li.current a {
       color: #41140E;
       background-color: #fff; }
+      @media (max-width: 540px) {
+        #main-navigation ul li.current a {
+          background-color: rgba(249, 237, 77, 0.8);
+          color: #41140E; } }
     #main-navigation ul li a {
       color: #fff;
       text-decoration: none;
       font-family: "PT Mono", monospace;
       border: none;
       padding: 10px 8px; }
+      @media (max-width: 540px) {
+        #main-navigation ul li a {
+          height: 30px;
+          padding: 7px;
+          background-color: rgba(191, 77, 13, 0.7);
+          color: #F9ED4D;
+          box-shadow: 0 0 5px #fff;
+          width: 30px;
+          border-radius: 20px;
+          transition: all 0.5s;
+          display: inline-block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-align: right; } }
       #main-navigation ul li a:hover, #main-navigation ul li a:focus, #main-navigation ul li a:active {
         color: #41140E;
         background-color: #fff; }
+        @media (max-width: 540px) {
+          #main-navigation ul li a:hover, #main-navigation ul li a:focus, #main-navigation ul li a:active {
+            background-color: rgba(249, 237, 77, 0.8);
+            width: 170px; } }
     #main-navigation ul li .hasChildren:after {
       content: '\25BC';
       color: #BF4D0E; }
+      @media (max-width: 540px) {
+        #main-navigation ul li .hasChildren:after {
+          display: none; } }
     #main-navigation ul li ul.sub-menu {
       position: absolute;
       height: 0;
@@ -525,6 +592,9 @@ img {
       top: 30px;
       box-shadow: 0 0 3px #000;
       margin-top: -3px; }
+      @media (max-width: 540px) {
+        #main-navigation ul li ul.sub-menu {
+          background-color: rgba(249, 237, 77, 0.8); } }
       #main-navigation ul li ul.sub-menu li {
         display: block; }
         #main-navigation ul li ul.sub-menu li a {
@@ -533,6 +603,10 @@ img {
           display: block;
           padding: 5px;
           line-height: 130%; }
+          @media (max-width: 540px) {
+            #main-navigation ul li ul.sub-menu li a {
+              background-color: rgba(249, 237, 77, 0.8);
+              color: #41140E; } }
           #main-navigation ul li ul.sub-menu li a:hover {
             color: #F5EDDF;
             background-color: #41140E; }
@@ -571,6 +645,12 @@ img {
     display: inline-block;
     margin: 15px 0;
     height: 42px; }
+    @media (max-width: 540px) {
+      #main-navigation ul.bubblemenu li {
+        display: block;
+        margin: 15px 0;
+        height: 42px;
+        max-width: 160px; } }
     #main-navigation ul.bubblemenu li a {
       height: 30px;
       padding: 7px;
@@ -587,6 +667,11 @@ img {
       #main-navigation ul.bubblemenu li a i {
         font-size: 25px;
         line-height: 30px; }
+        @media (max-width: 540px) {
+          #main-navigation ul.bubblemenu li a i {
+            font-size: 25px;
+            line-height: 30px;
+            display: none; } }
       #main-navigation ul.bubblemenu li a .menuitemdesc {
         display: none;
         transition: all 0.4s;
