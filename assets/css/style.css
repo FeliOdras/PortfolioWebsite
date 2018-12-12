@@ -515,7 +515,7 @@ img {
     #main-navigation ul li .hasChildren:after {
       content: '\25BC';
       color: #BF4D0E; }
-    #main-navigation ul li ul .sub-menu {
+    #main-navigation ul li ul.sub-menu {
       position: absolute;
       height: 0;
       overflow: hidden;
@@ -524,15 +524,18 @@ img {
       background-color: #BF4D0E;
       top: 30px;
       box-shadow: 0 0 3px #000;
-      margin-top: -1px; }
-      #main-navigation ul li ul .sub-menu li {
+      margin-top: -3px; }
+      #main-navigation ul li ul.sub-menu li {
         display: block; }
-        #main-navigation ul li ul .sub-menu li a {
+        #main-navigation ul li ul.sub-menu li a {
           background: transparent;
           color: #fff;
           display: block;
           padding: 5px;
           line-height: 130%; }
+          #main-navigation ul li ul.sub-menu li a:hover {
+            color: #F5EDDF;
+            background-color: #41140E; }
     #main-navigation ul li:hover ul.sub-menu {
       height: auto; }
 

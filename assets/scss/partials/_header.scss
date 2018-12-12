@@ -99,7 +99,7 @@
             }
 
             ul {
-                .sub-menu {
+                &.sub-menu {
                     position: absolute;
                     height: 0;
                     overflow: hidden;
@@ -108,7 +108,7 @@
                     background-color: $colorAccent;
                     top: 30px;
                     box-shadow: 0 0 3px #000;
-                    margin-top: -1px;
+                    margin-top: -3px;
 
                     li {
                         display: block;
@@ -119,6 +119,11 @@
                             display: block;
                             padding: 5px;
                             line-height: 130%;
+
+                            &:hover {
+                                color: $colorLight;
+                                background-color: $colorDark;
+                            }
                         }
                     }
                 }
