@@ -95,14 +95,14 @@ td {
     max-width: 1200px;
 
     @media #{$sscreen} {
-        font-size: 1rem;
+        font-size: .9rem;
         padding-left: 15%;
-        padding-right: 3%;
+        padding-right: 5%;
     }
 
     em {
         font-family: $fontHeadline;
-        font-size: 2.6rem;
+        font-size: 1.8rem;
         font-style: normal;
         text-transform: none;
     }
