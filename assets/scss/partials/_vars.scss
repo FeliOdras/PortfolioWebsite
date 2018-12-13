@@ -1,0 +1,17 @@
+$colorDark: #41140E;
+$colorLight: #F5EDDF;
+$colorAccent: #BF4D0E;
+$colorSecondary:#F4DCAF;
+$colorTertiary:#F9ED4D;
+$colorFontLight:#666;
+$colorWhite: #fff;
+
+$fontPrimary: 'PT Mono',
+monospace;
+$fontHeadline: 'Great Vibes',
+cursive;
+
+$xlscreen: screen and (min-width:1025px);
+$lscreen: screen and (min-width:841px) and (max-width:1024px);
+$mscreen: screen and (min-width:541px) and (max-width:840px);
+$sscreen: screen and (max-width:540px);

@@ -1,0 +1,580 @@
+/* _sections.scss */
+.box {
+    font-family: $fontPrimary;
+    line-height: 150%;
+    padding: 1%;
+    color: $colorDark;
+    background-color: $colorWhite;
+    border: 2px solid $colorAccent;
+    margin: 10px auto;
+    max-width: 90%;
+
+    @media #{$sscreen} {
+        margin-left: 23%;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 72%;
+    }
+
+    a {
+        color: $colorAccent;
+    }
+}
+
+main {
+    position: relative;
+    background-color: #f4ede1;
+
+    section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: $colorSecondary;
+        background-repeat: repeat;
+
+        &:after {
+            clear: both;
+            content: '';
+            display: block;
+            width: 100%;
+        }
+
+        .main_wrapper {
+            max-width: 1200px;
+            margin: auto;
+        }
+    }
+
+    .section_wrapper {
+        padding: 1.5% 2%;
+    }
+
+    .sectionheading {
+        color: $colorAccent;
+        font-size: 2.625rem;
+        margin: 42px 0 23px;
+
+        @media #{$sscreen} {
+            text-align: right;
+            padding-right: 3%;
+            font-size: 2.2rem;
+        }
+    }
+}
+
+code {
+    display: block;
+    font-size: .7rem;
+    padding: 15px;
+    background-color: #111;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    overflow: auto hidden;
+}
+
+td {
+    &.yr {
+        font-weight: bold;
+    }
+}
+
+.pagetitle {
+    padding: 50px 0;
+    text-align: right;
+    color: $colorAccent;
+    font-size: 1.125rem;
+    margin: 0 10% 0;
+    font-family: $fontPrimary;
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+
+    @media #{$sscreen} {
+        font-size: .9rem;
+        padding-left: 15%;
+        padding-right: 5%;
+    }
+
+    em {
+        font-family: $fontHeadline;
+        font-size: 1.8rem;
+        font-style: normal;
+        text-transform: none;
+    }
+}
+
+.main_wrapper {
+    margin: auto;
+    max-width: 1280px;
+}
+
+.accordionContent {
+    height: 0;
+    overflow: hidden;
+}
+
+.button {
+    background-color: $colorAccent;
+    color: $colorTertiary;
+    padding: 1% 1%;
+    display: inline-block;
+    margin: 8px 0;
+    line-height: 1.15;
+    border: none;
+    transition: all 0.5s;
+    min-width: 220px;
+    position: relative;
+
+    &:hover {
+        padding: 6px 16px;
+        border: none;
+        color: #000;
+    }
+
+    em {
+        font-style: normal;
+        font-family: $fontHeadline;
+        font-size: 1.75rem;
+    }
+}
+
+//Invertation
+.inverse {
+    background-color: $colorDark;
+    background-image: none;
+    color: $colorWhite;
+
+    a {
+        &.button {
+            color: $colorAccent;
+            background-color: $colorTertiary;
+        }
+    }
+
+    .box {
+        color: $colorWhite;
+        background-color: $colorDark;
+
+        a {
+            color: $colorTertiary;
+
+            &.button {
+                color: $colorAccent;
+                background-color: $colorTertiary;
+            }
+        }
+
+        .button {
+            color: $colorSecondary;
+            background-color: $colorTertiary;
+        }
+    }
+
+    .sectionheading {
+        color: $colorWhite;
+    }
+}
+
+//Home
+
+#home_tech {
+    font-size: 50px;
+    color: $colorSecondary;
+}
+
+#home_me {
+    .btn-about {
+        color: $colorSecondary;
+    }
+}
+
+#home_skills {
+    .flexboxitem {
+        width: 21%;
+
+        @media #{$mscreen} {
+            width: 45%;
+        }
+
+        @media #{$sscreen} {
+            width: 70%;
+            margin-left: 25%;
+        }
+    }
+
+    a {
+        &:hover {
+            border: none;
+        }
+    }
+
+    img {
+        transition: all 3s;
+        width: 80%;
+        opacity: 0.85;
+        box-shadow: 0 0 5px #666;
+    }
+
+    figure {
+        position: relative;
+        text-align: center;
+
+        &:hover {
+            img {
+                width: 100%;
+                opacity: 1;
+                transform: rotate(359deg);
+                box-shadow: 0 0 20px #000;
+            }
+
+            figcaption {
+                @media #{$sscreen} {
+                    font-size: 2.3em;
+                }
+
+                h4 {
+                    font-size: 1.4rem;
+                    background-color: rgba(0, 0, 0, 0.6);
+                    color: $colorWhite;
+                }
+            }
+        }
+
+        figcaption {
+            h4 {
+                position: absolute;
+                top: 33%;
+                display: block;
+                text-align: center;
+                color: #ccc;
+                width: 100%;
+                transition: all 1.2s;
+                font-size: 18px;
+                background-color: rgba(0, 0, 0, 0.2);
+                text-shadow: 0 0 5px #000;
+
+                @media #{$sscreen} {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+#home_code .flexboxitem {
+    background-color: $colorWhite;
+
+    a {
+        color: $colorFontLight;
+    }
+
+    &:hover {
+        background-color: $colorDark;
+        width: 28%;
+        margin: 0.5%;
+        transform: rotate(5deg);
+        color: $colorWhite;
+
+        @media #{$sscreen} {
+            width: 72%;
+        }
+
+        a {
+            color: $colorWhite;
+        }
+    }
+}
+
+.icons {
+    margin-left: 3%;
+    padding-bottom: 5px;
+    width: 70%;
+    display: block;
+    border-bottom: 1px solid $colorAccent;
+
+    .fa,
+    .fab,
+    .fas {
+        font-size: 38px;
+    }
+}
+
+
+
+h4,
+p {
+    margin-left: 3%;
+}
+
+
+//Skills
+
+.legend {
+    float: right;
+    padding: 6px 12px;
+    font-size: 9px;
+    background-color: transparent;
+    border: 1px solid $colorTertiary;
+    color: $colorTertiary;
+    opacity: .7;
+    margin-top: 20px;
+}
+
+.legend {
+    h4 {
+        margin-top: 0;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        list-style-type: none;
+        font-size: 10px;
+    }
+
+    .fas {
+        float: left;
+        width: 20px;
+    }
+
+    .desc {
+        display: inline;
+    }
+
+    li {
+        display: block;
+        clear: both;
+    }
+}
+
+.skillList {
+    list-style-type: none;
+    padding-left: 0;
+    min-width: 200px;
+
+    .fas {
+        float: right;
+    }
+
+    li {
+        border-bottom: 1px dotted $colorTertiary;
+        padding: 5px;
+    }
+}
+
+.language {
+    .flexboxitem {
+        border: 1px solid $colorWhite;
+
+        @media #{$sscreen} {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .fas {
+        margin-left: 20px;
+    }
+}
+
+// Code & Projects
+
+#code_wordpress {
+    text-align: center;
+
+    .flexboxitem {
+
+        @media #{$sscreen} {
+            max-width: 430px;
+            margin: auto;
+            width: 70%;
+            float: right;
+            margin-left: 23%;
+            margin-right: 2%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 95%;
+            margin: auto;
+            transition: all .8s;
+        }
+
+        &:hover {
+            @media #{$sscreen} {
+                width: 72%;
+            }
+
+            a {
+                border: none;
+            }
+
+            img {
+                width: 120%
+            }
+        }
+    }
+}
+
+//Contact Form
+
+fieldset {
+    border: 1px solid $colorAccent;
+    margin: 20px 0;
+}
+
+legend {
+    padding: 3px 7px;
+    background-color: $colorAccent;
+    color: $colorTertiary;
+}
+
+label {
+    display: inline-block;
+    width: 33%;
+    margin: 5px 0;
+
+    &[for="message"] {
+        width: 100%;
+    }
+
+    &.textarea {
+        width: 95%;
+    }
+
+    &.checkbox {
+        width: 100%;
+        max-width: 200px;
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}
+
+.checkbox {
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+
+        &:checked {
+            &~.checkmark {
+                &:after {
+                    display: block;
+                }
+            }
+        }
+
+        &~.checkmark {
+            background-color: $colorAccent;
+            border-color: $colorAccent;
+        }
+    }
+
+    &:hover {
+        input {
+            &~.checkmark {
+                background-color: $colorTertiary;
+                border-color: $colorTertiary;
+            }
+        }
+    }
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+
+    :after {
+        content: "";
+        position: absolute;
+        display: none;
+        left: 6px;
+        top: 3px;
+        width: 5px;
+        height: 10px;
+        border: solid #F9ED4D;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+
+input {
+    padding: 0.5%;
+    box-shadow: none;
+    color: $colorAccent;
+
+    &[type="checkbox"] {
+        width: auto;
+        margin: 0 5px;
+    }
+
+    &[type="text"] {
+        width: 64%;
+    }
+
+    &[type="submit"] {
+        width: auto;
+        background-color: $colorAccent;
+        color: $colorTertiary;
+        border: none;
+        margin: auto;
+        transition: all 1s;
+        display: block;
+        padding: 10px 20px;
+
+        &:hover {
+            color: $colorAccent;
+            background-color: $colorTertiary;
+        }
+    }
+
+    &:focus {
+        background-color: $colorTertiary;
+    }
+}
+
+select {
+    width: 64%;
+    padding: 0.5%;
+    box-shadow: none;
+    color: $colorAccent;
+
+    &:focus {
+        background-color: $colorTertiary;
+    }
+}
+
+textarea {
+    width: 95%;
+    height: 150px;
+    padding: 0.5%;
+    box-shadow: none;
+    color: $colorAccent;
+
+    &:focus {
+        background-color: $colorTertiary;
+    }
+}
