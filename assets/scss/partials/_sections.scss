@@ -151,7 +151,7 @@ td {
 
     a {
         &.button {
-            color: $colorSecondary;
+            color: $colorAccent;
             background-color: $colorTertiary;
         }
     }
@@ -164,7 +164,7 @@ td {
             color: $colorTertiary;
 
             &.button {
-                color: $colorSecondary;
+                color: $colorAccent;
                 background-color: $colorTertiary;
             }
         }
