@@ -1,6 +1,6 @@
             <a id="coding"></a>
             <section id="skills_webdev" class="inverse">
-                <h3>Skills and capabilities</h3>
+                <h3 class="sectionheading">Skills and capabilities</h3>
                 <div class="flexbox">
                     <article class="box">
                         <h3>Development</h3>
