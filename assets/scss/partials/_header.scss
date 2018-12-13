@@ -43,6 +43,11 @@
         margin-top: 30px;
         margin-bottom: 15px;
 
+        @media #{$sscreen} {
+            font-size: 2rem;
+            padding-left: 15%;
+        }
+
         small {
             font-size: .85rem;
             font-family: $fontPrimary;
@@ -54,6 +59,10 @@
         margin: 0;
         font-family: $fontPrimary;
         font-style: italic;
+
+        @media #{$sscreen} {
+            padding-left: 15%;
+        }
     }
 
     section {
@@ -76,9 +85,19 @@
             line-height: 35px;
             margin-top: 0;
             margin-bottom: 15px;
+            padding-left: 15%;
+
+
+            @media #{$sscreen} {
+                font-size: 2.5rem;
+            }
 
             small {
                 font-size: 1.125rem;
+
+                @media #{$sscreen} {
+                    font-size: 1rem;
+                }
             }
         }
 

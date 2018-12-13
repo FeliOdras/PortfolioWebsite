@@ -512,6 +512,10 @@ img {
     line-height: 32px;
     margin-top: 30px;
     margin-bottom: 15px; }
+    @media (max-width: 540px) {
+      #title h1 {
+        font-size: 2rem;
+        padding-left: 15%; } }
     #title h1 small {
       font-size: .85rem;
       font-family: "PT Mono", monospace; }
@@ -520,8 +524,42 @@ img {
     margin: 0;
     font-family: "PT Mono", monospace;
     font-style: italic; }
+    @media (max-width: 540px) {
+      #title #header_subline {
+        padding-left: 15%; } }
   #title section {
     background: transparent; }
+
+.frontpage #main-header {
+  height: 70vh;
+  background-position: 50% top; }
+
+.frontpage #title h1 {
+  font-size: 3rem;
+  line-height: 35px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-left: 15%; }
+  @media (max-width: 540px) {
+    .frontpage #title h1 {
+      font-size: 2.5rem; } }
+  .frontpage #title h1 small {
+    font-size: 1.125rem; }
+    @media (max-width: 540px) {
+      .frontpage #title h1 small {
+        font-size: 1rem; } }
+
+.frontpage #title h2 i:before {
+  padding: 0 3px;
+  display: inline-block;
+  margin-top: 5px;
+  opacity: .8; }
+
+.frontpage #main-navigation {
+  background: transparent;
+  box-shadow: none;
+  position: fixed;
+  top: 5px; }
 
 #main-navigation {
   position: sticky;
@@ -667,30 +705,6 @@ img {
         color: #41140E; } }
     #main-navigation ul li:hover ul.sub-menu {
       height: auto; }
-
-.frontpage #main-header {
-  height: 70vh;
-  background-position: 50% top; }
-
-.frontpage #title h1 {
-  font-size: 3rem;
-  line-height: 35px;
-  margin-top: 0;
-  margin-bottom: 15px; }
-  .frontpage #title h1 small {
-    font-size: 1.125rem; }
-
-.frontpage #title h2 i:before {
-  padding: 0 3px;
-  display: inline-block;
-  margin-top: 5px;
-  opacity: .8; }
-
-.frontpage #main-navigation {
-  background: transparent;
-  box-shadow: none;
-  position: fixed;
-  top: 5px; }
 
 #main-navigation ul.bubblemenu {
   margin: 0 8px;
