@@ -59,20 +59,3 @@
     text-align: right;
     padding-right: 3%;
 }
-
-.flexbox {
-    display: block;
-}
-
-#home_code .flexboxitem,
-#home_skills .flexboxitem,
-#code_wordpress .flexboxitem {
-    max-width: 430px;
-    margin: auto;
-    width: 70%;
-    float: right;
-    margin-left: 23%;
-    margin-right: 2%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}

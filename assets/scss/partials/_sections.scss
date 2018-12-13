@@ -53,6 +53,12 @@ main {
         color: $colorAccent;
         font-size: 2.625rem;
         margin: 42px 0 23px;
+
+        @media #{$sscreen} {
+            text-align: right;
+            padding-right: 3%;
+            font-size: 2.2rem;
+        }
     }
 }
 
@@ -79,7 +85,7 @@ td {
     padding: 50px 0;
     text-align: right;
     color: $colorAccent;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 0 10% 0;
     font-family: $fontPrimary;
     font-weight: normal;
@@ -87,6 +93,12 @@ td {
     width: 100%;
     margin: auto;
     max-width: 1200px;
+
+    @media #{$sscreen} {
+        font-size: 1rem;
+        padding-left: 15%;
+        padding-right: 3%;
+    }
 
     em {
         font-family: $fontHeadline;
@@ -184,6 +196,17 @@ td {
 #home_skills {
     .flexboxitem {
         width: 21%;
+
+        @media #{$sscreen} {
+            max-width: 430px;
+            margin: auto;
+            width: 70%;
+            float: right;
+            margin-left: 23%;
+            margin-right: 2%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
     }
 
     a {
@@ -251,6 +274,17 @@ td {
         background-color: $colorWhite;
         transition: all .5s;
         width: 28%;
+
+        @media #{$sscreen} {
+            max-width: 430px;
+            margin: auto;
+            width: 70%;
+            float: right;
+            margin-left: 23%;
+            margin-right: 2%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
 
         a {
             color: $colorFontLight;
@@ -372,7 +406,17 @@ td {
     text-align: center;
 
     .flexboxitem {
-        width: 30%;
+
+        @media #{$sscreen} {
+            max-width: 430px;
+            margin: auto;
+            width: 70%;
+            float: right;
+            margin-left: 23%;
+            margin-right: 2%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
 
         img {
             width: 95%;

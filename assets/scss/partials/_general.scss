@@ -1,5 +1,9 @@
 /*_gdeneral.scss*/
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -81,9 +85,25 @@ img {
 
 .flexbox {
     display: flex;
-    justify-content: space-around
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @media #{$sscreen} {
+        flex-direction: column;
+    }
 }
 
 .flexboxitem {
     padding: 2%;
+    box-sizing: border-box;
+    width: 30%;
+
+    @media #{$mscreen} {
+        width: 46%;
+    }
+
+    @media #{$sscreen} {
+        width: 70%;
+        margin-right: 25%;
+    }
 }
