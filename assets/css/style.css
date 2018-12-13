@@ -885,16 +885,13 @@ td.yr {
 
 #home_skills .flexboxitem {
   width: 21%; }
+  @media (max-width: 840px) {
+    #home_skills .flexboxitem {
+      width: 45%; } }
   @media (max-width: 540px) {
     #home_skills .flexboxitem {
-      max-width: 430px;
-      margin: auto;
       width: 70%;
-      float: right;
-      margin-left: 23%;
-      margin-right: 2%;
-      margin-top: 10px;
-      margin-bottom: 10px; } }
+      margin-left: 25%; } }
 
 #home_skills a:hover {
   border: none; }
@@ -936,20 +933,7 @@ td.yr {
         font-size: 1rem; } }
 
 #home_code .flexboxitem {
-  margin: 1.5%;
-  background-color: #fff;
-  transition: all .5s;
-  width: 28%; }
-  @media (max-width: 540px) {
-    #home_code .flexboxitem {
-      max-width: 430px;
-      margin: auto;
-      width: 70%;
-      float: right;
-      margin-left: 23%;
-      margin-right: 2%;
-      margin-top: 10px;
-      margin-bottom: 10px; } }
+  background-color: #fff; }
   #home_code .flexboxitem a {
     color: #666; }
   #home_code .flexboxitem:hover {
@@ -964,20 +948,19 @@ td.yr {
     #home_code .flexboxitem:hover a {
       color: #fff; }
 
-#home_code .icons {
+.icons {
   margin-left: 3%;
   padding-bottom: 5px;
   width: 70%;
   display: block;
   border-bottom: 1px solid #BF4D0E; }
+  .icons .fa,
+  .icons .fab,
+  .icons .fas {
+    font-size: 38px; }
 
-#home_code .fa,
-#home_code .fab,
-#home_code .fas {
-  font-size: 38px; }
-
-#home_code h4,
-#home_code p {
+h4,
+p {
   margin-left: 3%; }
 
 .legend {
@@ -1223,7 +1206,7 @@ textarea {
 
 .validation {
   padding: 15px;
-  font-size: 13px;
+  font-size: .75rem;
   text-align: center; }
   .validation a {
     padding: 5px 15px;
