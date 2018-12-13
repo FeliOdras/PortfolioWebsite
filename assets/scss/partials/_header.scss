@@ -100,12 +100,44 @@
             list-style-type: none;
             position: relative;
 
+            @media #{$sscreen} {
+                margin: 15px 0;
+                height: 42px;
+            }
+
             a {
+                @media #{$sscreen} {
+                    height: 42px;
+                    padding: 7px;
+                    background-color: rgba(191, 77, 13, 0.7);
+                    color: #F9ED4D;
+                    box-shadow: 0 0 5px $colorWhite;
+                    width: 42px;
+                    border-radius: 50%;
+                    transition: all 0.5s;
+                    display: inline-block;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-align: center;
+                }
+
                 &:before {
                     @media #{$sscreen} {
                         font-size: 25px;
                         line-height: 30px;
                         padding-left: 2px;
+                    }
+                }
+
+                .menuitemdesc {
+                    @media #{$sscreen} {
+                        transition: all 0.4s;
+                        font-size: .9rem;
+                        line-height: 42px;
+                        margin-left: 10px;
+                        transition: all 0.5s;
+                        width: 42px;
+                        color: #BF4D0E;
                     }
                 }
             }
@@ -137,18 +169,19 @@
                 padding: 10px 8px;
 
                 @media #{$sscreen} {
-                    height: 30px;
-                    padding: 7px;
+                    height: 42px;
+
                     background-color: rgba(191, 77, 13, 0.7);
                     color: $colorTertiary;
                     box-shadow: 0 0 5px $colorWhite;
-                    width: 30px;
+                    width: 42px;
                     border-radius: 20px;
                     transition: all 0.5s;
                     display: inline-block;
                     white-space: nowrap;
                     overflow: hidden;
                     text-align: right;
+                    font-size: 1.5rem;
                 }
 
                 &:hover,
@@ -216,6 +249,11 @@
             }
 
             &:hover {
+                @media #{$sscreen} {
+                    width: 170px;
+                    color: #41140E;
+                }
+
                 ul {
                     &.sub-menu {
                         height: auto;
@@ -287,13 +325,13 @@
                 }
 
                 a {
-                    height: 30px;
+                    height: 42px;
                     padding: 7px;
                     background-color: rgba(191, 77, 13, 0.7);
                     color: #F9ED4D;
                     box-shadow: 0 0 5px $colorWhite;
-                    width: 30px;
-                    border-radius: 20px;
+                    width: 42px;
+                    border-radius: 50%;
                     transition: all 0.5s;
                     display: inline-block;
                     white-space: nowrap;
@@ -303,12 +341,6 @@
                     i {
                         font-size: 25px;
                         line-height: 30px;
-
-                        @media #{$sscreen} {
-                            font-size: 25px;
-                            line-height: 30px;
-                            display: none;
-                        }
                     }
 
                     .menuitemdesc {
@@ -327,10 +359,11 @@
                     a {
                         width: 180px;
                         border: 1px solid $colorAccent;
-                        height: 28px;
+                        height: 40px;
                         color: $colorAccent;
                         background-color: rgba(249, 237, 77, 0.8);
                         text-align: left;
+                        border-radius: 21px;
 
                         .menuitemdesc {
                             display: block;
@@ -361,7 +394,7 @@
                             width: 100%;
                             background-color: transparent;
                             color: $colorDark;
-                            height: 20px;
+                            height: 28px;
                             line-height: 20px;
                             box-shadow: none;
                             border: none;

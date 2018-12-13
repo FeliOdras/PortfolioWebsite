@@ -1,20 +1,4 @@
-#main-container #main-navigation ul li:hover a {
-    width: 170px;
-    color: #41140E;
-}
-
-#main-navigation ul li a .menuitemdesc {
-    display: none;
-    transition: all 0.4s;
-    font-size: 15px;
-    line-height: 30px;
-    margin-left: 10px;
-    transition: all 0.5s;
-    width: 30px;
-    color: #BF4D0E;
-}
-
-#main-navigation ul li:hover a .menuitemdesc {
+/*#main-navigation ul li:hover a .menuitemdesc {
     display: block;
     float: right;
     width: auto;
