@@ -377,11 +377,16 @@ p {
         @media #{$sscreen} {
             margin-top: 10px;
             margin-bottom: 10px;
+            width: 100%;
         }
     }
 
     .fas {
         margin-left: 20px;
+
+        @media #{$sscreen} {
+            float: right;
+        }
     }
 }
 

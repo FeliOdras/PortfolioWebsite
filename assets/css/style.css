@@ -2,7 +2,6 @@
 If you are interested in some more support feel encouraged to contact me on ariane.feldmann@odras.de)
 */
 /* _fonts.scss */
-@import url(../../style/style.css);
 @font-face {
   font-family: 'PT Mono';
   font-style: normal;
@@ -1063,10 +1062,14 @@ p {
   @media (max-width: 540px) {
     .language .flexboxitem {
       margin-top: 10px;
-      margin-bottom: 10px; } }
+      margin-bottom: 10px;
+      width: 100%; } }
 
 .language .fas {
   margin-left: 20px; }
+  @media (max-width: 540px) {
+    .language .fas {
+      float: right; } }
 
 #code_wordpress {
   text-align: center; }
