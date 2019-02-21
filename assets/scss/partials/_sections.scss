@@ -185,8 +185,6 @@ td {
     }
 
     .box {
-        color: $colorWhite;
-        background-color: $colorDark;
 
         a {
             color: $colorTertiary;
@@ -496,6 +494,7 @@ p {
     .flexboxitem {
         text-align: center;
         max-width: 150px;
+        background: transparent;
 
         a {
             color: inherit;

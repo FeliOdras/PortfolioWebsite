@@ -931,20 +931,17 @@ td.yr {
   .inverse a.button {
     color: #BF4D0E;
     background-color: #F9ED4D; }
-  .inverse .box {
-    color: #fff;
-    background-color: #41140E; }
-    .inverse .box a {
-      color: #F9ED4D; }
-      .inverse .box a.button {
-        color: #BF4D0E;
-        background-color: #F9ED4D; }
-    .inverse .box h4.hidden {
-      background-color: #F5EDDF;
-      color: #41140E; }
-    .inverse .box .button {
-      color: #F4DCAF;
+  .inverse .box a {
+    color: #F9ED4D; }
+    .inverse .box a.button {
+      color: #BF4D0E;
       background-color: #F9ED4D; }
+  .inverse .box h4.hidden {
+    background-color: #F5EDDF;
+    color: #41140E; }
+  .inverse .box .button {
+    color: #F4DCAF;
+    background-color: #F9ED4D; }
   .inverse .sectionheading {
     color: #fff; }
 
@@ -1135,7 +1132,8 @@ p {
 
 #code_javascript .flexboxitem {
   text-align: center;
-  max-width: 150px; }
+  max-width: 150px;
+  background: transparent; }
   #code_javascript .flexboxitem a {
     color: inherit; }
     #code_javascript .flexboxitem a:hover {
