@@ -87,10 +87,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-    @media #{$sscreen} {
-        flex-direction: column;
-    }
 }
 
 .flexboxitem {

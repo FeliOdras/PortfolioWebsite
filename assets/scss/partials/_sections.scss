@@ -41,6 +41,12 @@
         margin: 0;
         opacity: 0;
         transition: all .7s;
+
+        span {
+            font-size: .5rem;
+            display: block;
+            line-height: .7rem;
+        }
     }
 }
 
@@ -419,9 +425,30 @@ p {
 
 // Code & Projects
 #code_html {
+    text-align: center;
+
     .flexboxitem {
         max-width: 250px;
         background: transparent;
+
+        img {
+            width: 95%;
+            transition: all .3s;
+        }
+
+        &:hover {
+            img {
+                width: 100%;
+            }
+        }
+
+        a {
+            color: inherit;
+
+            &:hover {
+                border: none;
+            }
+        }
     }
 }
 
@@ -470,14 +497,25 @@ p {
         text-align: center;
         max-width: 150px;
 
+        a {
+            color: inherit;
+
+            &:hover {
+                border: none;
+            }
+        }
+
         img {
             width: 90%;
             transition: all .5s;
+        }
 
-            &:hover {
+        &:hover {
+            img {
                 width: 110%;
             }
         }
+
     }
 }
 
