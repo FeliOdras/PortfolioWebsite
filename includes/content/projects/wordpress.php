@@ -14,7 +14,7 @@
                             <img src="images/wordpress-habermann.png" alt="Brennstoffhandel Habermann"></a>                            
                         </article>                        
                         <article class="box flexboxitem">
-                            <h4 class="hidden"><a href="https://www.educationsports.de" target="_blank">Education Sports></a></h4>
+                            <h4 class="hidden"><a href="https://www.educationsports.de" target="_blank">Education Sports</a></h4>
                             <a href="https://www.educationsports.de" target="_blank">
                             <img src="images/wordpress-education-sports.png" alt="Education Sports"></a>                            
                         </article>
