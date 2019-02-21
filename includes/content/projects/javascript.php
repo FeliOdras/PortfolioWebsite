@@ -4,10 +4,12 @@
                     <h3 class="sectionheading alignleft">JavaScript</h3>
                         <div class="flexbox">
                             <article class="box flexboxitem">
-                                <h4 class="hidden">The Sounds of Silence</h4>
+                                <h4 class="hidden">The Sounds of Silence
+                                    <span>Music App with iTunes API</span>  
+                                </h4>
                                 <a href="https://playground.odras.de/TheSoundsOfSilence/" target="_blank">
                                 <img src="images/theSoundsOfSilence.jpg" alt="The Sounds of Silence"></a>   
-                                <p>Music App with iTunes API</p>                         
+                                                      
                             </article>
                             <article class="box flexboxitem">
                                 <h4 class="hidden">Tip Calculator</h4>

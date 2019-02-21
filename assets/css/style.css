@@ -458,7 +458,7 @@ img {
 .flexbox {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: center; }
   @media (max-width: 540px) {
     .flexbox {
       flex-direction: column; } }
@@ -806,6 +806,8 @@ img {
   margin: 10px auto;
   max-width: 90%;
   position: relative; }
+  .box.flexboxitem {
+    margin: 10px; }
   .box:hover h4.hidden {
     opacity: .7; }
   @media (max-width: 540px) {
@@ -1088,6 +1090,10 @@ p {
     .language .fas {
       float: right; } }
 
+#code_html .flexboxitem {
+  max-width: 250px;
+  background: transparent; }
+
 #code_wordpress {
   text-align: center; }
   #code_wordpress .flexboxitem {
@@ -1116,7 +1122,8 @@ p {
       width: 120%; }
 
 #code_javascript .flexboxitem {
-  text-align: center; }
+  text-align: center;
+  max-width: 150px; }
   #code_javascript .flexboxitem img {
     width: 90%;
     transition: all .5s; }

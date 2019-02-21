@@ -9,6 +9,10 @@
     max-width: 90%;
     position: relative;
 
+    &.flexboxitem {
+        margin: 10px;
+    }
+
     &:hover {
         h4.hidden {
             opacity: .7;
@@ -414,6 +418,12 @@ p {
 }
 
 // Code & Projects
+#code_html {
+    .flexboxitem {
+        max-width: 250px;
+        background: transparent;
+    }
+}
 
 #code_wordpress {
     text-align: center;
@@ -458,6 +468,7 @@ p {
 #code_javascript {
     .flexboxitem {
         text-align: center;
+        max-width: 150px;
 
         img {
             width: 90%;

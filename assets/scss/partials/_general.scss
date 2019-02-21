@@ -86,7 +86,7 @@ img {
 .flexbox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 
     @media #{$sscreen} {
         flex-direction: column;
