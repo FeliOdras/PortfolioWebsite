@@ -10,7 +10,7 @@
     position: relative;
 
     &:hover {
-        h4 {
+        h4.hidden {
             opacity: .7;
         }
     }
@@ -27,7 +27,7 @@
         color: $colorAccent;
     }
 
-    h4 {
+    h4.hidden {
         position: absolute;
         top: 40%;
         text-align: center;
@@ -187,7 +187,7 @@ td {
             }
         }
 
-        h4 {
+        h4.hidden {
             background-color: $colorLight;
             color: $colorDark;
         }
@@ -419,6 +419,8 @@ p {
     text-align: center;
 
     .flexboxitem {
+        max-width: 250px;
+        background: transparent;
 
         @media #{$sscreen} {
             max-width: 430px;
@@ -455,7 +457,6 @@ p {
 
 #code_javascript {
     .flexboxitem {
-        max-width: 250px;
         text-align: center;
 
         img {

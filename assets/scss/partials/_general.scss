@@ -96,7 +96,11 @@ img {
 .flexboxitem {
     padding: 2%;
     box-sizing: border-box;
-    width: 30%;
+    flex-grow: 1;
+
+    img {
+        max-width: 100%;
+    }
 
     @media #{$mscreen} {
         width: 46%;
