@@ -798,12 +798,14 @@ img {
 .box {
   font-family: "PT Mono", monospace;
   line-height: 150%;
-  padding: 1%;
+  padding: 0;
   color: #41140E;
   background-color: #fff;
-  border: 2px solid #BF4D0E;
   margin: 10px auto;
-  max-width: 90%; }
+  max-width: 90%;
+  position: relative; }
+  .box:hover h4 {
+    opacity: .7; }
   @media (max-width: 540px) {
     .box {
       margin-left: 23%;
@@ -813,6 +815,16 @@ img {
       max-width: 72%; } }
   .box a {
     color: #BF4D0E; }
+  .box h4 {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    background-color: #41140E;
+    color: #F5EDDF;
+    margin: 0;
+    opacity: 0;
+    transition: all .7s; }
 
 main {
   position: relative;
@@ -922,6 +934,9 @@ td.yr {
       .inverse .box a.button {
         color: #BF4D0E;
         background-color: #F9ED4D; }
+    .inverse .box h4 {
+      background-color: #F5EDDF;
+      color: #41140E; }
     .inverse .box .button {
       color: #F4DCAF;
       background-color: #F9ED4D; }

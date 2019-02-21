@@ -2,12 +2,18 @@
 .box {
     font-family: $fontPrimary;
     line-height: 150%;
-    padding: 1%;
+    padding: 0;
     color: $colorDark;
     background-color: $colorWhite;
-    border: 2px solid $colorAccent;
     margin: 10px auto;
     max-width: 90%;
+    position: relative;
+
+    &:hover {
+        h4 {
+            opacity: .7;
+        }
+    }
 
     @media #{$sscreen} {
         margin-left: 23%;
@@ -19,6 +25,18 @@
 
     a {
         color: $colorAccent;
+    }
+
+    h4 {
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        width: 100%;
+        background-color: $colorDark;
+        color: $colorLight;
+        margin: 0;
+        opacity: 0;
+        transition: all .7s;
     }
 }
 
@@ -167,6 +185,11 @@ td {
                 color: $colorAccent;
                 background-color: $colorTertiary;
             }
+        }
+
+        h4 {
+            background-color: $colorLight;
+            color: $colorDark;
         }
 
         .button {
