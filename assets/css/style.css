@@ -1095,6 +1095,15 @@ p {
   #code_wordpress .flexboxitem:hover img {
     width: 120%; }
 
+#code_javascript .flexboxitem {
+  max-width: 250px;
+  text-align: center; }
+  #code_javascript .flexboxitem img {
+    width: 90%;
+    transition: all .5s; }
+    #code_javascript .flexboxitem img:hover {
+      width: 110%; }
+
 fieldset {
   border: 1px solid #BF4D0E;
   margin: 20px 0; }
