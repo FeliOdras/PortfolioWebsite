@@ -3,6 +3,14 @@
                 <div class="section_wrapper">
                     <h3 class="sectionheading alignleft">JavaScript</h3>
                         <div class="flexbox">
+                        <article class="box flexboxitem">
+                                <h4 class="hidden"><a href="https://playground.odras.de/MyGithub/" target="_blank">MyGithub
+                                    <span>Show GitHub repositories using GitHub API</span> </a> 
+                                </h4>
+                                <a href="https://playground.odras.de/MyGithub/" target="_blank">
+                                <img src="images/myGithub.png" alt="MyGithub"></a>   
+                                                      
+                            </article>
                             <article class="box flexboxitem">
                                 <h4 class="hidden"><a href="https://playground.odras.de/TheSoundsOfSilence/" target="_blank">The Sounds of Silence
                                     <span>Music App with iTunes API</span> </a> 
