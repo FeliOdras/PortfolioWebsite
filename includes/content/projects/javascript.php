@@ -4,6 +4,14 @@
                     <h3 class="sectionheading alignleft">JavaScript</h3>
                         <div class="flexbox">
                         <article class="box flexboxitem">
+                                <h4 class="hidden"><a href="https://playground.odras.de/Countdown/" target="_blank">MyGithub
+                                    <span>Countdown Page with moment.js</span> </a> 
+                                </h4>
+                                <a href="https://playground.odras.de/Countdown/" target="_blank">
+                                <img src="images/countdown.jpg" alt="Countdown"></a>   
+                                                      
+                            </article>
+                        <article class="box flexboxitem">
                                 <h4 class="hidden"><a href="https://playground.odras.de/MyGithub/" target="_blank">MyGithub
                                     <span>Show GitHub repositories using GitHub API</span> </a> 
                                 </h4>
