@@ -4,7 +4,7 @@
                     <h3 class="sectionheading alignleft">JavaScript</h3>
                         <div class="flexbox">
                         <article class="box flexboxitem">
-                                <h4 class="hidden"><a href="https://playground.odras.de/Countdown/" target="_blank">MyGithub
+                                <h4 class="hidden"><a href="https://playground.odras.de/Countdown/" target="_blank">Countdown
                                     <span>Countdown Page with moment.js</span> </a> 
                                 </h4>
                                 <a href="https://playground.odras.de/Countdown/" target="_blank">
