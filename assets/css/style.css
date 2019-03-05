@@ -1140,7 +1140,8 @@ p {
       border: none; }
   #code_javascript .flexboxitem img {
     width: 90%;
-    transition: all .5s; }
+    transition: all .5s;
+    border-radius: 100%; }
   #code_javascript .flexboxitem:hover img {
     width: 110%; }
 
