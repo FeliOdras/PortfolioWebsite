@@ -4,6 +4,14 @@
                     <h3 class="sectionheading alignleft">JavaScript</h3>
                         <div class="flexbox">
                         <article class="box flexboxitem">
+                                <h4 class="hidden"><a href="https://playground.odras.de/CountryFinder/" target="_blank">CountryFinder
+                                    <span>App to find countries by country dailing code using restcountries.eu API</span> </a> 
+                                </h4>
+                                <a href="https://playground.odras.de/CountryFinder/" target="_blank">
+                                <img src="images/globe.png" alt="CountryFinder"></a>   
+                                                      
+                            </article>
+                        <article class="box flexboxitem">
                                 <h4 class="hidden"><a href="https://playground.odras.de/Countdown/" target="_blank">Countdown
                                     <span>Countdown Page with moment.js</span> </a> 
                                 </h4>
