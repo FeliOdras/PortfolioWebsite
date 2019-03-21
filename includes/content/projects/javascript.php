@@ -4,6 +4,20 @@
                     <h3 class="sectionheading alignleft">JavaScript</h3>
                         <div class="flexbox">
                         <article class="box flexboxitem">
+                                <h4 class="hidden"><a href="https://playground.odras.de/ToDoList/" target="_blank">JavaScript ToDoList
+                                    <span>To Do List using JavaScript and WebPack</span> </a> 
+                                </h4>
+                                <a href="https://playground.odras.de/ToDoList/" target="_blank">
+                                <img src="images/todolist.jpg" alt="JavaScript ToDoList"></a>                               
+                        </article>
+                        <article class="box flexboxitem">
+                                <h4 class="hidden"><a href="https://playground.odras.de/GitHubViewWithSettingsPanel/" target="_blank">GitHub with settings panel
+                                    <span>JavaScript project using GitHub Api to display and filter GitHub Repositories</span> </a> 
+                                </h4>
+                                <a href="https://playground.odras.de/GitHubViewWithSettingsPanel/" target="_blank">
+                                <img src="images/githubWithSettingsPanel.jpg" alt="CountryFinder"></a>                               
+                        </article>
+                        <article class="box flexboxitem">
                                 <h4 class="hidden"><a href="https://playground.odras.de/CountryFinder/" target="_blank">CountryFinder
                                     <span>App to find countries by country dailing code using restcountries.eu API</span> </a> 
                                 </h4>
