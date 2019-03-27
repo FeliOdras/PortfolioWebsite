@@ -461,6 +461,10 @@ img {
   flex-wrap: wrap;
   justify-content: center; }
 
+.xsmall {
+  font-size: 50%;
+  line-height: 110%; }
+
 .flexboxitem {
   padding: 2%;
   box-sizing: border-box;
@@ -914,7 +918,7 @@ td.yr {
   line-height: 1.15;
   border: none;
   transition: all 0.5s;
-  min-width: 220px;
+  min-width: 200px;
   position: relative; }
   .button:hover {
     padding: 6px 16px;
@@ -1133,18 +1137,15 @@ p {
 
 #code_javascript .flexboxitem {
   text-align: center;
-  max-width: 150px;
-  background: transparent; }
+  max-width: 200px;
+  background: transparent;
+  background-color: #F5EDDF;
+  padding: 10px 0;
+  line-height: 110%; }
   #code_javascript .flexboxitem a {
     color: inherit; }
     #code_javascript .flexboxitem a:hover {
       border: none; }
-  #code_javascript .flexboxitem img {
-    width: 90%;
-    transition: all .5s;
-    border-radius: 100%; }
-  #code_javascript .flexboxitem:hover img {
-    width: 110%; }
 
 fieldset {
   border: 1px solid #BF4D0E;

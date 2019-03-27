@@ -4,18 +4,34 @@
                     <h3 class="sectionheading alignleft">JavaScript</h3>
                         <div class="flexbox">
                         <article class="box flexboxitem">
-                                <h4 class="hidden"><a href="https://playground.odras.de/ToDoList/" target="_blank">JavaScript ToDoList
-                                    <span>To Do List using JavaScript and WebPack</span> </a> 
-                                </h4>
+                                <h4>JavaScript ToDoList</h4>
                                 <a href="https://playground.odras.de/ToDoList/" target="_blank">
-                                <img src="images/todolist.jpg" alt="JavaScript ToDoList"></a>                               
+                                <img src="images/screenshots/JS-ToDoList.png" alt="JavaScript ToDoList"></a> <br>
+                                <i class="fab fa-js-square"></i> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i>
+                                <hr>
+                                <div>
+                                    <small>
+                                        <a href="https://playground.odras.de/ToDoList/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
+                                        <a href="https://github.com/FeliOdras/JavaScript-ToDoList" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
+                                    </small>
+                                </div>   
+                                <hr>   
+                                <div class="xsmall">HTML5, CSS3, JavaScript, Webpack, Local Storage</div>                
                         </article>
                         <article class="box flexboxitem">
-                                <h4 class="hidden"><a href="https://playground.odras.de/GitHubViewWithSettingsPanel/" target="_blank">GitHub with settings panel
-                                    <span>JavaScript project using GitHub Api to display and filter GitHub Repositories</span> </a> 
-                                </h4>
+                            <h4>GitHub Panel</h4>
                                 <a href="https://playground.odras.de/GitHubViewWithSettingsPanel/" target="_blank">
-                                <img src="images/githubWithSettingsPanel.jpg" alt="CountryFinder"></a>                               
+                                <img src="images/screenshots/GitHubViewWithSettingsPanel-SettingsOpen.png" alt="GitHub with Settings Panel"></a> <br>
+                                <i class="fab fa-js-square"></i> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-github"></i>
+                                <hr>
+                                <div>
+                                    <small>
+                                        <a href="https://playground.odras.de/GitHubViewWithSettingsPanel/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
+                                        <a href="https://github.com/FeliOdras/GitHubViewWithSettingsPanel" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
+                                    </small>
+                                </div>   
+                                <hr>   
+                                <div class="xsmall">HTML5, CSS3, JavaScript, GitHub REST API, Local Storage</div>                                     
                         </article>
                         <article class="box flexboxitem">
                                 <h4 class="hidden"><a href="https://playground.odras.de/CountryFinder/" target="_blank">CountryFinder
