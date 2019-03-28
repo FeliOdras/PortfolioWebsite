@@ -34,12 +34,19 @@
                                 <div class="xsmall">HTML5, CSS3, JavaScript, GitHub REST API, Local Storage</div>                                     
                         </article>
                         <article class="box flexboxitem">
-                                <h4 class="hidden"><a href="https://playground.odras.de/CountryFinder/" target="_blank">CountryFinder
-                                    <span>App to find countries by country dailing code using restcountries.eu API</span> </a> 
-                                </h4>
+                            <h4>Country Finder</h4>
                                 <a href="https://playground.odras.de/CountryFinder/" target="_blank">
-                                <img src="images/globe.png" alt="CountryFinder"></a>   
-                                                      
+                                <img src="images/screenshots/CountryFinder.png" alt="GitHub with Settings Panel"></a> <br>
+                                <i class="fab fa-js-square"></i> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i>
+                                <hr>
+                                <div>
+                                    <small>
+                                        <a href="https://playground.odras.de/CountryFinder/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
+                                        <a href="https://github.com/FeliOdras/CountryFinder" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
+                                    </small>
+                                </div>   
+                                <hr>   
+                                <div class="xsmall">HTML5, CSS3, JavaScript, RestCountries API</div>                                                   
                             </article>
                         <article class="box flexboxitem">
                                 <h4 class="hidden"><a href="https://playground.odras.de/Countdown/" target="_blank">Countdown

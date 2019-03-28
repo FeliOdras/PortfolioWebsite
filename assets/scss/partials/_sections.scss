@@ -498,12 +498,31 @@ p {
         background-color: $colorLight;
         padding: 10px 0;
         line-height: 110%;
+        overflow: hidden;
+
+        img {
+            transition: all .5s;
+        }
 
         a {
             color: inherit;
+            transition: all .5s;
+            display: inline-block;
+            padding: 3px;
+            margin: 2px 0;
 
             &:hover {
                 border: none;
+                background-color: $colorDark;
+                color: $colorLight;
+            }
+        }
+
+        &:hover {
+            img {
+                max-width: 120%;
+                width: 120%;
+                margin-left: -10%;
             }
         }
 

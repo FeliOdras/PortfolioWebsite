@@ -1141,11 +1141,24 @@ p {
   background: transparent;
   background-color: #F5EDDF;
   padding: 10px 0;
-  line-height: 110%; }
+  line-height: 110%;
+  overflow: hidden; }
+  #code_javascript .flexboxitem img {
+    transition: all .5s; }
   #code_javascript .flexboxitem a {
-    color: inherit; }
+    color: inherit;
+    transition: all .5s;
+    display: inline-block;
+    padding: 3px;
+    margin: 2px 0; }
     #code_javascript .flexboxitem a:hover {
-      border: none; }
+      border: none;
+      background-color: #41140E;
+      color: #F5EDDF; }
+  #code_javascript .flexboxitem:hover img {
+    max-width: 120%;
+    width: 120%;
+    margin-left: -10%; }
 
 fieldset {
   border: 1px solid #BF4D0E;
