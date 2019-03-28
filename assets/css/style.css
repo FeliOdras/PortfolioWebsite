@@ -1148,13 +1148,15 @@ p {
   #code_javascript .flexboxitem a {
     color: inherit;
     transition: all .5s;
-    display: inline-block;
-    padding: 3px;
-    margin: 2px 0; }
+    display: inline-block; }
     #code_javascript .flexboxitem a:hover {
-      border: none;
-      background-color: #41140E;
-      color: #F5EDDF; }
+      border: none; }
+    #code_javascript .flexboxitem a.text-link {
+      padding: 3px;
+      margin: 2px 0; }
+      #code_javascript .flexboxitem a.text-link:hover {
+        background-color: #41140E;
+        color: #F5EDDF; }
   #code_javascript .flexboxitem:hover img {
     max-width: 120%;
     width: 120%;

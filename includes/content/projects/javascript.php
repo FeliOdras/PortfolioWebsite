@@ -1,7 +1,7 @@
         <a id="javascript"></a>
             <section id="code_javascript" class="inverse">
                 <div class="section_wrapper">
-                    <h3 class="sectionheading alignleft">JavaScript</h3>
+                    <h3 class="sectionheading alignleft">Projects and Code Examples</h3>
                         <div class="flexbox">
                         <article class="box flexboxitem">
                                 <h4>JavaScript ToDoList</h4>
@@ -11,8 +11,8 @@
                                 <hr>
                                 <div>
                                     <small>
-                                        <a href="https://playground.odras.de/ToDoList/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
-                                        <a href="https://github.com/FeliOdras/JavaScript-ToDoList" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
+                                        <a class="text-link"  href="https://playground.odras.de/ToDoList/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
+                                        <a class="text-link"  href="https://github.com/FeliOdras/JavaScript-ToDoList" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
                                     </small>
                                 </div>   
                                 <hr>   
@@ -26,8 +26,8 @@
                                 <hr>
                                 <div>
                                     <small>
-                                        <a href="https://playground.odras.de/GitHubViewWithSettingsPanel/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
-                                        <a href="https://github.com/FeliOdras/GitHubViewWithSettingsPanel" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
+                                        <a class="text-link"  href="https://playground.odras.de/GitHubViewWithSettingsPanel/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
+                                        <a class="text-link"  href="https://github.com/FeliOdras/GitHubViewWithSettingsPanel" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
                                     </small>
                                 </div>   
                                 <hr>   
@@ -36,25 +36,33 @@
                         <article class="box flexboxitem">
                             <h4>Country Finder</h4>
                                 <a href="https://playground.odras.de/CountryFinder/" target="_blank">
-                                <img src="images/screenshots/CountryFinder.png" alt="GitHub with Settings Panel"></a> <br>
+                                <img src="images/screenshots/CountryFinder.png" alt="Country Finder"></a> <br>
                                 <i class="fab fa-js-square"></i> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i>
                                 <hr>
                                 <div>
                                     <small>
-                                        <a href="https://playground.odras.de/CountryFinder/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
-                                        <a href="https://github.com/FeliOdras/CountryFinder" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
+                                        <a class="text-link" href="https://playground.odras.de/CountryFinder/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
+                                        <a class="text-link"  href="https://github.com/FeliOdras/CountryFinder" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
                                     </small>
                                 </div>   
                                 <hr>   
                                 <div class="xsmall">HTML5, CSS3, JavaScript, RestCountries API</div>                                                   
                             </article>
-                        <article class="box flexboxitem">
-                                <h4 class="hidden"><a href="https://playground.odras.de/Countdown/" target="_blank">Countdown
-                                    <span>Countdown Page with moment.js</span> </a> 
-                                </h4>
+                        <article class="box flexboxitem"> 
+                                <h4>Countdown Landing Page</h4>
                                 <a href="https://playground.odras.de/Countdown/" target="_blank">
-                                <img src="images/countdown.jpg" alt="Countdown"></a>   
-                                                      
+                                <img src="images/screenshots/CountdownLandingPage.png" alt="Countdown Landing Page"></a> <br>
+                                <i class="fab fa-js-square"></i> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i>
+                                <hr>
+                                <div>
+                                    <small>
+                                        <a class="text-link" href="https://playground.odras.de/Countdown/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
+                                        <a class="text-link"  href="https://github.com/FeliOdras/Countdown" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
+                                    </small>
+                                </div>   
+                                <hr>   
+                                <div class="xsmall">HTML5, CSS3, JavaScript, moment.js</div>                                                   
+                                                  
                             </article>
                         <article class="box flexboxitem">
                                 <h4 class="hidden"><a href="https://playground.odras.de/MyGithub/" target="_blank">MyGithub

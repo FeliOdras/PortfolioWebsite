@@ -508,17 +508,26 @@ p {
             color: inherit;
             transition: all .5s;
             display: inline-block;
-            padding: 3px;
-            margin: 2px 0;
 
             &:hover {
                 border: none;
-                background-color: $colorDark;
-                color: $colorLight;
             }
+
+            &.text-link {
+                padding: 3px;
+                margin: 2px 0;
+
+                &:hover {
+                    background-color: $colorDark;
+                    color: $colorLight;
+                }
+            }
+
+
         }
 
         &:hover {
+
             img {
                 max-width: 120%;
                 width: 120%;
