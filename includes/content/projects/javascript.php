@@ -61,16 +61,22 @@
                                     </small>
                                 </div>   
                                 <hr>   
-                                <div class="xsmall">HTML5, CSS3, JavaScript, moment.js</div>                                                   
-                                                  
+                                <div class="xsmall">HTML5, CSS3, JavaScript, moment.js</div>                    
                             </article>
-                        <article class="box flexboxitem">
-                                <h4 class="hidden"><a href="https://playground.odras.de/MyGithub/" target="_blank">MyGithub
-                                    <span>Show GitHub repositories using GitHub API</span> </a> 
-                                </h4>
+                            <article class="box flexboxitem"> 
+                                <h4>My Github</h4>
                                 <a href="https://playground.odras.de/MyGithub/" target="_blank">
-                                <img src="images/myGithub.png" alt="MyGithub"></a>   
-                                                      
+                                <img src="images/screenshots/MyGithub.png" alt="My Github"></a> <br>
+                                <i class="fab fa-js-square"></i> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i>
+                                <hr>
+                                <div>
+                                    <small>
+                                        <a class="text-link" href="https://playground.odras.de/MyGithub/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
+                                        <a class="text-link"  href="https://github.com/FeliOdras/MyGithub" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
+                                    </small>
+                                </div>   
+                                <hr>   
+                                <div class="xsmall">HTML5, CSS3, JavaScript, GitHub REST API</div>                    
                             </article>
                             <article class="box flexboxitem">
                                 <h4 class="hidden"><a href="https://playground.odras.de/TheSoundsOfSilence/" target="_blank">The Sounds of Silence
