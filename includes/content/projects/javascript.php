@@ -2,7 +2,8 @@
             <section id="code_javascript" class="inverse">
                 <div class="section_wrapper">
                     <h3 class="sectionheading alignleft">Projects and Code Examples</h3>
-                        <div class="flexbox" id="projects-list">
+                    <div id="projects-list"></div>
+                        <div class="flexbox" >
                         <!-- <article class="box flexboxitem">
                                 <h4>JavaScript ToDoList</h4>
                                 <a href="https://playground.odras.de/ToDoList/" target="_blank">
