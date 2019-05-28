@@ -12,6 +12,28 @@
             "techText": "HTML5, CSS3, PHP, JavaScript, Wordpress, Wordpress API"
         },
         {
+            "title": "Portfolio Website",
+            "description": "My portfolio website",
+            "screenshotUri": "images/html-portfolio.png",
+            "techIcons": [
+                "javascript, html, css, json"
+            ],
+            "projectUri": "https://me.odras.de/",
+            "githubUri": "https://github.com/FeliOdras/PortfolioWebsite",
+            "techText": "HTML5, CSS3, PHP, JavaScript, Json"
+        },
+        {
+            "title": "Animated CV",
+            "description": "CSS animated CV",
+            "screenshotUri": "images/screenshots/animatedCV.png",
+            "techIcons": [
+                "html, css"
+            ],
+            "projectUri": "https://me.odras.de/AnimatedCV/",
+            "githubUri": "https://github.com/FeliOdras/AnimatedCV",
+            "techText": "HTML5, CSS3"
+        },
+        {
             "title": "JavaScript ToDo-List",
             "description": "A simple JavaScript ToDo-List",
             "screenshotUri": "images/screenshots/JS-ToDoList.png",
