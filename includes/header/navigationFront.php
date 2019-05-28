@@ -27,14 +27,6 @@
                     <!-- End sub-menu 'Skills' -->
                 </li>
                 <li><a href="projects.php" title="What I did - selected projects and references of mine"><i class="fas fa-laptop-code"></i><span class="menuitemdesc">Projects</span></a>
-                    <!-- Start sub-menu 'Projects and Code' -->
-                    <ul class="sub-menu">
-                        <li><a href="projects.php#html" title="Some HTML/CSS Tricks">HTML/CSS</a></li>
-                        <li><a href="projects.php#themes" title="Website Projects, Theme- and Template Development">WordPress</a></li>
-                        <li><a href="projects.php#javascript" title="Javascript Projects inkl. EgmaScript, Node and React">JavaScript</a></li>
-                        <li><a href="https://github.com/FeliOdras?tab=repositories" title="My Github Repository" target="_blank">Code on Github</a></li>
-                    </ul>
-                    <!-- End sub-menu 'Projects and Code' -->
                 </li>
                 <li><a href="contact.php" title="How to get in touch with me"><i class="fa fa-paper-plane"></i><span class="menuitemdesc">Contact</span></a></li>
             </ul>
