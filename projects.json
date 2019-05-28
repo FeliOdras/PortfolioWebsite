@@ -1,6 +1,17 @@
 {
     "projects": [
         {
+            "title": "Cthulhupark",
+            "description": "Wordpress Theme with customization",
+            "screenshotUri": "images/screenshots/Cthulhupark.png",
+            "techIcons": [
+                "javascript, html, css, php, wordpress, wordpress API"
+            ],
+            "projectUri": "https://hq.cthulhupark.de",
+            "githubUri": "https://github.com/FeliOdras/WordpressTheme-Cthulhupark",
+            "techText": "HTML5, CSS3, PHP, JavaScript, Wordpress, Wordpress API"
+        },
+        {
             "title": "JavaScript ToDo-List",
             "description": "A simple JavaScript ToDo-List",
             "screenshotUri": "images/screenshots/JS-ToDoList.png",
