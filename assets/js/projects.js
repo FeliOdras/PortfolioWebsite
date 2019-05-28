@@ -35,7 +35,9 @@ class showProjectList {
                 <div>
                     <small>
                         <a class="text-link"  href="${project.projectUri}" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
-                        <a class="text-link"  href="${project.githubUri}" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
+                        ${project.githubUri != undefined ?
+                    `<a class="text-link"  href="${project.githubUri}" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>` :
+                    ``}
                     </small>
                 </div>   
                 <hr>   

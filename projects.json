@@ -3,7 +3,7 @@
         {
             "title": "Cthulhupark",
             "description": "Wordpress Theme with customization",
-            "screenshotUri": "images/screenshots/Cthulhupark.png",
+            "screenshotUri": "images/screenshots/Cthuluhpark.png",
             "techIcons": [
                 "javascript, html, css, php, wordpress, wordpress API"
             ],
@@ -131,6 +131,36 @@
             "projectUri": "https://playground.odras.de/Javascript-Animal-Age-Calculator/",
             "githubUri": "https://github.com/FeliOdras/Javascript-Animal-Age-Calculator",
             "techText": "HTML5, CSS3, JavaScript"
+        },
+        {
+            "title": "Brennstoffhandel Habermann",
+            "description": "Wordpress Project for a Fuel Trader",
+            "screenshotUri": "images/screenshots/wordpress-habermann.png",
+            "techIcons": [
+                "html, css, wordpress"
+            ],
+            "projectUri": "https://www.heizoel-habermann.de/",
+            "techText": "HTML5, CSS3, Wordpress"
+        },
+        {
+            "title": "Education Sports",
+            "description": "Wordpress Project for a Martial Arts and Sports School",
+            "screenshotUri": "images/screenshots/wordpress-education-sports.png",
+            "techIcons": [
+                "html, css, wordpress"
+            ],
+            "projectUri": "https://www.educationsports.de",
+            "techText": "HTML5, CSS3, Wordpress, Wordpress Elementor"
+        },
+        {
+            "title": "CoCo Contact",
+            "description": "Wordpress Project for a Communication Agency",
+            "screenshotUri": "images/screenshots/wordpress-coco.png",
+            "techIcons": [
+                "html, css, wordpress"
+            ],
+            "projectUri": "https://www.coco-contact.de/",
+            "techText": "HTML5, CSS3, Wordpress"
         }
     ]
 }
