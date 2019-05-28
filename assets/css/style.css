@@ -7,9 +7,9 @@ If you are interested in some more support feel encouraged to contact me on aria
   font-family: 'PT Mono';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/pt-mono-v5-latin-ext_latin-regular.eot");
+  src: url("../fonts/pt-mono-v5-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("PT Mono"), local("PTMono-Regular"), url("../fonts/pt-mono-v5-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/pt-mono-v5-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/pt-mono-v5-latin-ext_latin-regular.woff") format("woff"), url("../fonts/pt-mono-v5-latin-ext_latin-regular.ttf") format("truetype"), url("../fonts/pt-mono-v5-latin-ext_latin-regular.svg#PTMono") format("svg");
+  src: local("PT Mono"), local("PTMono-Regular"), url("../fonts/pt-mono-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/pt-mono-v5-latin-regular.woff2") format("woff2"), url("../fonts/pt-mono-v5-latin-regular.woff") format("woff"), url("../fonts/pt-mono-v5-latin-regular.ttf") format("truetype"), url("../fonts/pt-mono-v5-latin-regular.svg#PTMono") format("svg");
   /* Legacy iOS */ }
 
 @font-face {

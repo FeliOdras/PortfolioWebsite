@@ -1,0 +1,35 @@
+{"projects" : 
+   [ 
+       {
+        "title": "JavaScript ToDo-List",
+        "description":"A simple JavaScript ToDo-List",
+        "screenshotUri":"./assets/images/screenshots/JS-ToDoList.png",
+        "technologyIcons": [
+            {
+                "javascript": "fab fa-js-square",
+                "html": "fab fa-html5",
+                "css": "fab fa-css3-alt"
+            }
+        ],
+        "projectUri":"https://playground.odras.de/ToDoList/",
+        "githubUri":"https://github.com/FeliOdras/JavaScript-ToDoList",
+        "technologiesText":"HTML5, CSS3, JavaScript, Webpack, Local Storage"
+        },
+        {
+            "title": "GitHub Panel",
+            "description":"Github Repositories with Settings (User selection, Filter repositories, set background image)",
+            "screenshotUri":"./assets/images/screenshots/GitHubViewWithSettingsPanel-SettingsOpen.png",
+            "technologyIcons": [
+                {
+                    "javascript": "fab fa-js-square",
+                    "html": "fab fa-html5",
+                    "css": "fab fa-css3-alt",
+                    "github": "fab fa-github"
+                    }
+            ],
+            "projectUri":"https://playground.odras.de/GitHubViewWithSettingsPanel/",
+            "githubUri":"https://github.com/FeliOdras/GitHubViewWithSettingsPanel",
+            "technologiesText":"HTML5, CSS3, JavaScript, GitHub REST API, Local Storage"
+        }
+    ]
+}
