@@ -8,6 +8,11 @@
     margin: 10px auto;
     max-width: 90%;
     position: relative;
+    
+    h3 {
+        padding:8px;
+        margin:0;
+    }
 
     &.flexboxitem {
         margin: 10px;

@@ -808,6 +808,9 @@ img {
   margin: 10px auto;
   max-width: 90%;
   position: relative; }
+  .box h3 {
+    padding: 8px;
+    margin: 0; }
   .box.flexboxitem {
     margin: 10px; }
   .box:hover h4.hidden {
