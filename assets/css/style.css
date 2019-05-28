@@ -808,6 +808,9 @@ img {
   margin: 10px auto;
   max-width: 90%;
   position: relative; }
+  .box h3 {
+    padding: 8px;
+    margin: 0; }
   .box.flexboxitem {
     margin: 10px; }
   .box:hover h4.hidden {
@@ -1036,6 +1039,11 @@ td.yr {
 h4,
 p {
   margin-left: 3%; }
+
+#skills_stack i {
+  padding: 4vh 3vw; }
+  #skills_stack i:before {
+    font-size: 58px; }
 
 .legend {
   float: right;
