@@ -28,6 +28,9 @@ class showProjectList {
                 <h4>${project.title}</h4>
                 <a href="${project.projectUri}" target="_blank">
                 <img src="${project.screenshotUri}" alt="${project.title}"></a> <br>
+                <div>
+                    <small>${project.description}</small>
+                </div>
                 <hr>
                 <div>
                     <small>
