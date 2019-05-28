@@ -3,7 +3,7 @@
         {
             "title": "JavaScript ToDo-List",
             "description": "A simple JavaScript ToDo-List",
-            "screenshotUri": "./assets/images/screenshots/JS-ToDoList.png",
+            "screenshotUri": "images/screenshots/JS-ToDoList.png",
             "techIcons": [
                 {
                     "javascript": "fa-js-square",
@@ -18,7 +18,7 @@
         {
             "title": "GitHub Panel",
             "description": "Github Repositories with Settings (User selection, Filter repositories, set background image)",
-            "screenshotUri": "./assets/images/screenshots/GitHubViewWithSettingsPanel-SettingsOpen.png",
+            "screenshotUri": "images/screenshots/GitHubViewWithSettingsPanel-SettingsOpen.png",
             "techIcons": [
                 {
                     "javascript": "fab fa-js-square",
