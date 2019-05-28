@@ -10,7 +10,7 @@
                         </article>
                         <article class="box flexboxitem">
                             <h4 class="hidden"><a href="https://me.odras.de//animatedCV/" target="_blank">Animated CV</a></h4>
-                            <a href="https://me.odras.de//animatedCV/" target="_blank">
+                            <a href="https://me.odras.de/AnimatedCV/" target="_blank">
                             <img src="images/animatedCV.png" alt="Animated CV"></a>                            
                         </article>                        
                     </div>
