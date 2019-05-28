@@ -5,7 +5,6 @@
 
     include 'includes/head.php';
     include 'includes/header/headerFront.php'; 
-    include 'includes/content/frontpage/technologies.php';
     include 'includes/content/frontpage/about.php';
     include 'includes/content/frontpage/skills.php';     
     include 'includes/content/frontpage/projects.php';
