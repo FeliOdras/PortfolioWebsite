@@ -5,8 +5,7 @@
 
     include 'includes/head.php';
     include 'includes/header/headerContent.php';         
-    include 'includes/content/projects/javascript.php';
-    include 'includes/content/projects/wordpress.php';     
+    include 'includes/content/projects/javascript.php';   
     include 'includes/content/projects/html.php';
     include 'includes/footer.php';
 ?>
