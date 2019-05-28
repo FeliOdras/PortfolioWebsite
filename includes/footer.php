@@ -16,9 +16,7 @@
                 <li><a href="disclaimer.php">Imprint and Disclaimer</a></li>
             </ul>
         </nav>
-        <div class="validation">
-            <a href="http://validator.w3.org/check/referer" target="_blank" title="Validate MarkUp">Valid HTML5 <i class="fab fa-html5"></i></a> | <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fme.odras.de%2Fstyle%2Fstyle.css" title="Validate Stylesheet" target="_blank" rel="nofollow">Valid CSS3 <i class="fab fa-css3-alt"></i></a></div>
-        </div>
+        
         <?php if ($pageID === 'Projects') { echo '<script src="./assets/js/projects.js"></script>'; }?>
 </body>
 
