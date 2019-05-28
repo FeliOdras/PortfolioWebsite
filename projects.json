@@ -5,11 +5,7 @@
             "description": "A simple JavaScript ToDo-List",
             "screenshotUri": "images/screenshots/JS-ToDoList.png",
             "techIcons": [
-                {
-                    "javascript": "fa-js-square",
-                    "html": "fa-html5",
-                    "css": "fa-css3-alt"
-                }
+                "javascript, html, css"
             ],
             "projectUri": "https://playground.odras.de/ToDoList/",
             "githubUri": "https://github.com/FeliOdras/JavaScript-ToDoList",
@@ -20,12 +16,7 @@
             "description": "Github Repositories with Settings (User selection, Filter repositories, set background image)",
             "screenshotUri": "images/screenshots/GitHubViewWithSettingsPanel-SettingsOpen.png",
             "techIcons": [
-                {
-                    "javascript": "fab fa-js-square",
-                    "html": "fa-html5",
-                    "css": "fa-css3-alt",
-                    "github": "fa-github"
-                }
+                "javascript, html, css, github"
             ],
             "projectUri": "https://playground.odras.de/GitHubViewWithSettingsPanel/",
             "githubUri": "https://github.com/FeliOdras/GitHubViewWithSettingsPanel",
