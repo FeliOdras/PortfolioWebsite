@@ -1037,6 +1037,11 @@ h4,
 p {
   margin-left: 3%; }
 
+#skills_stack i {
+  padding: 4vh 3vw; }
+  #skills_stack i:before {
+    font-size: 58px; }
+
 .legend {
   float: right;
   padding: 6px 12px;

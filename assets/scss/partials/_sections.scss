@@ -345,6 +345,18 @@ p {
 
 //Skills
 
+#skills_stack {
+
+    i {
+        padding:4vh 3vw;
+        &:before
+        {
+        font-size:58px;
+        
+    }
+}
+}
+
 .legend {
     float: right;
     padding: 6px 12px;
