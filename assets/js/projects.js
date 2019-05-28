@@ -28,18 +28,15 @@ class showProjectList {
                 <h4>${project.title}</h4>
                 <a href="${project.projectUri}" target="_blank">
                 <img src="${project.screenshotUri}" alt="${project.title}"></a> <br>
-                ${project.techIcons.map(icon => {
-                console.log(`<i fab fa-${icon}></i>`);
-            })}
                 <hr>
                 <div>
                     <small>
-                        <a class="text-link"  href="https://playground.odras.de/ToDoList/" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
-                        <a class="text-link"  href="https://github.com/FeliOdras/JavaScript-ToDoList" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
+                        <a class="text-link"  href="${project.projectUri}" target="_blank"><i class="fas fa-globe-europe"></i> Live Project</a><br>
+                        <a class="text-link"  href="${project.githubUri}" target="_blank"><i class="fab fa-github"></i> Code on GitHub</a>
                     </small>
                 </div>   
                 <hr>   
-                <div class="xsmall">HTML5, CSS3, JavaScript, Webpack, Local Storage</div>                
+                <div class="xsmall">${project.techText}</div>                
         </article>
                 `;
 
