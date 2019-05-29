@@ -17,7 +17,10 @@
             </ul>
         </nav>
         
-        <?php if ($pageID === 'Projects') { echo '<script src="./assets/js/projects.js"></script>'; }?>
+        <?php if ($pageID === 'Projects') 
+        { echo '<script src="./assets/js/projects.js"></script>';}
+        elseif ($pageID === 'index') 
+        { echo '<script src="./assets/js/frontpage.js"></script>';}?>
 </body>
 
 </html>
