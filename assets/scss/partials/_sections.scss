@@ -151,7 +151,7 @@ td {
     overflow: hidden;
 }
 
-.button {
+.button, a.button {
     background-color: $colorAccent;
     color: $colorTertiary;
     padding: 1% 1%;
@@ -230,121 +230,60 @@ td {
 }
 
 #home_skills {
-    .flexboxitem {
-        width: 21%;
-
-        @media #{$mscreen} {
-            width: 45%;
-        }
-
-        @media #{$sscreen} {
-            width: 70%;
-            margin-left: 25%;
-        }
-    }
-
-    a {
-        &:hover {
-            border: none;
-        }
-    }
-
-    img {
-        transition: all 3s;
-        width: 80%;
-        opacity: 0.85;
-        box-shadow: 0 0 5px #666;
-    }
-
-    figure {
-        position: relative;
-        text-align: center;
-
-        &:hover {
-            img {
-                width: 100%;
-                opacity: 1;
-                transform: rotate(359deg);
-                box-shadow: 0 0 20px #000;
-            }
-
-            figcaption {
-                @media #{$sscreen} {
-                    font-size: 2.3em;
-                }
-
-                h4 {
-                    font-size: 1.4rem;
-                    background-color: rgba(0, 0, 0, 0.6);
-                    color: $colorWhite;
-                }
-            }
-        }
-
-        figcaption {
-            h4 {
-                position: absolute;
-                top: 33%;
-                display: block;
-                text-align: center;
-                color: #ccc;
-                width: 100%;
-                transition: all 1.2s;
-                font-size: 18px;
-                background-color: rgba(0, 0, 0, 0.2);
-                text-shadow: 0 0 5px #000;
-
-                @media #{$sscreen} {
-                    font-size: 1rem;
-                }
-            }
+    
+    i {
+        padding:10px;
+        &:before {
+            font-size: 58px;
+            
         }
     }
 }
 
-#home_code .flexboxitem {
-    background-color: $colorWhite;
+#home_code {
+    .flexboxitem {
+        text-align: center;
+        max-width: 200px;
+        background: transparent;
+        background-color: $colorLight;
+        padding: 10px 0;
+        line-height: 110%;
+        overflow: hidden;
 
-    a {
-        color: $colorFontLight;
-    }
-
-    &:hover {
-        background-color: $colorDark;
-        width: 28%;
-        margin: 0.5%;
-        transform: rotate(5deg);
-        color: $colorWhite;
-
-        @media #{$sscreen} {
-            width: 72%;
+        img {
+            transition: all .5s;
         }
 
         a {
-            color: $colorWhite;
+            color: inherit;
+            transition: all .5s;
+            display: inline-block;
+
+            &:hover {
+                border: none;
+            }
+
+            &.text-link {
+                padding: 3px;
+                margin: 2px 0;
+
+                &:hover {
+                    background-color: $colorDark;
+                    color: $colorLight;
+                }
+            }
         }
+
+        &:hover {
+
+            img {
+                max-width: 120%;
+                width: 120%;
+                margin-left: -10%;
+            }
+        }
+
     }
-}
-
-.icons {
-    margin-left: 3%;
-    padding-bottom: 5px;
-    width: 70%;
-    display: block;
-    border-bottom: 1px solid $colorAccent;
-
-    .fa,
-    .fab,
-    .fas {
-        font-size: 38px;
-    }
-}
-
-
-
-h4,
-p {
-    margin-left: 3%;
 }
 
 

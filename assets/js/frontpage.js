@@ -20,7 +20,8 @@ class showProjectList {
 
     template() {
         const data = this.data;
-        return data.projects.map(project => {
+        var size = 5
+        return data.projects.slice(0, size).map(project => {
             return `
                 <article class="box flexboxitem">
                 <h4>${project.title}</h4>
@@ -52,7 +53,5 @@ class showProjectList {
         this.htmlContainer.innerHTML = template;
 
     }
-
 }
-
-const projectList = new showProjectList('#projects-list', './projects.json')  
+const projectList = new showProjectList('#projects-list-frontpage', './projects.json')  
