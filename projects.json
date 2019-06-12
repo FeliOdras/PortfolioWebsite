@@ -1,188 +1,163 @@
 {
-    "projects": [
-        {
-            "title": "Cthulhupark",
-            "description": "Wordpress Theme with customization",
-            "screenshotUri": "images/screenshots/Cthuluhpark.png",
-            "techIcons": [
-                "javascript, html, css, php, wordpress, wordpress API"
-            ],
-            "projectUri": "https://hq.cthulhupark.de",
-            "githubUri": "https://github.com/FeliOdras/WordpressTheme-Cthulhupark",
-            "techText": "HTML5, CSS3, PHP, JavaScript, Wordpress, Wordpress API"
-        },
-        {
-            "title": "Portfolio Website",
-            "description": "My portfolio website",
-            "screenshotUri": "images/html-portfolio.png",
-            "techIcons": [
-                "javascript, html, css, json"
-            ],
-            "projectUri": "https://me.odras.de/",
-            "githubUri": "https://github.com/FeliOdras/PortfolioWebsite",
-            "techText": "HTML5, CSS3, PHP, JavaScript, Json"
-        },
-        {
-            "title": "Animated CV",
-            "description": "CSS animated CV",
-            "screenshotUri": "images/screenshots/animatedCV.png",
-            "techIcons": [
-                "html, css"
-            ],
-            "projectUri": "https://me.odras.de/AnimatedCV/",
-            "githubUri": "https://github.com/FeliOdras/AnimatedCV",
-            "techText": "HTML5, CSS3"
-        },
-        {
-            "title": "JavaScript ToDo-List",
-            "description": "A simple JavaScript ToDo-List",
-            "screenshotUri": "images/screenshots/JS-ToDoList.png",
-            "techIcons": [
-                "javascript, html, css"
-            ],
-            "projectUri": "https://playground.odras.de/ToDoList/",
-            "githubUri": "https://github.com/FeliOdras/JavaScript-ToDoList",
-            "techText": "HTML5, CSS3, JavaScript, Webpack, Local Storage"
-        },
-        {
-            "title": "GitHub Panel",
-            "description": "Github Repositories with Settings (User selection, Filter repositories, set background image)",
-            "screenshotUri": "images/screenshots/GitHubViewWithSettingsPanel-SettingsOpen.png",
-            "techIcons": [
-                "javascript, html, css, github"
-            ],
-            "projectUri": "https://playground.odras.de/GitHubViewWithSettingsPanel/",
-            "githubUri": "https://github.com/FeliOdras/GitHubViewWithSettingsPanel",
-            "techText": "HTML5, CSS3, JavaScript, GitHub REST API, Local Storage"
-        },
-        {
-            "title": "Country Finder",
-            "description": "Find countries and country information by country calling code",
-            "screenshotUri": "images/screenshots/CountryFinder.png",
-            "techIcons": [
-                "javascript, html, css"
-            ],
-            "projectUri": "https://playground.odras.de/CountryFinder/",
-            "githubUri": "https://github.com/FeliOdras/CountryFinder",
-            "techText": "HTML5, CSS3, JavaScript, RestCountries API"
-        },
-        {
-            "title": "Countdown Landing Page",
-            "description": "Landing Page Template with Countdown",
-            "screenshotUri": "images/screenshots/CountdownLandingPage.png",
-            "techIcons": [
-                "javascript, html, css"
-            ],
-            "projectUri": "https://playground.odras.de/Countdown/",
-            "githubUri": "https://github.com/FeliOdras/Countdown",
-            "techText": "HTML5, CSS3, JavaScript, moment.js"
-        },
-        {
-            "title": "My Github",
-            "description": "A webapp to consume Github Api",
-            "screenshotUri": "images/screenshots/MyGithub.png",
-            "techIcons": [
-                "javascript, html, css, github"
-            ],
-            "projectUri": "https://playground.odras.de/MyGithub/",
-            "githubUri": "https://github.com/FeliOdras/MyGithub",
-            "techText": "HTML5, CSS3, JavaScript, GitHub REST API"
-        },
-        {
-            "title": "The Sound of Silence",
-            "description": "Search Music using iTunes API",
-            "screenshotUri": "images/screenshots/SoundOfSilence.png",
-            "techIcons": [
-                "javascript, html, css, iTunes API"
-            ],
-            "projectUri": "https://playground.odras.de/TheSoundsOfSilence/",
-            "githubUri": "https://github.com/FeliOdras/iTunesAPI",
-            "techText": "HTML5, CSS3, JavaScript, iTunesAPI"
-        },
-        {
-            "title": "Tip Calculator",
-            "description": "Small JS App to calculate tip",
-            "screenshotUri": "images/screenshots/TipCalculator.png",
-            "techIcons": [
-                "javascript, html, css"
-            ],
-            "projectUri": "https://playground.odras.de/TipCalculator/",
-            "githubUri": "https://github.com/FeliOdras/Tip-Calculator",
-            "techText": "HTML5, CSS3, JavaScript"
-        },
-        {
-            "title": "Math Game",
-            "description": "Practice basic calculation for 2nd grade elementary school children",
-            "screenshotUri": "images/screenshots/MathGame.png",
-            "techIcons": [
-                "javascript, html, css"
-            ],
-            "projectUri": "https://playground.odras.de/MathGame/",
-            "githubUri": "https://github.com/FeliOdras/MathGame",
-            "techText": "HTML5, CSS3, JavaScript"
-        },
-        {
-            "title": "Quote of the day",
-            "description": "Random quote generator",
-            "screenshotUri": "images/screenshots/QuoteOfTheDay.png",
-            "techIcons": [
-                "javascript, html, css"
-            ],
-            "projectUri": "https://playground.odras.de/QuoteOfTheDay/",
-            "githubUri": "https://github.com/FeliOdras/Quote-Of-The-Day",
-            "techText": "HTML5, CSS3, JavaScript"
-        },
-        {
-            "title": "Fortune Telling Game",
-            "description": "Random fortune generator",
-            "screenshotUri": "images/screenshots/FortuneTeller.png",
-            "techIcons": [
-                "javascript, html, css"
-            ],
-            "projectUri": "https://playground.odras.de/FortuneTellingGame/",
-            "githubUri": "https://github.com/FeliOdras/FortuneTellingGame",
-            "techText": "HTML5, CSS3, JavaScript"
-        },
-        {
-            "title": "Animal Age Calulator",
-            "description": "Calculate animal ages",
-            "screenshotUri": "images/screenshots/AnimalAgeCalculator.png",
-            "techIcons": [
-                "javascript, html, css"
-            ],
-            "projectUri": "https://playground.odras.de/Javascript-Animal-Age-Calculator/",
-            "githubUri": "https://github.com/FeliOdras/Javascript-Animal-Age-Calculator",
-            "techText": "HTML5, CSS3, JavaScript"
-        },
-        {
-            "title": "Brennstoffhandel Habermann",
-            "description": "Wordpress Project for a Fuel Trader",
-            "screenshotUri": "images/screenshots/wordpress-habermann.png",
-            "techIcons": [
-                "html, css, wordpress"
-            ],
-            "projectUri": "https://www.heizoel-habermann.de/",
-            "techText": "HTML5, CSS3, Wordpress"
-        },
-        {
-            "title": "Education Sports",
-            "description": "Wordpress Project for a Martial Arts and Sports School",
-            "screenshotUri": "images/screenshots/wordpress-education-sports.png",
-            "techIcons": [
-                "html, css, wordpress"
-            ],
-            "projectUri": "https://www.educationsports.de",
-            "techText": "HTML5, CSS3, Wordpress, Wordpress Elementor"
-        },
-        {
-            "title": "CoCo Contact",
-            "description": "Wordpress Project for a Communication Agency",
-            "screenshotUri": "images/screenshots/wordpress-coco.png",
-            "techIcons": [
-                "html, css, wordpress"
-            ],
-            "projectUri": "https://www.coco-contact.de/",
-            "techText": "HTML5, CSS3, Wordpress"
-        }
-    ]
+  "projects": [
+    {
+      "title": "Cthulhupark",
+      "description": "Wordpress Theme with customization",
+      "screenshotUri": "images/screenshots/Cthuluhpark.png",
+      "techIcons": ["javascript, html, css, php, wordpress, wordpress API"],
+      "projectUri": "https://hq.cthulhupark.de",
+      "githubUri": "https://github.com/FeliOdras/WordpressTheme-Cthulhupark",
+      "techText": "HTML5, CSS3, PHP, JavaScript, Wordpress, Wordpress API"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "My portfolio website",
+      "screenshotUri": "images/html-portfolio.png",
+      "techIcons": ["javascript, html, css, json"],
+      "projectUri": "https://me.odras.de/",
+      "githubUri": "https://github.com/FeliOdras/PortfolioWebsite",
+      "techText": "HTML5, CSS3, PHP, JavaScript, Json"
+    },
+    {
+      "title": "React Tic Tac Toe Game",
+      "description": "React Game: Tic Tac Toe - following React Tutorial",
+      "screenshotUri": "images/screenshots/TicTacToe.png",
+      "techIcons": ["javascript, html, css, React.js"],
+      "projectUri": "https://playground.odras.de/TicTacToe/",
+      "githubUri": "https://github.com/FeliOdras/ReactTutorial-tic-tac-toe",
+      "techText": "HTML5, CSS3/SASS, JavaScript, React.js"
+    },
+    {
+      "title": "Animated CV",
+      "description": "CSS animated CV",
+      "screenshotUri": "images/screenshots/animatedCV.png",
+      "techIcons": ["html, css"],
+      "projectUri": "https://me.odras.de/AnimatedCV/",
+      "githubUri": "https://github.com/FeliOdras/AnimatedCV",
+      "techText": "HTML5, CSS3"
+    },
+    {
+      "title": "JavaScript ToDo-List",
+      "description": "A simple JavaScript ToDo-List",
+      "screenshotUri": "images/screenshots/JS-ToDoList.png",
+      "techIcons": ["javascript, html, css"],
+      "projectUri": "https://playground.odras.de/ToDoList/",
+      "githubUri": "https://github.com/FeliOdras/JavaScript-ToDoList",
+      "techText": "HTML5, CSS3, JavaScript, Webpack, Local Storage"
+    },
+    {
+      "title": "GitHub Panel",
+      "description": "Github Repositories with Settings (User selection, Filter repositories, set background image)",
+      "screenshotUri": "images/screenshots/GitHubViewWithSettingsPanel-SettingsOpen.png",
+      "techIcons": ["javascript, html, css, github"],
+      "projectUri": "https://playground.odras.de/GitHubViewWithSettingsPanel/",
+      "githubUri": "https://github.com/FeliOdras/GitHubViewWithSettingsPanel",
+      "techText": "HTML5, CSS3, JavaScript, GitHub REST API, Local Storage"
+    },
+    {
+      "title": "Country Finder",
+      "description": "Find countries and country information by country calling code",
+      "screenshotUri": "images/screenshots/CountryFinder.png",
+      "techIcons": ["javascript, html, css"],
+      "projectUri": "https://playground.odras.de/CountryFinder/",
+      "githubUri": "https://github.com/FeliOdras/CountryFinder",
+      "techText": "HTML5, CSS3, JavaScript, RestCountries API"
+    },
+    {
+      "title": "Countdown Landing Page",
+      "description": "Landing Page Template with Countdown",
+      "screenshotUri": "images/screenshots/CountdownLandingPage.png",
+      "techIcons": ["javascript, html, css"],
+      "projectUri": "https://playground.odras.de/Countdown/",
+      "githubUri": "https://github.com/FeliOdras/Countdown",
+      "techText": "HTML5, CSS3, JavaScript, moment.js"
+    },
+    {
+      "title": "My Github",
+      "description": "A webapp to consume Github Api",
+      "screenshotUri": "images/screenshots/MyGithub.png",
+      "techIcons": ["javascript, html, css, github"],
+      "projectUri": "https://playground.odras.de/MyGithub/",
+      "githubUri": "https://github.com/FeliOdras/MyGithub",
+      "techText": "HTML5, CSS3, JavaScript, GitHub REST API"
+    },
+    {
+      "title": "The Sound of Silence",
+      "description": "Search Music using iTunes API",
+      "screenshotUri": "images/screenshots/SoundOfSilence.png",
+      "techIcons": ["javascript, html, css, iTunes API"],
+      "projectUri": "https://playground.odras.de/TheSoundsOfSilence/",
+      "githubUri": "https://github.com/FeliOdras/iTunesAPI",
+      "techText": "HTML5, CSS3, JavaScript, iTunesAPI"
+    },
+    {
+      "title": "Tip Calculator",
+      "description": "Small JS App to calculate tip",
+      "screenshotUri": "images/screenshots/TipCalculator.png",
+      "techIcons": ["javascript, html, css"],
+      "projectUri": "https://playground.odras.de/TipCalculator/",
+      "githubUri": "https://github.com/FeliOdras/Tip-Calculator",
+      "techText": "HTML5, CSS3, JavaScript"
+    },
+    {
+      "title": "Math Game",
+      "description": "Practice basic calculation for 2nd grade elementary school children",
+      "screenshotUri": "images/screenshots/MathGame.png",
+      "techIcons": ["javascript, html, css"],
+      "projectUri": "https://playground.odras.de/MathGame/",
+      "githubUri": "https://github.com/FeliOdras/MathGame",
+      "techText": "HTML5, CSS3, JavaScript"
+    },
+    {
+      "title": "Quote of the day",
+      "description": "Random quote generator",
+      "screenshotUri": "images/screenshots/QuoteOfTheDay.png",
+      "techIcons": ["javascript, html, css"],
+      "projectUri": "https://playground.odras.de/QuoteOfTheDay/",
+      "githubUri": "https://github.com/FeliOdras/Quote-Of-The-Day",
+      "techText": "HTML5, CSS3, JavaScript"
+    },
+    {
+      "title": "Fortune Telling Game",
+      "description": "Random fortune generator",
+      "screenshotUri": "images/screenshots/FortuneTeller.png",
+      "techIcons": ["javascript, html, css"],
+      "projectUri": "https://playground.odras.de/FortuneTellingGame/",
+      "githubUri": "https://github.com/FeliOdras/FortuneTellingGame",
+      "techText": "HTML5, CSS3, JavaScript"
+    },
+    {
+      "title": "Animal Age Calulator",
+      "description": "Calculate animal ages",
+      "screenshotUri": "images/screenshots/AnimalAgeCalculator.png",
+      "techIcons": ["javascript, html, css"],
+      "projectUri": "https://playground.odras.de/Javascript-Animal-Age-Calculator/",
+      "githubUri": "https://github.com/FeliOdras/Javascript-Animal-Age-Calculator",
+      "techText": "HTML5, CSS3, JavaScript"
+    },
+    {
+      "title": "Brennstoffhandel Habermann",
+      "description": "Wordpress Project for a Fuel Trader",
+      "screenshotUri": "images/screenshots/wordpress-habermann.png",
+      "techIcons": ["html, css, wordpress"],
+      "projectUri": "https://www.heizoel-habermann.de/",
+      "techText": "HTML5, CSS3, Wordpress"
+    },
+    {
+      "title": "Education Sports",
+      "description": "Wordpress Project for a Martial Arts and Sports School",
+      "screenshotUri": "images/screenshots/wordpress-education-sports.png",
+      "techIcons": ["html, css, wordpress"],
+      "projectUri": "https://www.educationsports.de",
+      "techText": "HTML5, CSS3, Wordpress, Wordpress Elementor"
+    },
+    {
+      "title": "CoCo Contact",
+      "description": "Wordpress Project for a Communication Agency",
+      "screenshotUri": "images/screenshots/wordpress-coco.png",
+      "techIcons": ["html, css, wordpress"],
+      "projectUri": "https://www.coco-contact.de/",
+      "techText": "HTML5, CSS3, Wordpress"
+    }
+  ]
 }
