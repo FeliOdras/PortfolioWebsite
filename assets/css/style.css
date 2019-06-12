@@ -817,7 +817,7 @@ img {
   .box.flexboxitem {
     margin: 10px; }
   .box:hover h4.hidden {
-    opacity: .7; }
+    opacity: 0.7; }
   @media (max-width: 540px) {
     .box {
       margin-left: 23%;
@@ -836,11 +836,11 @@ img {
     color: #F5EDDF;
     margin: 0;
     opacity: 0;
-    transition: all .7s; }
+    transition: all 0.7s; }
     .box h4.hidden span {
-      font-size: .5rem;
+      font-size: 0.5rem;
       display: block;
-      line-height: .7rem; }
+      line-height: 0.7rem; }
 
 main {
   position: relative;
@@ -852,7 +852,7 @@ main {
     background-repeat: repeat; }
     main section:after {
       clear: both;
-      content: '';
+      content: "";
       display: block;
       width: 100%; }
     main section .main_wrapper {
@@ -872,7 +872,7 @@ main {
 
 code {
   display: block;
-  font-size: .7rem;
+  font-size: 0.7rem;
   padding: 15px;
   background-color: #111; }
 
@@ -898,7 +898,7 @@ td.yr {
   max-width: 1200px; }
   @media (max-width: 540px) {
     .pagetitle {
-      font-size: .9rem;
+      font-size: 0.9rem;
       padding-left: 15%;
       padding-right: 5%; } }
   .pagetitle em {
@@ -915,7 +915,8 @@ td.yr {
   height: 0;
   overflow: hidden; }
 
-.button, a.button {
+.button,
+a.button {
   background-color: #BF4D0E;
   color: #F9ED4D;
   padding: 1% 1%;
@@ -926,11 +927,13 @@ td.yr {
   transition: all 0.5s;
   min-width: 200px;
   position: relative; }
-  .button:hover, a.button:hover {
+  .button:hover,
+  a.button:hover {
     padding: 6px 16px;
     border: none;
     color: #000; }
-  .button em, a.button em {
+  .button em,
+  a.button em {
     font-style: normal;
     font-family: "Great Vibes", cursive;
     font-size: 1.75rem; }
@@ -943,9 +946,9 @@ td.yr {
     color: #BF4D0E;
     background-color: #F9ED4D; }
   .inverse .box a {
-    color: #F9ED4D; }
+    color: #BF4D0E; }
     .inverse .box a.button {
-      color: #BF4D0E;
+      color: #F4DCAF;
       background-color: #F9ED4D; }
   .inverse .box h4.hidden {
     background-color: #F5EDDF;
@@ -977,10 +980,10 @@ td.yr {
   line-height: 110%;
   overflow: hidden; }
   #home_code .flexboxitem img {
-    transition: all .5s; }
+    transition: all 0.5s; }
   #home_code .flexboxitem a {
     color: inherit;
-    transition: all .5s;
+    transition: all 0.5s;
     display: inline-block; }
     #home_code .flexboxitem a:hover {
       border: none; }
@@ -1007,7 +1010,7 @@ td.yr {
   background-color: transparent;
   border: 1px solid #F9ED4D;
   color: #F9ED4D;
-  opacity: .7;
+  opacity: 0.7;
   margin-top: 20px; }
 
 .legend h4 {
@@ -1063,7 +1066,7 @@ td.yr {
     background: transparent; }
     #code_html .flexboxitem img {
       width: 95%;
-      transition: all .3s; }
+      transition: all 0.3s; }
     #code_html .flexboxitem:hover img {
       width: 100%; }
     #code_html .flexboxitem a {
@@ -1089,7 +1092,7 @@ td.yr {
     #code_wordpress .flexboxitem img {
       width: 95%;
       margin: auto;
-      transition: all .8s; }
+      transition: all 0.8s; }
     @media (max-width: 540px) {
       #code_wordpress .flexboxitem:hover {
         width: 72%; } }
@@ -1107,10 +1110,10 @@ td.yr {
   line-height: 110%;
   overflow: hidden; }
   #code_javascript .flexboxitem img {
-    transition: all .5s; }
+    transition: all 0.5s; }
   #code_javascript .flexboxitem a {
     color: inherit;
-    transition: all .5s;
+    transition: all 0.5s;
     display: inline-block; }
     #code_javascript .flexboxitem a:hover {
       border: none; }
@@ -1185,7 +1188,7 @@ label {
     top: 3px;
     width: 5px;
     height: 10px;
-    border: solid #F9ED4D;
+    border: solid #f9ed4d;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
