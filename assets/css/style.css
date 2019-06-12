@@ -943,13 +943,13 @@ a.button {
   background-image: none;
   color: #fff; }
   .inverse a.button {
-    color: #BF4D0E;
-    background-color: #F9ED4D; }
+    background-color: #BF4D0E;
+    color: #F9ED4D; }
   .inverse .box a {
     color: #BF4D0E; }
     .inverse .box a.button {
-      color: #F4DCAF;
-      background-color: #F9ED4D; }
+      background-color: #BF4D0E;
+      color: #F9ED4D; }
   .inverse .box h4.hidden {
     background-color: #F5EDDF;
     color: #41140E; }
