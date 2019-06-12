@@ -412,7 +412,8 @@ img {
   margin-right: 23%;
   margin-left: 2%;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding: 20px; }
   @media (max-width: 540px) {
     .boxleft {
       margin-left: 23%;
@@ -432,7 +433,8 @@ img {
   margin-right: 2%;
   max-width: 73%;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding: 20px; }
   @media (max-width: 540px) {
     .boxright {
       margin-left: 23%;
@@ -443,7 +445,8 @@ img {
 
 .imgcenter,
 .boxcenter {
-  margin: auto; }
+  margin: auto;
+  padding: 20px; }
 
 .clr {
   clear: both;
@@ -802,7 +805,7 @@ img {
 .box {
   font-family: "PT Mono", monospace;
   line-height: 150%;
-  padding: 0;
+  padding: 20px;
   color: #41140E;
   background-color: #fff;
   margin: 10px auto;
