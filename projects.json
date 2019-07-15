@@ -19,6 +19,15 @@
       "techText": "HTML5, CSS3, PHP, JavaScript, Json"
     },
     {
+      "title": "React Ticking Clock",
+      "description": "Ticking Clock created with React using lifecycle methods",
+      "screenshotUri": "images/screenshots/react-ticking-clock.png",
+      "techIcons": ["javascript, html, css, React.js"],
+      "projectUri": "https://playground.odras.de/react-ticking-clock/",
+      "githubUri": "https://github.com/FeliOdras/react-ticking-clock",
+      "techText": "HTML5, CSS3/SASS, JavaScript, React.js"
+    },
+    {
       "title": "Rick and Morty Characterbase",
       "description": "React App using GraphQL of rickandmortyapi",
       "screenshotUri": "images/screenshots/rick-and-morty-api.png",
@@ -35,6 +44,15 @@
       "projectUri": "https://playground.odras.de/TicTacToe/",
       "githubUri": "https://github.com/FeliOdras/ReactTutorial-tic-tac-toe",
       "techText": "HTML5, CSS3/SASS, JavaScript, React.js"
+    },
+    {
+      "title": "React Markdown Editor",
+      "description": "Markdown editor created with React and Remarkable",
+      "screenshotUri": "images/screenshots/markdown-editor.png",
+      "techIcons": ["javascript, html, css, React.js"],
+      "projectUri": "https://playground.odras.de/react-markdown-editor",
+      "githubUri": "https://github.com/FeliOdras/React-Markdown-Editor",
+      "techText": "HTML5, CSS3/SASS, JavaScript, React.js, Remarkable.js"
     },
     {
       "title": "Animated CV",
