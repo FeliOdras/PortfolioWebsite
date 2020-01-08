@@ -11,7 +11,10 @@ monospace;
 $fontHeadline: 'Great Vibes',
 cursive;
 
-$xlscreen: screen and (min-width:1025px);
-$lscreen: screen and (min-width:841px) and (max-width:1024px);
-$mscreen: screen and (min-width:541px) and (max-width:840px);
-$sscreen: screen and (max-width:540px);
+$sscreen-max: 540px;
+$mscreen-min: ($sscreen-max + 1);
+$mscreen-max: 840px;
+$lscreen-min: ($mscreen-max + 1);
+$lscreen-max:1024px;
+$xlscreen-min: ($lscreen-max + 1);
+

@@ -34,7 +34,7 @@ img {
     margin-bottom: 20px;
     padding:20px;
 
-    @media #{$sscreen} {
+    @media screen and (max-width:$sscreen-max) {
         margin-left: 23%;
         margin-right: 2%;
         margin-top: 10px;
@@ -58,7 +58,7 @@ img {
     margin-bottom: 20px;
     padding:20px;
 
-    @media #{$sscreen} {
+    @media screen and (max-width:$sscreen-max) {
         margin-left: 23%;
         margin-right: 2%;
         margin-top: 10px;
@@ -106,11 +106,11 @@ img {
         max-width: 100%;
     }
 
-    @media #{$mscreen} {
+    @media screen and (max-width:$mscreen-max) and (min-width:$mscreen-min) {
         width: 46%;
     }
 
-    @media #{$sscreen} {
+    @media screen and (max-width:$sscreen-max) {
         width: 70%;
         margin-right: 25%;
     }

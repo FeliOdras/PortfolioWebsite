@@ -5,19 +5,19 @@
     padding: 1.5%;
     background-attachment: fixed;
 
-    @media #{$xlscreen} {
+    @media screen and (min-width:$xlscreen-min) {
         background-image: url(../../images/headerbackground_XL.jpg);
     }
 
-    @media #{$lscreen} {
+    @media screen and (max-width:$lscreen-max) and (min-width:$lscreen-min) {
         background-image: url(../../images/headerbackground_L.jpg);
     }
 
-    @media #{$mscreen} {
+    @media screen and (max-width:$mscreen-max) and (min-width:$mscreen-min){
         background-image: url(../../images/headerbackground_M.jpg);
     }
 
-    @media #{$sscreen} {
+    @media screen and (max-width:$sscreen-max) {
         background-image: url(../../images/headerbackground_M.jpg);
     }
 
@@ -43,7 +43,7 @@
         margin-top: 30px;
         margin-bottom: 15px;
 
-        @media #{$sscreen} {
+        @media screen and (max-width:$sscreen-max) {
             font-size: 2rem;
             padding-left: 15%;
         }
@@ -60,7 +60,7 @@
         font-family: $fontPrimary;
         font-style: italic;
 
-        @media #{$sscreen} {
+        @media screen and (max-width:$sscreen-max) {
             padding-left: 15%;
         }
     }
@@ -88,14 +88,14 @@
             padding-left: 15%;
 
 
-            @media #{$sscreen} {
+            @media screen and (max-width:$sscreen-max) {
                 font-size: 2.5rem;
             }
 
             small {
                 font-size: 1.125rem;
 
-                @media #{$sscreen} {
+                @media screen and (max-width:$sscreen-max) {
                     font-size: 1rem;
                 }
             }

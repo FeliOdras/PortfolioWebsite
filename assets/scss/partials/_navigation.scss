@@ -9,7 +9,7 @@
     box-shadow: 0 0 10px #000;
     z-index: 99;
 
-    @media #{$sscreen} {
+    @media screen and (max-width:$sscreen-max) {
         background: transparent;
         box-shadow: none;
         position: fixed;
@@ -25,7 +25,7 @@
             padding: 0;
             height: 30px;
 
-            @media #{$sscreen} {
+            @media screen and (max-width:$sscreen-max) {
                 margin: 0 8px;
                 height: auto;
                 padding: 0;
@@ -37,7 +37,7 @@
             list-style-type: none;
             position: relative;
 
-            @media #{$sscreen} {
+            @media screen and (max-width:$sscreen-max) {
                 margin: 15px 0;
                 height: 42px;
                 max-width: 160px;
@@ -48,7 +48,7 @@
                 display: inline-block;
                 padding: 0 5px;
 
-                @media #{$sscreen} {
+                @media screen and (max-width:$sscreen-max) {
                     height: 42px;
                     padding: 7px 7px;
                     background-color: rgba(191, 77, 13, 0.7);
@@ -70,7 +70,7 @@
                     color: $colorDark;
                     background-color: $colorWhite;
 
-                    @media #{$sscreen} {
+                    @media screen and (max-width:$sscreen-max) {
                         background-color: rgba(249, 237, 77, 0.8);
                         width: 170px;
                     }
@@ -79,7 +79,7 @@
                 i {
                     padding-right: 5px;
 
-                    @media #{$sscreen} {
+                    @media screen and (max-width:$sscreen-max) {
                         padding-right: 0;
                         font-size: 1.6rem;
                         line-height: 30px;
@@ -88,7 +88,7 @@
                 }
 
                 &:before {
-                    @media #{$sscreen} {
+                    @media screen and (max-width:$sscreen-max) {
                         font-size: 1.6rem;
                         line-height: 30px;
                         padding-left: 2px;
@@ -96,7 +96,7 @@
                 }
 
                 .menuitemdesc {
-                    @media #{$sscreen} {
+                    @media screen and (max-width:$sscreen-max) {
                         transition: all 0.4s;
                         font-size: .9rem;
                         line-height: 42px;
@@ -108,7 +108,7 @@
                 }
             }
 
-            @media #{$sscreen} {
+            @media screen and (max-width:$sscreen-max) {
                 display: block;
                 margin: 15px 0;
                 height: 42px;
@@ -120,7 +120,7 @@
                     color: $colorDark;
                     background-color: $colorWhite;
 
-                    @media #{$sscreen} {
+                    @media screen and (max-width:$sscreen-max) {
                         background-color: rgba(249, 237, 77, 0.8);
                         color: $colorDark;
                     }
@@ -132,7 +132,7 @@
                     content: '\25BC';
                     color: $colorAccent;
 
-                    @media #{$sscreen} {
+                    @media screen and (max-width:$sscreen-max) {
                         display: none;
                     }
                 }
@@ -150,7 +150,7 @@
                     box-shadow: 0 0 3px #000;
                     margin-top: -3px;
 
-                    @media #{$sscreen} {
+                    @media screen and (max-width:$sscreen-max) {
                         background-color: rgba(249, 237, 77, 0.8);
                         z-index: 999;
                         margin-left: 42px;
@@ -161,7 +161,7 @@
                         width: 100%;
                         display: inline-block;
 
-                        @media #{$sscreen} {
+                        @media screen and (max-width:$sscreen-max) {
                             margin: 0;
                             height: auto;
                             min-height: 30px;
@@ -177,7 +177,7 @@
                             display: inline-block;
 
 
-                            @media #{$sscreen} {
+                            @media screen and (max-width:$sscreen-max) {
                                 background-color: rgba(249, 237, 77, 0.8);
                                 color: $colorDark;
                                 font-size: .9rem;
@@ -197,7 +197,7 @@
             }
 
             &:hover {
-                @media #{$sscreen} {
+                @media screen and (max-width:$sscreen-max) {
                     width: 170px;
                     color: #41140E;
 
@@ -232,7 +232,7 @@
                 margin: 15px 0;
                 height: 42px;
 
-                @media #{$sscreen} {
+                @media screen and (max-width:$sscreen-max) {
                     display: block;
                     margin: 15px 0;
                     height: 42px;

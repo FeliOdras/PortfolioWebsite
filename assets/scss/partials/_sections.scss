@@ -24,7 +24,7 @@
     }
   }
 
-  @media #{$sscreen} {
+  @media screen and (max-width:$sscreen-max) {
     margin-left: 23%;
     margin-right: 2%;
     margin-top: 10px;
@@ -87,7 +87,7 @@ main {
     font-size: 2.625rem;
     margin: 42px 0 23px;
 
-    @media #{$sscreen} {
+    @media screen and (max-width:$sscreen-max) {
       text-align: right;
       padding-right: 3%;
       font-size: 2.2rem;
@@ -127,7 +127,7 @@ td {
   margin: auto;
   max-width: 1200px;
 
-  @media #{$sscreen} {
+  @media screen and (max-width:$sscreen-max) {
     font-size: 0.9rem;
     padding-left: 15%;
     padding-right: 5%;
@@ -353,7 +353,7 @@ a.button {
   .flexboxitem {
     border: 1px solid $colorWhite;
 
-    @media #{$sscreen} {
+    @media screen and (max-width:$sscreen-max) {
       margin-top: 10px;
       margin-bottom: 10px;
       width: 100%;
@@ -363,7 +363,7 @@ a.button {
   .fas {
     margin-left: 20px;
 
-    @media #{$sscreen} {
+    @media screen and (max-width:$sscreen-max) {
       float: right;
     }
   }
@@ -405,7 +405,7 @@ a.button {
     max-width: 250px;
     background: transparent;
 
-    @media #{$sscreen} {
+    @media screen and (max-width:$sscreen-max) {
       max-width: 430px;
       margin: auto;
       width: 70%;
@@ -423,7 +423,7 @@ a.button {
     }
 
     &:hover {
-      @media #{$sscreen} {
+      @media screen and (max-width:$sscreen-max) {
         width: 72%;
       }
 

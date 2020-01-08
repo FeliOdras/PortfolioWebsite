@@ -28,15 +28,6 @@
       "techText": "HTML5, CSS3/SASS, JavaScript, React.js"
     },
     {
-      "title": "Rick and Morty Characterbase",
-      "description": "React App using GraphQL of rickandmortyapi",
-      "screenshotUri": "images/screenshots/rick-and-morty-api.png",
-      "techIcons": ["javascript, html, css, React.js, GraphQL"],
-      "projectUri": "https://playground.odras.de/rick-and-morty/",
-      "githubUri": "https://github.com/FeliOdras/Rick-and-Morty-graphQL",
-      "techText": "HTML5, CSS3/SASS, JavaScript, React.js, GraphQL"
-    },
-    {
       "title": "React Tic Tac Toe Game",
       "description": "React Game: Tic Tac Toe - following React Tutorial",
       "screenshotUri": "images/screenshots/TicTacToe.png",
