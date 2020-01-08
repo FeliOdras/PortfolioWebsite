@@ -6,7 +6,13 @@
             <section id="title">
                 <h1>Ariane Feldmann<br>
                     <small>Frontend.Developer by passion...</small></h1>
-                <h2 id="header_subline">[HTML | CSS | jQuery] And soon: [ JavaScript | Node | React]</h2>
+                <?php if ($pageID=='index') {
+                    include 'headerTechs.php';
+                }
+                else {
+                    echo '<h2 id="header_subline">[HTML | CSS | Bootstrap | Wordpress | git | JavaScript | jQuery | React | Node]</h2>';
+                }
+                ?>
             </section>
             <!-- End of Title Section in Header -->
         </header>

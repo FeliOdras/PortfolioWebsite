@@ -1,0 +1,117 @@
+/*_gdeneral.scss*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    border-bottom: 1px solid #BF4D0E;
+}
+
+img {
+    /*if an image is bigger/wider than its parent element scale it to max 100% width of that.*/
+    max-width: 100%;
+    height: auto;
+}
+
+.imgleft {
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.boxleft {
+    float: left;
+    margin-right: 23%;
+    margin-left: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+
+    @media #{$sscreen} {
+        margin-left: 23%;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 72%;
+    }
+}
+
+.imgright {
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.boxright {
+    float: right;
+    margin-left: 23%;
+    margin-right: 2%;
+    max-width: 73%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+
+    @media #{$sscreen} {
+        margin-left: 23%;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 72%;
+    }
+}
+
+.imgcenter,
+.boxcenter {
+    margin: auto;
+    padding:20px;
+}
+
+.clr {
+    clear: both;
+    border: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.roundimg {
+    border-radius: 50%;
+    /*border-radius creates rounded corner. A border-radius of 50% makes a square circle and a rectangle an elipse*/
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.xsmall {
+    font-size: 50%;
+    line-height: 110%;
+}
+
+.flexboxitem {
+    padding: 2%;
+    box-sizing: border-box;
+    flex-grow: 1;
+
+    img {
+        max-width: 100%;
+    }
+
+    @media #{$mscreen} {
+        width: 46%;
+    }
+
+    @media #{$sscreen} {
+        width: 70%;
+        margin-right: 25%;
+    }
+}

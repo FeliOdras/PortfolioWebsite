@@ -1,0 +1,76 @@
+/* _typo.scss */
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    font-family: $fontPrimary;
+}
+
+h1 {
+    font-family: $fontHeadline;
+    font-weight: normal;
+}
+
+
+h2 {
+    font-family: $fontHeadline;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: $fontHeadline;
+    font-weight: normal;
+}
+
+h4 {
+    padding: 0;
+    margin: 10px 0;
+    font-size: .85rem;
+}
+
+p,
+td,
+li {
+    font-size: .8rem;
+    line-height: 160%;
+}
+
+p {
+    margin: 8px 0;
+}
+
+td {
+    vertical-align: top;
+    padding: 8px;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #BF4D0E;
+}
+
+a:hover,
+a:active,
+a:focus {
+    border-bottom: 1px solid #BF4D0E;
+}
+
+figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+.alignleft {
+    text-align: left;
+}
+
+.alignright {
+    text-align: right;
+}
+
+.aligncenter {
+    text-align: center;
+}

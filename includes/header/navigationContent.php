@@ -3,11 +3,11 @@
             <!-- I used the class "hmenu" here to make clear that this is an horizontal menu. The styles are provided in my custom stylesheet -->
             <ul class="hmenu">
                 <li>
-                    <a href="index.php" title="Ariane Feldmann | Senior HTML/CSS-Developer - Junior JavaScrpt-Developer">Welcome</a>
+                    <a href="index.php" title="Ariane Feldmann | Senior HTML/CSS-Developer - Junior JavaScrpt-Developer"><i class="fas fa-home"></i><span class="menuitemdesc">Welcome</span></a>
                 </li>
                 <!-- List class 'hasChildren' indicates that this menu item has a sub-menu. I use this to display the down-angle in my navigation -->
                 <li class="hasChildren <?= ($pageID == 'about') ? 'current':''; ?>">
-                    <a href="about.php" title="Who am I - my Curriculum Vitae">About me</a>
+                    <a href="about.php" title="Who am I - my Curriculum Vitae"><i class="fas fa-user-circle"></i><span class="menuitemdesc">About me</span></a>
                     <!-- 
                         I used a nested lists here to display my sub menues. The main navigation items refer to different HTML documents while my submenu items refer to anchors/bookmarks on that specific subpage of my project. 
                         -->
@@ -19,7 +19,7 @@
                     </ul>
                     <!-- End sub-menu 'About me' -->
                 </li>
-                <li class="hasChildren <?= ($pageID == 'skills') ? 'current':''; ?>"><a href="skills.php" title="How I can help you - Skills and Competences">Skills</a>
+                <li class="hasChildren <?= ($pageID == 'skills') ? 'current':''; ?>"><a href="skills.php" title="How I can help you - Skills and Competences"><i class="fas fa-graduation-cap"></i><span class="menuitemdesc">Skills</span></a>
                    <!-- Start sub-menu 'Skills' -->
                     <ul class="sub-menu">
                         <li><a href="skills.php#coding" title="Webtechnologies, Programming Langugages">Web Development</a></li>
@@ -30,17 +30,9 @@
                     </ul>
                     <!-- End sub-menu 'Skills' -->
                 </li>
-                <li class="hasChildren <?= ($pageID == 'projects') ? 'current':''; ?>"><a href="projects.php" title="What I did - selected projects and references of mine">Code &amp; Projects</a>
-                    <!-- Start sub-menu 'Projects and Code' -->
-                     <ul class="sub-menu">
-                        <li><a href="projects.php#code" title="Some HTML/CSS Tricks">HTML/CSS</a></li>
-                        <li><a href="projects.php#themes" title="Website Projects, Theme- and Template Development">WordPress</a></li>
-                        <li><a href="projects.php#javascript" title="Javascript Projects inkl. EgmaScript, Node and React">JavaScript</a></li>
-                        <li><a href="https://github.com/FeliOdras?tab=repositories" title="My Github Repository" target="_blank">Code on Github</a></li>
-                    </ul>
-                    <!-- End sub-menu 'Projects and Code' -->
+                <li class="<?= ($pageID == 'projects') ? 'current':''; ?>"><a href="projects.php" title="What I did - selected projects and references of mine"><i class="fas fa-laptop-code"></i><span class="menuitemdesc">Projects</span></a>
                 </li>
-                <li><a href="contact.php" title="How to get in touch with me" class="<?= ($pageID == 'contact') ? 'current':''; ?>">Contact</a></li>
+                <li><a href="contact.php" title="How to get in touch with me" class="<?= ($pageID == 'contact') ? 'current':''; ?>"><i class="fa fa-paper-plane"></i><span class="menuitemdesc">Contact</span></a></li>
             </ul>
         </nav>
         <!-- End of Main Navigation -->
